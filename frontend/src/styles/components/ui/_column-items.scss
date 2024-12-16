@@ -1,0 +1,29 @@
+@use '../../globals/vars' as var;
+@use '../../globals/mixins' as mixin;
+
+.column-items-container {
+    width: 200px;
+    max-width: 200px;
+
+    &:first-child {
+        margin: 0;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin: 0 0 1.5rem 0;
+
+        @include mixin.link-title();
+    }
+
+    li {
+        margin-bottom: var.$margin-b-li;
+
+        a {
+            @include mixin.link-item();
+
+            font-size: 1em;
+            padding: var.$padding-y-a;
+        }
+    }
+}

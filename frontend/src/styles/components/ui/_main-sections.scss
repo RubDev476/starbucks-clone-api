@@ -1,0 +1,127 @@
+@use '../../globals/mixins' as mixin;
+@use '../../globals/vars' as var;
+
+.main-1 {
+    background-color: var.$main-bg-1;
+    color: var.$main-text-color-1;
+}
+
+.main-2 {
+    background-color: var.$main-bg-2;
+    color: var.$main-text-color-2;
+}
+
+.main-3 {
+    background-color: var.$main-bg-3;
+    color: var.$main-text-color-1;
+}
+
+.main-4 {
+    background-color: var.$main-bg-4;
+    color: var.$main-text-color-2;
+}
+
+.main-5 {
+    background-color: var.$main-bg-5;
+    color: var.$main-text-color-2;
+}
+
+section {
+    margin: 2rem auto;
+
+    .img-container {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .text-container {
+        padding: 2rem 1rem;
+
+        .title {
+            font-size: 21px;
+            font-weight: 600;
+            margin: 0 0 1.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.55;
+            margin: 0;
+        }
+
+        a {
+            margin-top: 2rem;
+            line-height: 1.2;
+
+            @include mixin.btn-global();
+            
+            &.link-main-1 {
+                @include mixin.btn-custom-color(transparent, var.$main-text-color-1, var.$main-text-color-1, var.$main-bg-1-hover);
+            }
+
+            &.link-main-2 {
+                @include mixin.btn-custom-color(transparent, var.$main-text-color-2, var.$main-text-color-2, var.$main-bg-2-hover);
+            }
+
+            &.link-main-3 {
+                @include mixin.btn-custom-color(transparent, var.$main-text-color-1, var.$main-text-color-1, var.$main-bg-3-hover);
+            }
+
+            &.link-main-4 {
+                @include mixin.btn-custom-color(transparent, var.$main-text-color-2, var.$main-text-color-2, var.$main-bg-4-hover);
+            }
+
+            &.link-main-5 {
+                @include mixin.btn-custom-color(transparent, var.$main-text-color-2, var.$main-text-color-2, var.$main-bg-5-hover);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    section {
+        .text-container {
+            .title {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .md-flex {
+        display: flex;
+
+        &.reverse {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .w-50-50 {
+        width: calc(100%*(6 / 12));
+    }
+
+    section {
+        .text-container {
+            padding: 2rem 1.5rem;
+
+            .text-sub-container {
+                max-width: 83%;
+            }
+
+            .title {
+                font-size: 35px;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            a {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

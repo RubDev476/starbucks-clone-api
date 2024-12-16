@@ -1,0 +1,44 @@
+@forward 'typography';
+@forward 'normalize';
+@forward 'utils';
+
+@use './vars' as var;
+
+:root {
+    font-size: 16px; /*1rem*/
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+
+button {
+    background: none;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    width: 100%;
+    background-color: #b8b8b8;
+    height: 1px;
+    margin: 25px 0;
+    border: none;
+    box-shadow: none;
+}

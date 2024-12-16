@@ -1,0 +1,149 @@
+@use '../../globals/mixins' as mixin;
+
+$bars-color: #696969;
+$width-bars: 25px;
+$height-bars: 2px;
+$radius: 5px;
+
+.menu-btn {
+    width: $width-bars;
+    height: $width-bars;
+    z-index: 10;
+    padding: 18px;
+
+    &:hover {
+        .circle-hover {
+            @include mixin.circle-hover-extend();
+        }
+    }
+}
+
+.menu-btn__burger {
+    width: $width-bars;
+    height: $height-bars;
+    background-color: $bars-color;
+    border-radius: $radius;
+    z-index: 10;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    width: $width-bars;
+    height: $height-bars;
+    background-color: $bars-color;
+    border-radius: $radius;
+    position: absolute;
+    left: 0;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-6px);
+}
+
+.menu-btn__burger::after {
+    transform: translateY(6px);
+}
+
+.menu-btn.open .menu-btn__burger {
+    animation: burgerOpen .3s forwards;
+    animation-delay: .3s;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    animation: beforeOpen 0.2s forwards;
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    animation: afterOpen 0.4s forwards;
+}
+
+.menu-btn.close .menu-btn__burger {
+    animation: burgerClose .3s forwards;
+}
+
+.menu-btn.close .menu-btn__burger::before {
+    animation: beforeClose 0.6s forwards;
+}
+
+.menu-btn.close .menu-btn__burger::after {
+    animation: afterClose 0.6s forwards;
+}
+
+@keyframes burgerOpen {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes burgerClose {
+    from {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes beforeOpen {
+    from {
+        transform: translateY(-6px) rotate(0);
+    }
+
+    to {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes beforeClose {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-6px) rotate(0);
+    }
+}
+
+@keyframes afterOpen {
+    0% {
+        transform: translateY(6px) rotate(0);
+    }
+
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(90deg);
+    }
+}
+
+@keyframes afterClose {
+    0% {
+        transform: translateY(0) rotate(90deg);
+    }
+
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(6px) rotate(0);
+    }
+}
+
+@media screen and (min-width: 790px) {
+    .menu-btn {
+        display: none;
+    }
+}

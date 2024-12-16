@@ -1,0 +1,24 @@
+.terms {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 2rem 1rem;
+
+    .max-width-sub-container {
+        max-width: calc(1rem*(calc(600 / 13)));
+        flex-direction: column;
+        margin: auto;
+        gap: 4rem;
+    }
+
+    p {
+        font-weight: 500;
+        font-size: 1em;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .terms {
+        font-size: 1rem;
+    }
+}

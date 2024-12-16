@@ -1,0 +1,70 @@
+@use './mixins' as mixin;
+@use './vars' as var;
+
+.max-width-content {
+    max-width: var.$max-width-content;
+}
+
+.flex {
+    display: flex;
+}
+
+.all-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.vh-full {
+    height: 100vh;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.circle-hover {
+    @include mixin.circle-hover-init();
+}

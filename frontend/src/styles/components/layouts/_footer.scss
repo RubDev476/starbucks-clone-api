@@ -1,0 +1,106 @@
+@use '../../globals/mixins' as mixin;
+@use '../../globals/vars' as var;
+
+footer {
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, .1), 0 -2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
+    padding: 1.5rem 1rem;
+    font-size: 1rem;
+
+    .accordion-container {
+        font-size: 1em;
+    }
+
+    .columns-container {
+        display: none;
+    }
+
+    .social-media-icons {
+        $icon-size: 33px;
+
+        margin-bottom: 25px;
+
+        ul {
+            gap: 12px;
+        }
+
+        li {
+            a {
+                width: $icon-size;
+                height: $icon-size;
+                color: var.$color-1;
+                border-radius: 50px;
+                transition: all .3s ease-in-out;
+
+                .bg-icon {
+                    background-color: var.$text-color-1;
+                    padding: 5px;
+                    border-radius: 50px;
+                    z-index: 100;
+                }
+
+                &:hover .circle-hover {
+                    @include mixin.circle-hover-extend();
+                }
+
+                &:active {
+                    transform: scale(.95);
+                }
+            }
+        }
+    }
+
+    .politics {
+        margin-bottom: 16px;
+
+        li {
+            margin-bottom: var.$margin-b-li;
+
+            a {
+                display: inline-block;
+                padding: var.$padding-y-a ;
+                color: var.$text-color-1;
+                font-weight: 500;
+                font-size: 1em;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    span {
+        color: var.$text-color-1-soft;
+        font-weight: 600;
+        margin: 0;
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        font-size: 1.1rem;
+        padding: 1.5rem 1.5rem;
+
+        .social-media-icons {
+            ul {
+                gap: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        padding: 1.5rem 2.5rem;
+
+        .accordion-container {
+            display: none;
+        }
+
+        .columns-container {
+            display: flex;
+            gap: 2rem;
+        }
+    }
+}

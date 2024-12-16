@@ -1,0 +1,52 @@
+@use '../../globals/mixins' as mixin;
+@use '../../globals//vars' as var;
+
+header {
+    font-size: 20px;
+    z-index: 900;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 2px 2px rgba(0, 0, 0, .06), 0 0 2px rgba(0, 0, 0, .07);
+
+    .padding-header {
+        padding: 0 .9em;
+    }
+
+    .sub-header {
+        height: var.$header-mobile-height;
+    }
+
+    .logo {
+        width: 2em;
+        height: 2em;
+        margin-right: 1em;
+    }
+}
+
+.overlay {
+    background-color: transparent;
+    visibility: hidden;
+    transition: all var.$transition-navmenu-duration ease-in-out;
+    z-index: 500;
+
+    &.open {
+        background-color: rgba(0, 0, 0, .7);
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 790px) {
+    header {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        .padding-header {
+            padding: 0 1.5em;
+        }
+
+        .sub-header {
+            height: 3.8em;
+        }    
+    }
+}

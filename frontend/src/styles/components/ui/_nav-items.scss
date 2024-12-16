@@ -1,0 +1,162 @@
+@use '../../globals/mixins' as mixin;
+@use '../../globals//vars' as var;
+
+.main-nav {
+    li {
+        a:nth-child(-n + 3) {
+            color: var.$text-color-1;
+        }
+    }
+}
+
+.auxiliary-nav {
+    .sign-in-container {
+        a {
+            @include mixin.btn-global;
+
+            display: block;
+        }
+
+        a[aria-label="sign-in"] {
+            @include mixin.btn-custom-color(transparent, var.$text-color-1, var.$color-2, #cecece);
+        }
+
+        a[aria-label="join"] {
+            @include mixin.btn-custom-color(var.$color-2, var.$color-1, var.$color-2, #575757);
+        }
+    }
+
+    & > a:last-child {
+        color: var.$text-color-1;
+
+        .icon {
+            margin-right: 7px;
+        }
+    }
+}
+
+/*NOTE: The classes "nav-mobile" and "nav-desktop" are both defined in their parent element in the "Header" component.*/
+
+.nav-mobile {
+    right: -100%;
+    background-color: #ffffff;
+    z-index: 10;
+    width: 80%;
+    height: calc(100vh - var.$header-mobile-height);
+    padding: 3rem 1.8rem;
+    transition: right var.$transition-navmenu-duration cubic-bezier(.27,.61,.09,.93);
+    overflow: auto;
+
+    .main-nav {
+        li {
+            margin-bottom: 25px;
+
+            a:nth-child(-n + 3) {
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .auxiliary-nav {
+        .sign-in-container {
+            display: flex;
+            gap: 15px;
+            flex-direction: row;
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+
+        & > a:last-child {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    }
+
+    &.open {
+        right: 0;
+    }
+}
+
+.nav-desktop {
+    display: none;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    .main-nav {
+        height: 100%;
+        display: flex;
+        gap: 25px;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a:nth-child(-n + 3) {
+                font-size: 1rem;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                font-weight: 800;
+            
+                &:hover {
+                    color: var.$color-green-accent;
+                }
+            }
+
+            &.location {
+                box-shadow: inset 0 -6px var.$color-green-accent;
+            }
+        }
+    }
+
+    hr {
+        display: none;
+    }
+
+    .auxiliary-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        gap: 1.2em;
+
+        .sign-in-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                display: inline-block;
+                font-size: 1rem;
+
+                &:first-child {
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        & > a:last-child {
+            font-size: 1rem;
+            font-weight: 700;
+            vertical-align: middle; /* Vertically aligns the inline-block element */
+            line-height: normal; /* Resets the line-height for the anchor tag */
+
+            .icon {
+                font-size: 1.3rem;
+                vertical-align: middle; 
+            }
+
+            &:hover {
+                color: var.$color-green-accent;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 790px) {
+    .nav-desktop {
+        display: flex;
+    }
+}
