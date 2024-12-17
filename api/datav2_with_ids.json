@@ -2,20 +2,20 @@
   "menu": {
     "categories": [
       {
-        "id": "246a950a-34b1-41c0-88ff-8d54bdb7e45b",
+        "_id": "cae87b66-b8d4-4447-96d5-aa8848f33f0f",
         "name": "Bebidas",
         "types": [
           {
-            "id": "9faee043-ff13-4a3d-a482-927d1dd4ed0c",
+            "_id": "2b1f71c6-088d-4b64-8d91-c221ced960e2",
             "title": "Bebidas Calientes",
             "image": "",
             "categories": [
               {
-                "id": "343eff33-e3c7-440e-8c6a-7837d8685f50",
+                "_id": "4fce5d6d-02d7-48aa-9ae1-5dbd19554222",
                 "title": "Espresso y Café",
                 "items": [
                   {
-                    "id": "ecbc2828-ac31-4375-aefb-c1232160d8ce",
+                    "_id": "e774c374-a8a3-4d46-82a9-1d1cabd8736d",
                     "name": "Espresso",
                     "image": "",
                     "sizes": {
@@ -24,7 +24,7 @@
                     "description": ""
                   },
                   {
-                    "id": "97053b3d-32e0-445c-9404-200b52f83ddf",
+                    "_id": "3fdb9fd6-def6-441c-bb63-c988f4940d20",
                     "name": "Espresso Doppio",
                     "image": "",
                     "sizes": {
@@ -33,7 +33,7 @@
                     "description": ""
                   },
                   {
-                    "id": "3fbc7222-7204-461d-bd0a-2fdedb6864a3",
+                    "_id": "42f552ec-3af2-441b-8a99-debbbe50a946",
                     "name": "Café del día",
                     "image": "",
                     "sizes": {
@@ -45,7 +45,7 @@
                     "description": ""
                   },
                   {
-                    "id": "7ae8c101-229d-45a0-b61b-916feffc9ae1",
+                    "_id": "9ab6b51e-c68e-467c-9608-5d3cd148d385",
                     "name": "Espresso Americano",
                     "image": "",
                     "sizes": {
@@ -59,11 +59,11 @@
                 ]
               },
               {
-                "id": "fdc4cc7f-75bd-4d7b-9fd3-70e113685898",
+                "_id": "54189b9f-9668-42ca-b4cd-aa9920bf14c3",
                 "title": "Espresso Tradicional",
                 "items": [
                   {
-                    "id": "1d540502-1187-4041-994c-d77465eb177a",
+                    "_id": "3ff0b19b-5214-410e-b630-05377ca654d0",
                     "name": "Latte Macchiato",
                     "image": "",
                     "sizes": {
@@ -75,7 +75,7 @@
                     "description": "Leche perfectamente vaporizada, recibe los característicos shots de ristretto, de nuestro intenso espresso."
                   },
                   {
-                    "id": "74f9b8d5-4d33-4ae3-8752-e7d7bc88651a",
+                    "_id": "84000dc2-a81a-4d5b-ba19-124646be423c",
                     "name": "Flat White",
                     "image": "",
                     "sizes": {
@@ -87,7 +87,7 @@
                     "description": "Los suaves shots de ristretto, de espresso, obtienen la cantidad perfecta de leche entera al vapor para crear un sabor no demasiado fuerte, no demasiado cremoso y perfecto."
                   },
                   {
-                    "id": "1c42e6bc-f115-4501-9d68-1076a63170b4",
+                    "_id": "950010c8-70d8-4eff-a4c7-cf81339f6612",
                     "name": "Mocha Blanco",
                     "image": "",
                     "sizes": {
@@ -98,7 +98,7 @@
                     "description": "Nuestro característico espresso se combina con salsa de chocolate blanco, leche al vapor y crema batida crean esta delicia suprema de chocolate blanco."
                   },
                   {
-                    "id": "78408529-ed6f-4425-ad5f-bd264e23868c",
+                    "_id": "0b5119c3-2095-4ead-b1ba-51691157668d",
                     "name": "Mocha",
                     "image": "",
                     "sizes": {
@@ -109,7 +109,7 @@
                     "description": "Combinamos nuestro espresso, lleno de cuerpo, con salsa de chocolate y leche al vapor; lo completamos con crema batida. La clásica bebida con café para satisfacer a los que les gusta un poco de dulce en su día."
                   },
                   {
-                    "id": "eab0f0ee-0e6b-4e56-aee2-6cd010422dc6",
+                    "_id": "3a21d4eb-7c8c-4047-988c-3d10024d3173",
                     "name": "Caramel Macchiato",
                     "image": "",
                     "sizes": {
@@ -120,7 +120,7 @@
                     "description": "Leche al vapor manchada con espresso y un toque de vainilla, cubierta con un característico dibujo de caramelo. Dulce, intenso y único."
                   },
                   {
-                    "id": "1fd39756-98e2-49c6-8143-3c076140c046",
+                    "_id": "db6fff44-ea7d-4fbd-9fce-bb32f67e000d",
                     "name": "Cappuccino",
                     "image": "",
                     "sizes": {
@@ -131,7 +131,7 @@
                     "description": "Intenso espresso bajo la capa gruesa y espumosa de leche cuidadosamente vaporizada."
                   },
                   {
-                    "id": "5886c17a-5039-4a92-89fd-c2a24493fd57",
+                    "_id": "d58d6f57-e4fa-4a08-a845-c1a33171331e",
                     "name": "Latte",
                     "image": "",
                     "sizes": {
@@ -144,11 +144,11 @@
                 ]
               },
               {
-                "id": "b071e467-2a1a-49fa-96d7-22ddc4244652",
+                "_id": "23e5956a-4c31-4610-9a45-3c12abeec27a",
                 "title": "Alternativas al Café",
                 "items": [
                   {
-                    "id": "9e2d40d3-242b-4dbb-9c7b-da6ab8307286",
+                    "_id": "0428488c-5016-4e83-95b6-4e701f82c43e",
                     "name": "Chocolate Caliente",
                     "image": "",
                     "sizes": {
@@ -160,7 +160,7 @@
                     "description": "Leche vaporizada combinada con salsa de chocolate y vainilla, cubierto con crema batida y espiral de salsa de chocolate."
                   },
                   {
-                    "id": "eecc6b40-f243-4b38-a88f-76546cc59636",
+                    "_id": "c5f9f425-9f17-4461-9eb5-317171c16613",
                     "name": "Chocolate Mexicano",
                     "image": "",
                     "sizes": {
@@ -175,16 +175,16 @@
             ]
           },
           {
-            "id": "a133b766-a708-496f-9a6f-fe0339de24f6",
+            "_id": "72cbc8e9-37f0-4c89-9575-f8ad7011f240",
             "title": "Frappuccino",
             "image": "",
             "categories": [
               {
-                "id": "cdf49d5d-313d-4bf4-b718-e06a24e6e1f5",
+                "_id": "eced700a-e784-4249-b554-76f1c1b02317",
                 "title": "Frappuccino Café",
                 "items": [
                   {
-                    "id": "76adbb21-12f7-4a12-8140-7c32527a1327",
+                    "_id": "c0541ca3-a2b3-4665-a9b5-61897d47e966",
                     "name": "Mocha Blanco Frappuccino",
                     "image": "",
                     "sizes": {
@@ -196,7 +196,7 @@
                     "description": "Una mezcla de chocolate Blanco con café, hielo y leche, podría ser lo mejor que te pudiera pasar en todo el día."
                   },
                   {
-                    "id": "d38a7da8-85a4-439e-b965-440ebd2b7cfd",
+                    "_id": "f3338b7c-c6b2-46a4-ad12-0d8e6bc0c001",
                     "name": "Espresso Frappuccino",
                     "image": "",
                     "sizes": {
@@ -208,7 +208,7 @@
                     "description": "Combinación de leche y hielo con shots de espresso, para darle intensidad sofisticada a tu Frappuccino."
                   },
                   {
-                    "id": "30fa5bd6-12f6-4458-bd48-82cb1be774a0",
+                    "_id": "405eeb26-d622-4a73-a17d-94dd82284511",
                     "name": "Mocha Frappuccino",
                     "image": "",
                     "sizes": {
@@ -219,7 +219,7 @@
                     "description": "La salsa de chocolate, con la intensidad del café Frappuccino, leche y hielo se unen para obtener un sabor a mocha que te dejará con ganas de más."
                   },
                   {
-                    "id": "600dc3cf-4707-4cd2-89a3-e0588dc53c15",
+                    "_id": "0b00c2c7-9ef7-4144-8709-bd0c27dce121",
                     "name": "Café Frappuccino",
                     "image": "",
                     "sizes": {
@@ -230,7 +230,7 @@
                     "description": "Mezclamos el café con leche y hielo para crear una de nuestras bebidas más originales de Frappuccino®."
                   },
                   {
-                    "id": "8f1689c1-cd60-4a9a-abd2-f27762146566",
+                    "_id": "7e9f0f9e-b008-45c6-a1b8-7ade80f56af0",
                     "name": "Caramel Frappuccino",
                     "image": "",
                     "sizes": {
@@ -243,11 +243,11 @@
                 ]
               },
               {
-                "id": "79c3d77b-fab7-4443-a4cd-82cc7eee90f9",
+                "_id": "3754951a-aebd-4884-a7c2-372c6105ef7f",
                 "title": "Frappuccino Crema",
                 "items": [
                   {
-                    "id": "21f1aa40-9919-4594-9a55-aa7112625fdf",
+                    "_id": "f4bdb2f4-1edc-4b68-bc7b-1e8a76bd95a1",
                     "name": "Cookies & Cream Frappuccino",
                     "image": "",
                     "sizes": {
@@ -259,7 +259,7 @@
                     "description": ""
                   },
                   {
-                    "id": "676d61ce-2313-4d18-91fa-3f7c11aab2cf",
+                    "_id": "5da1268b-8c5e-4242-8aca-140663d6b105",
                     "name": "Chocolate Mexicano Frappuccino",
                     "image": "",
                     "sizes": {
@@ -271,7 +271,7 @@
                     "description": ""
                   },
                   {
-                    "id": "b7c9238e-1483-46be-bd75-01020d02d53a",
+                    "_id": "17e8422a-177a-4d8a-9c0d-e5ba1822dc70",
                     "name": "Piñacoco Yogurt Frappuccino",
                     "image": "",
                     "sizes": {
@@ -282,7 +282,7 @@
                     "description": "Fusionamos el yogurt natural con salsa de piña-coco y hielos, ideal para cualquier momento del día."
                   },
                   {
-                    "id": "8f1af5a0-e4e1-465a-9de0-cd4d2b1e0e21",
+                    "_id": "47fb006c-7dde-4cf3-b418-134db8876bc7",
                     "name": "Berry Yogurt Frappuccino",
                     "image": "",
                     "sizes": {
@@ -293,7 +293,7 @@
                     "description": "Combinación de yogurt natural con salsa de moras y mezclados con hielo."
                   },
                   {
-                    "id": "493e9662-a505-4967-80ef-ba53cb4c0265",
+                    "_id": "2952c0d5-696d-420f-87ef-fd9966bc6f1e",
                     "name": "Chai Cream Frappuccino®",
                     "image": "",
                     "sizes": {
@@ -304,7 +304,7 @@
                     "description": "Nuestro concentrado de chai (mezcla de tés y especias) se combina con leche y hielos, para tener una experiencia de otro nivel."
                   },
                   {
-                    "id": "a49f7ad0-6d99-4736-9c8f-3a8fe6d5a097",
+                    "_id": "e3e7023c-0891-4fa7-a0cc-3da11f693251",
                     "name": "Cajeta Cream Frappuccino",
                     "image": "",
                     "sizes": {
@@ -315,7 +315,7 @@
                     "description": "El sabor acaramelado de la cajeta se une con hielo y leche."
                   },
                   {
-                    "id": "76b61ee3-b3c8-48f1-8da0-73f940b6ce01",
+                    "_id": "573b330a-e0f1-4c3a-98f7-00d5e0e48d37",
                     "name": "Vainilla Cream Frappuccino",
                     "image": "",
                     "sizes": {
@@ -326,7 +326,7 @@
                     "description": "Rica y cremosa mezcla de vainilla, cubierta con crema batida."
                   },
                   {
-                    "id": "39b1ea83-4fe9-4f0b-817f-80f500c94855",
+                    "_id": "9cd05d48-2650-4712-8033-b671084e9aa3",
                     "name": "Chocolate Cream Frappuccino",
                     "image": "",
                     "sizes": {
@@ -337,7 +337,7 @@
                     "description": "Rica y cremosa mezcla de chocolate, cubierta con crema batida."
                   },
                   {
-                    "id": "7b69c297-be8c-48ef-9d27-5de1d39b25a9",
+                    "_id": "7f92ff31-380f-459f-b074-50628e0b06c5",
                     "name": "Matcha Cream Frappuccino",
                     "image": "",
                     "sizes": {
@@ -352,16 +352,16 @@
             ]
           },
           {
-            "id": "a5ba8edd-39ca-4b7c-9a93-12b3aac27b7d",
+            "_id": "fabe433f-4b91-406b-9ca0-f3c26555c754",
             "title": "Bebidas Frías",
             "image": "",
             "categories": [
               {
-                "id": "3aea9486-b9ae-43c9-b78e-8e783233b9e4",
+                "_id": "b5682d50-dfc2-4391-a0b1-32d8b658f8f8",
                 "title": "Shakens",
                 "items": [
                   {
-                    "id": "7f3c2382-bcb1-46d6-98fd-f3a1f50c26a6",
+                    "_id": "e31985a4-5e8a-41e0-a046-6b50995a5642",
                     "name": "Helado Shaken Lemon Black Tea",
                     "image": "",
                     "sizes": {
@@ -374,11 +374,11 @@
                 ]
               },
               {
-                "id": "cf9a06fc-fa93-4965-9c33-63e3d38ce87d",
+                "_id": "3fb4b6b6-b861-466a-99d1-d42eb2ac5868",
                 "title": "Refreshers",
                 "items": [
                   {
-                    "id": "eec41da3-dc41-45e1-8d24-e7cac9cc47be",
+                    "_id": "bf567892-d1eb-4899-b15f-e2990b83301d",
                     "name": "Mango Dragonfruit Refresher con Limonada",
                     "image": "",
                     "sizes": {
@@ -389,7 +389,7 @@
                     "description": "Leche perfectamente vaporizada, recibe los característicos shots de ristretto, de nuestro intenso espresso."
                   },
                   {
-                    "id": "62b3818b-937b-47c8-922c-7fb6d7568279",
+                    "_id": "1e7f091b-73cd-47e1-864e-744881cfc7ac",
                     "name": "Pink Drink",
                     "image": "",
                     "sizes": {
@@ -400,7 +400,7 @@
                     "description": "Nuestro clásico Strawberry Acaí con un toque de leche de coco."
                   },
                   {
-                    "id": "48d14026-1b7c-4531-8e7e-e516088b05fd",
+                    "_id": "7bc43852-12fa-4ffe-96c2-c8ac0869d0da",
                     "name": "Strawberry Acaí Refresher con Limonada",
                     "image": "",
                     "sizes": {
@@ -411,7 +411,7 @@
                     "description": "Nuestro exclusivo extracto de café verde mezclado con un refrescante concentrado de frutas (fresa y acaí), con inclusiones de fresa, limonada y hielo."
                   },
                   {
-                    "id": "70bee755-b4e4-4237-b816-3792e370b6e2",
+                    "_id": "4f97d848-12b2-4f0d-8d3d-69c8da3f77de",
                     "name": "Mango Dragonfruit Refresher",
                     "image": "",
                     "sizes": {
@@ -422,7 +422,7 @@
                     "description": "Nuestro exclusivo extracto de café verde mezclado con un refrescante concentrado de frutas (mango y pitahaya), infusiones de pitahaya y hielo."
                   },
                   {
-                    "id": "be7978a5-f870-4450-8c11-d38475f8f7cf",
+                    "_id": "1df97716-b849-46d3-b401-c7796f1f1a82",
                     "name": "Strawberry Acai Refresher",
                     "image": "",
                     "sizes": {
@@ -433,7 +433,7 @@
                     "description": "Nuestro exclusivo extracto de café verde mezclado con un refrescante concentrado de frutas (fresa y acaí), con inclusiones de fresa y hielo."
                   },
                   {
-                    "id": "eebeb0cb-4981-4469-aff6-66b9bf031f14",
+                    "_id": "117f4af2-fe21-43b6-a58b-5fad220eaa3f",
                     "name": "Mango Dragonfruit Frozen Refreshers",
                     "image": "",
                     "sizes": {
@@ -444,7 +444,7 @@
                     "description": "Una refrescante mezcla de jugos de fruta con sabores intensos (pitahaya), extracto de café verde y trozos de frutas liofilizadas mezclados con limonada y hielo."
                   },
                   {
-                    "id": "a26042d1-a4ec-4453-baed-b93b1bbc2507",
+                    "_id": "f4b28bf5-8275-459f-9106-a1de83e2c136",
                     "name": "Strawberry Acai Frozen Refreshers",
                     "image": "",
                     "sizes": {
@@ -457,11 +457,11 @@
                 ]
               },
               {
-                "id": "1c22ccb0-2579-4d48-8af4-df665960630d",
+                "_id": "1f45ea73-09b5-4d45-8202-27a5620816a8",
                 "title": "Starbucks Con Hielo",
                 "items": [
                   {
-                    "id": "1be20ce8-f543-4173-9d75-ac967125db4c",
+                    "_id": "26a1f97f-7a71-4db2-8164-9d19c9dc2519",
                     "name": "Brown Sugar Shaken Espresso Helado",
                     "image": "",
                     "sizes": {
@@ -472,7 +472,7 @@
                     "description": ""
                   },
                   {
-                    "id": "f73a2495-0a76-47c6-8160-fcea752e17ca",
+                    "_id": "3380e5b7-3016-478c-8e73-ddc015677052",
                     "name": "Toasted Vainilla Shaken Espresso Helado",
                     "image": "",
                     "sizes": {
@@ -483,7 +483,7 @@
                     "description": ""
                   },
                   {
-                    "id": "6cfdca8b-bf32-4100-94a7-411458c9c1c8",
+                    "_id": "7eea57de-f899-454a-b61c-3e140886a7c1",
                     "name": "Cappuccino Helado con Cold Foam",
                     "image": "",
                     "sizes": {
@@ -498,16 +498,16 @@
             ]
           },
           {
-            "id": "5346905a-da5b-46ba-84bd-b59735defa1e",
+            "_id": "22b77b6e-d716-4333-9dd9-82cd66a5bcaa",
             "title": "Bebidas Base Té",
             "image": "",
             "categories": [
               {
-                "id": "5d8ae163-b539-43b2-adeb-908cbc2429d6",
+                "_id": "c109d672-a952-4c9e-b0d3-93c82888160b",
                 "title": "Té Latte Caliente",
                 "items": [
                   {
-                    "id": "4f8487aa-7d35-457f-8f1f-203c296ab1c3",
+                    "_id": "ecb11239-83fe-40b7-8ed9-929dbbfc8ad5",
                     "name": "Manzanilla Latte",
                     "image": "",
                     "sizes": {
@@ -518,7 +518,7 @@
                     "description": ""
                   },
                   {
-                    "id": "06385235-a87e-4111-94f7-ad4c119eadc0",
+                    "_id": "b8b0947d-00a1-4971-b387-996da511a349",
                     "name": "Youthberry Latte",
                     "image": "",
                     "sizes": {
@@ -529,7 +529,7 @@
                     "description": ""
                   },
                   {
-                    "id": "f6282b54-19da-4e4a-aaf9-cb8c9dbc4abd",
+                    "_id": "fcef5304-a966-40b7-99e2-8023a9f5148f",
                     "name": "Mint Latte",
                     "image": "",
                     "sizes": {
@@ -540,7 +540,7 @@
                     "description": ""
                   },
                   {
-                    "id": "4807db78-a1b3-4577-8178-92f25ca6e30e",
+                    "_id": "974d9e90-f612-4676-a2b8-1faf69f1f4f0",
                     "name": "Hibiscus Latte",
                     "image": "",
                     "sizes": {
@@ -551,7 +551,7 @@
                     "description": ""
                   },
                   {
-                    "id": "48664c04-6e65-44a2-9d84-f2ef9082bdcc",
+                    "_id": "ba2560ba-17bd-4e92-8f47-722cf0daa841",
                     "name": "English Breakfast Latte",
                     "image": "",
                     "sizes": {
@@ -562,7 +562,7 @@
                     "description": ""
                   },
                   {
-                    "id": "b2450274-a88a-4d87-acec-a9144b2738ac",
+                    "_id": "9572cf98-4d8f-4857-a9f2-02f2a6ac11b5",
                     "name": "Matcha Green Tea Latte",
                     "image": "",
                     "sizes": {
@@ -573,7 +573,7 @@
                     "description": "Té Matcha endulzado y mezclado con leche vaporizada."
                   },
                   {
-                    "id": "42dc62c1-0b96-44ce-9b14-c88f469c741a",
+                    "_id": "c57d097f-ed48-4d57-aa00-06d94034257e",
                     "name": "Emperor´s Clouds & Mist Latte",
                     "image": "",
                     "sizes": {
@@ -586,11 +586,11 @@
                 ]
               },
               {
-                "id": "64faa439-637b-49ca-bec3-7492fe25cc34",
+                "_id": "737af06a-4125-4c2b-9715-b22a81bb752b",
                 "title": "Infusiones con Tés de Hoja Entera",
                 "items": [
                   {
-                    "id": "67543fee-fa94-4c09-a963-b9d30b0af7c7",
+                    "_id": "f4401abc-6364-4f29-8af1-82952a1e088a",
                     "name": "Hibiscus",
                     "image": "",
                     "sizes": {
@@ -601,7 +601,7 @@
                     "description": ""
                   },
                   {
-                    "id": "383f6e9b-0e49-4d1a-9064-ae84b6a0a218",
+                    "_id": "f1da86d7-64af-4381-a544-f6a5fbb6bf36",
                     "name": "Manzanilla",
                     "image": "",
                     "sizes": {
@@ -612,7 +612,7 @@
                     "description": "Una mezcla de flores de manzanilla, flores de hibisco, hojas de hierbabuena, hierba limón, pétalos de rosa, hojas de zarzamora, hojas de menta, raíz de zarzaparrilla, melisa, lavanda y caléndula."
                   },
                   {
-                    "id": "e4c3a0b2-84c8-402d-9545-d36d8c9a4c4c",
+                    "_id": "21b84a77-26f2-4e0d-8a3d-b96409ee0a2d",
                     "name": "Youthberry",
                     "image": "",
                     "sizes": {
@@ -623,7 +623,7 @@
                     "description": "Té blanco, inspirado en las superfrutas, el fruto acaí se mezcla con los sabores tropicales de la piña y el mango y con té blanco de alta calidad, equilibrado con rosa mosqueta y manzana verde ácida."
                   },
                   {
-                    "id": "51326348-7474-486c-97dd-ba247162b71a",
+                    "_id": "e6206701-b894-45f5-ad44-89779f051c97",
                     "name": "Mint",
                     "image": "",
                     "sizes": {
@@ -634,7 +634,7 @@
                     "description": ""
                   },
                   {
-                    "id": "4a0487b7-7e0c-44ee-80ed-3a5c44d81321",
+                    "_id": "40a808dd-e972-4bf4-b688-f656e0767adb",
                     "name": "Emperors Clouds & Mist",
                     "image": "",
                     "sizes": {
@@ -645,7 +645,7 @@
                     "description": "Té verde, exclusivamente recolectado durante el mes de abril a más de mil metros sobre el nivel del mar, este té tiene un rico cuerpo y un sabor dulce natural."
                   },
                   {
-                    "id": "8a3a7418-c745-4db2-b969-60e995310211",
+                    "_id": "ca28d038-2f4f-47bc-9a5b-820d355eca22",
                     "name": "English Breakfast",
                     "image": "",
                     "sizes": {
@@ -658,16 +658,16 @@
                 ]
               },
               {
-                "id": "55ef405d-7d62-4c4b-b04c-3e0d41dfbce1",
+                "_id": "da20d62d-6c32-47d0-b1ca-9c1ec566a5b7",
                 "title": "Starbucks Tea",
                 "items": []
               },
               {
-                "id": "270a4f9d-3c43-47cb-b93b-a643907892be",
+                "_id": "69a104b1-63a0-48c0-beb3-74f40cb28262",
                 "title": "Té Concentrado",
                 "items": [
                   {
-                    "id": "072498df-c3bb-44fe-bd17-8a6d6a0993a3",
+                    "_id": "cfc8b2e3-792d-42a7-b54f-6137697b4649",
                     "name": "Chai Latte",
                     "image": "",
                     "sizes": {
@@ -680,23 +680,23 @@
                 ]
               },
               {
-                "id": "72cf7c83-aed9-4587-b838-1f1b18513ac7",
+                "_id": "db09d577-7d60-45b1-8601-04ad020a22d7",
                 "title": "Té Helado",
                 "items": []
               }
             ]
           },
           {
-            "id": "09841ad1-debb-43ca-8aa9-dfca76ca0b2f",
+            "_id": "79d129a4-6280-48d7-b62a-63d7030292bc",
             "title": "Cold Brew",
             "image": "",
             "categories": [
               {
-                "id": "54c76411-138f-407d-b98f-7effa0cd4115",
+                "_id": "4ced6523-86d2-48f0-afb8-85be23acf501",
                 "title": "Starbucks Con Hielo",
                 "items": [
                   {
-                    "id": "3679e23c-816d-4302-85a6-215db7cafd6d",
+                    "_id": "6f8bb6cb-b730-4146-b93e-83bb411caafc",
                     "name": "Cold Foam Cold Brew",
                     "image": "",
                     "sizes": {
@@ -707,7 +707,7 @@
                     "description": ""
                   },
                   {
-                    "id": "99c68b3e-51c5-4b64-b5de-2705f238379c",
+                    "_id": "ba0d50c7-7de0-45e1-b6c2-3564ebe1c8bf",
                     "name": "Nitro Cold Brew",
                     "image": "",
                     "sizes": {
@@ -717,7 +717,7 @@
                     "description": ""
                   },
                   {
-                    "id": "32a91b94-9a21-4ec4-80ad-caeef1434bf2",
+                    "_id": "5f9ba9f5-e7a1-49fc-928f-f504fedc6cf2",
                     "name": "Vainilla Cream Cold Brew",
                     "image": "",
                     "sizes": {
@@ -728,7 +728,7 @@
                     "description": "Bebida refrescante y re-energizante, preparada artesanalmente con un toque de vainilla."
                   },
                   {
-                    "id": "26267f5d-5120-4792-af60-1708a0ae282d",
+                    "_id": "b06f9183-491f-4a24-9914-66523564e4ca",
                     "name": "Cold Brew",
                     "image": "",
                     "sizes": {
@@ -745,20 +745,20 @@
         ]
       },
       {
-        "id": "0ed9c36e-9a45-4001-9650-0c51a335c238",
+        "_id": "660c81ef-669f-44e0-9d6d-cab8e8bda33a",
         "name": "Alimentos",
         "types": [
           {
-            "id": "6564b6c9-2605-491c-800a-66844bc2664d",
+            "_id": "15f11cf6-44a3-4dd8-80f7-7ac87b66afc3",
             "title": "Elige tu complemento favorito",
             "image": "",
             "categories": [
               {
-                "id": "00e2df8b-d0c1-4d17-9ed0-de0b444c0304",
+                "_id": "426a2e98-68f5-40e7-a208-535e3f5c7fe1",
                 "title": "Para disfrutar a cualquier hora",
                 "items": [
                   {
-                    "id": "74daee58-67c0-4277-84ec-efc38bd361ac",
+                    "_id": "fa863da5-0fa0-41ff-b788-8f6e3ac3f2b6",
                     "name": "Baguette Suprema",
                     "image": "",
                     "ingredients": "",
@@ -769,7 +769,7 @@
                     }
                   },
                   {
-                    "id": "aa70926d-307c-4d82-aaae-6c1bb626da28",
+                    "_id": "2c2f4758-6fcd-4df2-939d-f71d837f9a62",
                     "name": "Ensalada César",
                     "image": "",
                     "ingredients": "Pollo grillado (pechuga y piel de pollo, glaseado (agua, sal yodada, harina de trigo, almidón modificado, especias, glutamato monosódico, saborizantes naturales, ácido cítrico, maltodextrina, goma guar, aceite vegetal, carboximetilcelulosa de sodio, guanilato de sodio, inosinato de sodio, colorantes naturales\n(caramelo clase IV, extracto de paprika), marinador (agua, maltodextrina, sal yodada, fosfato de sodio, saborizante natural, dióxido de silicio (antiapelmazante)), conservadores (benzoato de sodio, sorbato de potasio) y cebolla en polvo )), aderezo césar (agua, aceite vegetal, vinagre de alcohol de caña,\nazúcares añadidos (azúcar), fibra de trigo, almidón modificado de maíz, queso parmesano 2.1%, especias y condimentos (ajo, mostaza, perejil, pimienta), sal yodada, cloruro de potasio (acentuador de sabor), alginato de sodio y goma xantana (estabilizantes), extracto de levadura, cebolla, ácido fosfórico\n(acidulante), saborizantes natural e idéntico al natural, monoestearato de sorbitán (emulsificante), sorbato de potasio y ácido sórbico (conservadores), EDTA disódico cálcico (secuestrante)), lechuga mini romana, jitomate cherry, lechuga sangría, pasta mini fusilli (agua, pasta (sémola de trigo duro, sulfato\nferroso, nicotinamida (niacina), mononitrato de tiamina (Vitamina B1), riboflavina (vitamina B2) y ácido fólico) y queso parmesano.",
@@ -780,7 +780,7 @@
                     }
                   },
                   {
-                    "id": "4788def6-50ff-4d82-9448-b0a52a033433",
+                    "_id": "f5239a5a-8956-4d6d-8bdd-fa06231c695f",
                     "name": "Sándwich de Pavo y Panela",
                     "image": "",
                     "ingredients": "Pan multigrano (harina de trigo, agua, harina integral, amaranto, harina de centeno, mezcla de semillas (ajonjolí blanco, salvado, avena, linaza, semilla de girasol, ajonjolí negro), mejorantes para panadería, propionato de sodio, sulfato de aluminio y sodio [como conservador], gluten de trigo, fibra de avena, ajonjolí negro y blanco), queso panela (leche entera fluida de vaca, proteína concentrada de leche, grasa vegetal, estabilizante, cloruro de calcio, cuajo y sal yodada), jamón de pechuga de pavo (pechuga de pavo, soya, agua, nitritos, nitratos y fosfatos de sodio, color rojo carmín, dextrosa y extracto sabor humo natural), hojas de espinaca y/o lechuga, aderezo de yogurt (Yogurt natural (leche entera pasteurizada de vaca, leche descremada en polvo, crema pasteurizada de leche de vaca, azúcar, estabilizantes y cultivos liofilizados), crema entera (crema pasteurizada de vaca con 25% grasa, ácido cítrico, mono y diglicéridos, goma guar y benzoato de sodio (0.025%) como conservador), aderezo mayonesa (agua, azúcar y/o jarabe de maíz de alta fructosa, aceite de soya, almidón de maíz modificado, yema de huevo, sal yodada, ácido acético, harina de mostaza, benzoato de sodio y sorbato de potasio como conservadores, goma de xantano, especias, condimentos, ácido fosfórico), salsa inglesa, cebollín, sal, pimienta negra y conservador).",
@@ -791,7 +791,7 @@
                     }
                   },
                   {
-                    "id": "d4a06ad7-3fde-4d9d-9cb6-dd34f9116eda",
+                    "_id": "b1a2d0b1-5594-4899-a45b-2b82f6f9a9f4",
                     "name": "Piadini de Claras con Espinaca",
                     "image": "",
                     "ingredients": "Pan (harina de trigo, agua, aceite de oliva, germen de trigo, sal yodatada, levadura (Saccharomyces cerevisiae), propionato de calcio, mejorante (mezcla de harina de trigo, emulsificantes (alfa amilasas, ADA y ácido ascórbico))), clara de huevo, imitación queso cheddar blanco (proteína de leche y grasa vegetal, adicionado con estabilizantes, ácido cítrico, colorante, sal yodatada y conservador), crema dulce para batir (crema de leche, estabilizador (goma guar, goma de algarrobo, carboximetil-celulosa de sodio y goma xantana)), queso ricotta (leche pasteurizada, suero pasteurizado, vinagre, almidón modificado, goma guar, carragenina, sal yodatada y sorbato de potasio), espinaca, almidón modificado, mantequilla (grasas de leche de vaca, agua, sólidos de la leche, lecitina de soya, sal yodada) y sal yodatada.",
@@ -802,7 +802,7 @@
                     }
                   },
                   {
-                    "id": "1bf23fce-0010-41ed-a180-b00b2bb7d008",
+                    "_id": "65659634-f668-4f65-a4b3-42059077818b",
                     "name": "Panini 3 Quesos",
                     "image": "",
                     "ingredients": "Pan imitación ciabatta (Harina de trigo enriquecida (tiamina, ácido fólico, riboflavina, niacina, hierro y zinc), agua, malta, fermento, sal yodada, levadura (Saccharomyces cerevisiae), aceite de canola, azúcar, ésteres mixtos acéticos y tartáricos de mono y diglicéridos de ácidos grasos, propionato de calcio como conservador), queso imitación gouda (leche entera pasteurizada de vaca, sal yodada, cloruro de calcio, cuajo y cultivos lácticos), queso imitación mozzarella (proteína de leche, grasa vegetal, estabilizantes (almidón modificado de maíz), sal yodatada, citrato de sodio, ácido cítrico, conservadores naturales (nisina y pimarisina), color, (bióxido de titanio y sabor natural enzimático))), queso de cabra con cenizas (Leche entera pasteurizada de cabra, sal yodada, ceniza grado alimenticio, sorbato de potasio, y propionato de sodio (para mantener frescura), cloruro de calcio, cultivos lácticos, y cuajo.), y tomate deshidratado (Tomate deshidratado, sal yodada, especias, laurel, orégano, ajo, cebolla, benzoato de sodio y sorbato de potasio (como conservadores), TBHQ y sulfito de sodio)",
@@ -813,7 +813,7 @@
                     }
                   },
                   {
-                    "id": "72efb8a1-c126-4549-b0f0-09bdad089837",
+                    "_id": "84dfcf30-a51d-465a-8d8d-78404c47de80",
                     "name": "Grilled Cheese Sándwich",
                     "image": "",
                     "ingredients": "Pan tipo brioche ( Harina de trigo, mix para pan de caja (harina de trigo enriquecida (niacina, hierro reducido, tiamina, riboflavina y ácido fólico), azúcar, suero de leche, sal, aceite de canola, propionato de sodio, harina de soya, emulsificantes (monoglicéridos de ácidos grasos, ésteres de ácido diacetil tartárico) y enzimas), agua, huevo, gel color amarillo (agua, almidón, glicerina, azúcar, ácido cítrico, conservadores, amarillo 5 y 6, azul 1 y 2, rojo 3 y 4 o bióxido de titanio), azúcar refinada, levadura instantánea, margarina, mantequilla y propionato de calcio como conservador. Queso gouda (Leche semidescremada pasteurizada, Sal, Cloruro de calcio, Cuajo, Fermento láctico, Nitrato de sodio) Queso cheddar amarillo (Leche pasteurizada, cultivo de queso, sal, enzimas, fecula de papa, celulosa en polvo, color vegetal) Queso mozzarella (Leche Pasteurizada, Cultivo De Queso, Sal, y Enzimas).",
@@ -824,7 +824,7 @@
                     }
                   },
                   {
-                    "id": "68a563f5-037e-49ae-bd10-dc85113b3289",
+                    "_id": "dd6b20f4-6b06-4633-b410-18b4144b1a63",
                     "name": "Envuelto Poblano",
                     "image": "",
                     "ingredients": "Masa (harina de trigo (harina de trigo, gluten, hierro (sulfato ferroso), niacina, zinc (óxido de zinc), tiamina, riboflavina, ácido fólico, peróxido de benzoilo, azodicarbonamida, enzima y ácido ascórbico), agua, manteca vegetal, azúcar, sal yodada, sorbato de potasio), relleno poblano (queso crema, rajas poblanas, cebolla, elote en grano, pollo, azúcar y caldo de pollo en polvo), huevo (barnizado), queso parmesano, pan molido y paprika (decorado).",
@@ -835,7 +835,7 @@
                     }
                   },
                   {
-                    "id": "382922de-76a9-458d-beee-2513919f7d04",
+                    "_id": "f4f7d448-19b9-4c1c-8d8d-11afa69dedc6",
                     "name": "Baguette Clásica",
                     "image": "",
                     "ingredients": "Harina de TRIGO, agua, levadura, sal, gluten de TRIGO, fibra de Baguette: TRIGO, agente de tratamiento de la harina (E300), harina de malta de TRIGO. Pechuga de Pavo: Carne de pavo, agua, fécula, almidón modificado, proteína aislada de soya, sal yodada, carragenina, dextrosa, maltodextrina, fosfato de sodio, lactato de sodio, saborizantes naturales y artificiales, eritorbato de sodio, citrato de sodio, nitrito de sodio, carmí. Aderezo: Aceite vegetal, agua, yema de huevo, azúcares añadidos (fructosa), vinagre, chile chipotle, sal yodada, especias, jugo de limón, saborizante natural, harina de mostaza y EDT",
@@ -846,7 +846,7 @@
                     }
                   },
                   {
-                    "id": "cbf2be64-688c-4628-b0bf-fb73dc9362aa",
+                    "_id": "73f5b614-6bdd-4592-8628-03cb63b3028f",
                     "name": "Baguette Española",
                     "image": "",
                     "ingredients": "Harina de TRIGO, agua, levadura, sal, gluten de TRIGO, fibra de Baguette: TRIGO, agente de tratamiento de la harina (E300), harina de malta de TRIGO. Chorizo: Carne y grasa de cerdo, sal, azúcares (lactosa y azúcar), dextrina, especias, polifosfato sódico, polifosfato potásico, ácido sórbico, ascorbato sódico, nitrato potásico, nitrito de sodio y rojo cochinilla. Queso gouda: Leche entera y pasteurizada de vaca, cloruro de sodio, cloruro de calcio, cultivos lácticos, cuajo y natamicina como conservador. Aderezo: Aceite vegetal, agua, yema de huevo, azúcares añadidos (fructosa), vinagre, chile chipotle, sal yodada, especias, jugo de limón, saborizante natural, harina de mostaza y EDT",
@@ -857,7 +857,7 @@
                     }
                   },
                   {
-                    "id": "e1a02744-0acb-4948-8e70-8f19befc3475",
+                    "_id": "04f706f9-d629-4073-8a3d-0f5f5ee3247d",
                     "name": "Bagel con pechuga y queso",
                     "image": "",
                     "ingredients": "Harina de trigo integral (gluten), azúcar, sal yodada, levadura, semóla de maíz, gluten de trigo, mono y diglicéridos, propionato de calcio, goma gar, enzimas, ácido sórbico, grasa vegetal, maltodexgtrina, alginato sódico, lecitina de soya. embutido de pavo (carne de pavo, agua, sazonador (almidón de papa, proteínas de soya, sal yodada, almidón de maíz modificado, carragenina, saborizante artificial (leche, soya), azúcares añadidos (dextrosa), nitrito de sodio, tripolifosfato de sodio, eritorbato de potasio,benzoato de sodio, sorbato de potasio)), almidones modificados y estabilizados de maíz, sal yodada, nitrito de sodio, nisina, carmín cochinilla y aroma de humo artificial) queso gouda: leche entera y pasteurizada de vaca, cloruro de sodio, cloruro de calcio, cultivos lácticos, cuajo y natamicina como conservador.",
@@ -868,7 +868,7 @@
                     }
                   },
                   {
-                    "id": "ae2ff062-eaf5-47f4-b1f0-6d21738a27a6",
+                    "_id": "6d6398e3-41a5-460a-ab28-1ec77533b6ca",
                     "name": "Bagel con Guacamole y Queso Crema",
                     "image": "",
                     "ingredients": "Bagel: harina de trigo integral (gluten), azúcar, sal yodada, levadura, semóla de maíz, gluten de trigo, mono y diglicéridos, propionato de calcio, goma gar, enzimas, ácido sórbico, grasa vegetal, maltodexgtrina, alginato sódico y lecitina de soya. Queso crema:Leche, crema, agua, suero de leche, cultivos lácticos, sal, sorbato de potasio como conservador, estabilizantes (ácido láctico, goma guar, goma algarrobo, goma xantana), Guacamole: Pulpa de aguacate, jitomate, cebolla, chile jalapeño, jugo de limón, sal y cilantro.",
@@ -879,7 +879,7 @@
                     }
                   },
                   {
-                    "id": "2dffc9ea-d8fc-4c2f-b8d9-a93f36aa3442",
+                    "_id": "f6920a02-917c-44d9-8e8d-28197677d9c5",
                     "name": "Breakfast Muffin",
                     "image": "",
                     "ingredients": "English Muffin: HARINA DE TRIGO (GLUTEN), GRANO DE TRIGO, LEVADURA, AZÚCAR, SAL, PROPIONATO DE CALCIO, ÁCIDO SÓRBICO, ACEITE VEGETAL, GLUTEN DE TRIGO, VINAGRE, HARINA DE SOYA, LECHE DESCREMADA, SÓLIDOS DE LA LECHE. Empanada de huevo revuelto: Huevo Entero, Leche Descremada, Aceite de Soya, Sal, Almidón Modificado, Saborizante Natural y Artificial a Mantequilla (Aceite de Soya, Mantequilla, Grasa de Mantequilla Lipolizada, Saborizantes Naturales y Artificiales),\nSaborizantes Naturales y Artificiales de Huevo (Yema de Huevo Deshidratada, Almidón Modificado, Leche en Polvo, Leche en Polvo Descremada, Saborizantes Naturales y Artificiales, Sal), Goma Xanthan, Acido Cítrico. Pechuga de pavo: Carne de pavo, agua, fécula, almidón modificado, proteína aislada de soya, sal yodada, carragenina, dextrosa, maltodextrina, fosfato de sodio, lactato de sodio, saborizantes naturales y artificiales, eritorbato de sodio, citrato de sodio, nitrito de sodio, carmí. Queso gouda: Leche entera y pasteurizada de vaca, cloruro de sodio, cloruro de calcio, cultivos lácticos, cuajo y natamicina como conservador.",
@@ -892,11 +892,11 @@
                 ]
               },
               {
-                "id": "56746868-69ad-496a-86e7-74935fc8ff9f",
+                "_id": "2ebe37a0-f7cb-4e3e-b043-2b0e8b45378c",
                 "title": "Momentos dulces",
                 "items": [
                   {
-                    "id": "8ef2421c-8fbc-401b-8b5d-94c199f86985",
+                    "_id": "21858aa2-3ab7-49ae-ab5c-995c644803f4",
                     "name": "Dona Old Fashioned Vainilla",
                     "image": "",
                     "ingredients": "",
@@ -907,7 +907,7 @@
                     }
                   },
                   {
-                    "id": "9fe19dd7-c524-46de-9b2b-75d4b528fc6f",
+                    "_id": "ddaffe17-51ad-451e-ab03-da91ae147acc",
                     "name": "Dona Caramelo",
                     "image": "",
                     "ingredients": "",
@@ -918,7 +918,7 @@
                     }
                   },
                   {
-                    "id": "3026b7da-b7d2-44ef-a09d-cdbb4a6228ca",
+                    "_id": "5a5264ce-1d70-49b2-b81a-71da68a85444",
                     "name": "Celebration Cake",
                     "image": "",
                     "ingredients": "",
@@ -929,7 +929,7 @@
                     }
                   },
                   {
-                    "id": "bb50d536-22dc-4dc9-9bc3-dbee9a95d3c7",
+                    "_id": "2a87c286-576f-4aa0-8c1d-0afc89307dfa",
                     "name": "Pastel de zanahoria",
                     "image": "",
                     "ingredients": "",
@@ -940,7 +940,7 @@
                     }
                   },
                   {
-                    "id": "d4c2bd3a-f2a1-4db3-b3e9-4d8d28a79fec",
+                    "_id": "dad31104-f697-4f34-8945-15e739f28772",
                     "name": "Pan de elote",
                     "image": "",
                     "ingredients": "",
@@ -951,7 +951,7 @@
                     }
                   },
                   {
-                    "id": "c4b0e2ae-bd5f-4062-8bda-1868c60afe34",
+                    "_id": "330ad6e9-64ec-4ea7-9805-e66bd8ef4471",
                     "name": "Tarta de Moras con Chocolate Blanco ",
                     "image": "",
                     "ingredients": "Harina de trigo, blueberry o zarzamoras, chispa de sabor chocolate, margarina, leche condensada, mantequilla, crema para batir, azúcar glass, huevo, glucosa, grasa vegetal, chocolate blanco, sal",
@@ -962,7 +962,7 @@
                     }
                   },
                   {
-                    "id": "58ec52bd-c6c9-4bed-a4fd-bfef3ce20a33",
+                    "_id": "a2c81e9f-9b8b-4ba8-b59a-0a9a5ec0b65b",
                     "name": "Pastel de Chocolate",
                     "image": "",
                     "ingredients": "Azúcar refinada, huevo entero, leche entera, harina de trigo, mantequilla, cocoa, almidón modificado de maíz, vinagre, propionato de calcio, leudante, sal yodatada, bicarbonato de sodio, jarabe de azúcar, ganache de\nchocolate (Crema dulce, chocolate semiamargo, mantequilla, azúcar invertido, color negro) y nuez.",
@@ -973,7 +973,7 @@
                     }
                   },
                   {
-                    "id": "dbf90234-d9fe-4b9d-9245-0eda895bf240",
+                    "_id": "af517d61-599f-4b49-b23d-0b6f3818b9c7",
                     "name": "Cheesecake Brulee con Frambuesa",
                     "image": "",
                     "ingredients": "Queso crema (leche y crema pasteurizada, cultivos lácticos, sal, estabilizantes), azúcar refinada, huevo líquido, galleta molida (harina de trigo adicionada con ácido fólico, zinc, hierro, vitamina B1 (mononitrato de tiamina), vitamina B2 (riboflavina) y vitamina B3 (niacina), aceite vegetal, azúcar, jarabe de maíz de alta fructosa, suero de leche, sal yodada, glucosa, bicarbonato de sodio, bicarbonato de amonio, metabisulfito de sodio y saborizantes artificiales y naturales), crema de leche (crema de leche, estabilizador (goma guar, goma de algarrobo, carboximetil-celulosa de sodio y goma xantano), relleno de frambuesa (jugo de frutas, azúcar, dextrosa, almidón de maíz modificado, ácido cítrico, saborizante artificial, citrato de sodio, gomas naturales, sal yodada, benzoato de sodio como conservador, ácido tartárico, sucralosa, colorantes artificiales (rojo #5, azul #1), crema ácida (leche pasteurizada y grasa butírica, cultivos lácticos, leche descremada, suero de leche grado A, almidón de maíz modificado, tripolifosfato de sodio, goma guar, carragenina, sulfato de calcio, sorbato de potasio, goma de algarroba), mantequilla (grasa de leche de vaca, agua, sólidos de la leche, lecitina de soya, sal yodada y colorante natural (extracto de annato)), chocolate blanco (azúcar, leche entera, manteca de cacao, emulsificantes (lecitina de soya, poliglicerol de polirricinoleato), saborizantes artificiales y saborizante natural, sal), almidón de maíz modificado, ácido cítrico y sabor vainilla (agua, alcohol etílico, propilenglicol, colorante caramelo clase 1 y saborizantes artificiales).",
@@ -984,7 +984,7 @@
                     }
                   },
                   {
-                    "id": "d035002e-5ebb-461b-91cc-07ed54895f40",
+                    "_id": "86da294d-c670-4833-8352-8a16df81070e",
                     "name": "Panque de linaza ",
                     "image": "",
                     "ingredients": "Leche entera, harina de trigo, azúcar moscabado, huevo entero, aceite comestible, granola (hojuelas de avena, hojuelas de maíz, sémola de trigo, almendras, arroz inflado, aceite vegetal de soya, polidextrosa, saborizante natural y artificial, glicerina, sucralosa, sal yodada y antioxidante BHT), miel de abeja, arándano, uva pasa, germen de trigo, linaza, vinagre, monoglicéridos, almidón modificado de trigo, bicarbonato de sodio, canela molida, fibra de avena, leudante (carbonato de calcio, bicarbonato de sodio, sulfato de aluminio y pirofosfato ácido de sodio), propionato de calcio (como conservador), extracto de vainilla, sal yodatada y goma xantana.",
@@ -995,7 +995,7 @@
                     }
                   },
                   {
-                    "id": "132a19cd-cdcf-44f8-8d87-bddcfa7308a2",
+                    "_id": "258859b9-9739-4336-8050-088e61e4086a",
                     "name": "Panque de limón",
                     "image": "",
                     "ingredients": "Azúcar refinada, harina de trigo, crema ácida, huevo, aceite comestible de canola, mono y diglicéridos destilados, estearoil lactilato de sodio, leudante (carbonato de calcio, bicarbonato de sodio, sulfato dealuminio y pirofosfato ácido de sodio), sabor limón, sal yodatada, goma xantana, sorbato de potasio (como conservador), agua y color verde.",
@@ -1006,7 +1006,7 @@
                     }
                   },
                   {
-                    "id": "23bc9bfb-3167-4ed3-af49-5d9fdb998327",
+                    "_id": "86e84f8e-d467-4fe3-9cae-c5f6361bd89f",
                     "name": "Muffin de Chocochips",
                     "image": "",
                     "ingredients": "Harina de trigo, agua, azúcar, chocolate, aceite comestible, azúcar moscabado, azúcar refinada, huevo, margarina, cocoa, leche entera en polvo, almidón modificado de trigo, vainilla, propionato de sodio,goma xantana, bicarbonato de sodio, leudante (carbonato de calcio, bicarbonato de sodio, sulfato de aluminio y pirofosfato ácido de sodio), café soluble, sal yodatada y sorbato de potasio.",
@@ -1017,7 +1017,7 @@
                     }
                   },
                   {
-                    "id": "328a91b7-1d83-4c33-b65e-f29a14c02dfb",
+                    "_id": "4baca74b-09b4-40e0-a332-2cccf94e55f0",
                     "name": "Muffin de Blueberry",
                     "image": "",
                     "ingredients": "Harina de trigo, azúcar refinada, huevo entero, mora azul, leche entera, aceite comestible, yogurt natural, mantequilla, emulsificante (mono y diglicéridos destilados, esteraoil lactilato de sodio), sal yodatada, vainilla, goma xantana, leudante (carbonato de calcio, bicarbonato de sodio, sulfato de aluminio pirofosfato ácido de sodio), sorbato de potasio como conservador y bicarbonato de sodio.",
@@ -1028,7 +1028,7 @@
                     }
                   },
                   {
-                    "id": "139c3910-0b73-48a9-8810-0de21b7ef7ad",
+                    "_id": "de10b7ea-166e-44db-a3b0-84da10fdd456",
                     "name": "Mini Cronut Chocolate Blanco",
                     "image": "",
                     "ingredients": "Masa (para todas las donas): Harina de TRIGO, grasa vegetal (palma), agua, margarina (grasa vegetal (palma), agua, aceites vege tales (soja, girasol), emulgentes (E471), acidulante (E330), colorant e (E160a)), azúcar, levadura, sal, gluten de TRIGO, antiapelmazante (E 170), emulgentes (E471, E472, E322 (girasol, TRIGO)), dextrosa, harina malteada de TRIGO y agente de tratamiento de la harina (E300). Cobertura 27%: Azúcar, grasas vegetales (coco, p almiste), suero de la LECHE en polvo, LACTOSA, almidón, estabilizante (E492), emulgente (E322). Decorado 4,5%: Azúcar, manteca de cacao, LE CHE en polvo, pasta de cacao, aroma.",
@@ -1039,7 +1039,7 @@
                     }
                   },
                   {
-                    "id": "a3e93be1-a52e-4139-a0b4-218ba316e760",
+                    "_id": "2618d08b-18f4-4605-8d77-44b5e5a7610a",
                     "name": "Mini Cronut Chocolate",
                     "image": "",
                     "ingredients": "Masa (para todas las donas): Harina de TRIGO, grasa vegetal (palma), agua, margarina (grasa vegetal (palma), agua, aceites vege tales (soja, girasol), emulgentes (E471), acidulante (E330), colorant e (E160a)), azúcar, levadura, sal, gluten de TRIGO, antiapelmazante (E 170), emulgentes (E471, E472, E322 (girasol, TRIGO)), dextrosa, harina malteada de TRIGO y agente de tratamiento de la harina (E300). Cobertura 20%: Azúcar, grasas vegetales (coco, palmiste), cacao desgrasado en polvo 1,8%, LECHE en polvo, aromas, estab ilizante (E492), emulgente (E322). Decorado 5%: AVELLANA y azúcar.",
@@ -1050,7 +1050,7 @@
                     }
                   },
                   {
-                    "id": "9796dd34-edc1-481d-97f9-babc7673044d",
+                    "_id": "6571a218-8b7d-4d45-981b-467459b0a044",
                     "name": "Dona de Chocolate",
                     "image": "",
                     "ingredients": "Harina de trigo enriquecido (niacina, hierro reducido, tiamina, riboflavina y ácido fólico), azúcar, dextrosa, aceite vegetal, suero de leche, harina de soya, huevo en polvo, cocoa, almidón modificado, sal, lecitina de soya, pirofosfato ácido de sodio, monoglicérido, fosfato monocalcico, bicarbonato de sodio, sabor artificial y enzimas. COBERTURA: Azúcar, grasa vegetal hidrogenada, sólidos de cocoa, almidón, carbonato de calcio, harina de algarrobo, lecitina de soya (como emulsificante) y sabor idéntico al natural (vainillina).",
@@ -1061,7 +1061,7 @@
                     }
                   },
                   {
-                    "id": "179ad566-3c6e-4958-a293-5c3fa0bf85ce",
+                    "_id": "094a813c-9f47-418d-be14-1fa39ea77c6b",
                     "name": "Cronut de Chocolate",
                     "image": "",
                     "ingredients": "Harina de TRIGO, grasa vegetal (palma), agua, margarina (grasa vegetal (palma), agua, aceites vegetales (soja, girasol), emulgentes (E 471), acidulante (E330), colorante (E160a)), azúcar, levadura, sal, gluten de TRIGO, antiapelmazante (E170), emulgentes (E471, E472, E322)), dextrosa, harina malteada de TRIGO y agente de tratamiento de la harina (E300). Cobertura 16%: Azúcar, grasa vegetal (coco, palma, palmiste), cacao desgrasado en polvo, LECHE en polvo, aromas naturales, estabilizante (E492) y emulgente (E322). Decorado 4,2%: mezcla chocolates (azúcar, manteca, cacao, pasta cacao, LECHE polvo, LECHE desnatada polvo, mantequilla (LECHE), emulgente (E322, E476), aromas naturales y espesante (E414)).",
@@ -1072,7 +1072,7 @@
                     }
                   },
                   {
-                    "id": "82e88119-ed9c-4680-a004-6333ffd54584",
+                    "_id": "275737d2-5a4e-4fd2-982f-de6ac280ba9a",
                     "name": "Bagel Tradicional con Mermelada y Queso Crema",
                     "image": "",
                     "ingredients": "Harina de trigo integral (gluten), azúcar, sal yodada, levadura, semóla de maíz, gluten de trigo, mono y diglicéridos, propionato de calcio, goma gar, enzimas, ácido sórbico, grasa vegetal, maltodexgtrina, alginato sódico y lecitina de soya. Mermelada: Fresa o chabacano, jarabe de maíz de alta fructuosa, jarabe de maíz, azúcar, pectina de fruta y ácido cítrico. Queso crema:Leche, crema, agua, suero de leche, cultivos lácticos, sal, sorbato de potasio como conservador, estabilizantes (ácido láctico, goma guar, goma algarrobo, goma xantana)",
@@ -1085,11 +1085,11 @@
                 ]
               },
               {
-                "id": "cba89b48-48dc-484c-8c7c-4818f2db3599",
+                "_id": "fca523cc-674c-427f-b698-31bfff28fafd",
                 "title": "Recién horneado",
                 "items": [
                   {
-                    "id": "d40d76f8-615e-4bf4-8ed4-e0d268438a2c",
+                    "_id": "792fd491-eaf6-42ee-a949-1290585a2624",
                     "name": "Struddel Manzana",
                     "image": "",
                     "ingredients": "",
@@ -1100,7 +1100,7 @@
                     }
                   },
                   {
-                    "id": "62ecbfdd-8edf-4d16-8c05-9de396c258c7",
+                    "_id": "00686db8-fce2-473a-9e18-e93ddd76f5dd",
                     "name": "Biscuit Dulce de Leche",
                     "image": "",
                     "ingredients": "",
@@ -1111,7 +1111,7 @@
                     }
                   },
                   {
-                    "id": "08022169-c7b9-4e5b-b919-5bbd243fd8df",
+                    "_id": "002615a1-f861-4438-8e60-6430cbdef489",
                     "name": "Biscuit de Arándanos con Queso",
                     "image": "",
                     "ingredients": "",
@@ -1122,7 +1122,7 @@
                     }
                   },
                   {
-                    "id": "afe423b2-6e3e-4a3a-86a4-9b70b0a3319c",
+                    "_id": "e019e82f-fe63-43e0-bab1-b11032055e68",
                     "name": "Pan de queso",
                     "image": "",
                     "ingredients": "",
@@ -1133,7 +1133,7 @@
                     }
                   },
                   {
-                    "id": "5af98a4a-8531-419a-86e9-07594c219656",
+                    "_id": "9c9f2767-4933-41b2-bf4c-23d61aee0dde",
                     "name": "Croissant de Mantequilla con Pechuga y Queso",
                     "image": "",
                     "ingredients": "Pan croissant (harina de trigo, agua, azúcares añadidos (azúcar dextrosa), gluten de trigo, levadura, huevo líquido pasteurizado, sal yodada, ácido ascórbico, ésteres de glicerol y ácidos grasos del ácido diacetil tartárico), embutido de pavo (carne de pavo, agua, sazonador (almidón de papa, proteínas de soya, sal yodada, almidón de maíz modificado, carragenina, saborizante artificial (leche, soya), azúcares añadidos (dextrosa), nitrito de sodio, tripolifosfato de sodio, eritorbato de potasio,benzoato de sodio, sorbato de potasio)), almidones modificados y estabilizados de maíz, sal yodada, nitrito de sodio, nisina, carmín cochinilla y aroma de humo artificial), queso gouda  (leche entera pasteurizada de vaca, cloruro de sodio, cloruro de calcio, cultivos lácticos, cuajo, natamicina).",
@@ -1144,7 +1144,7 @@
                     }
                   },
                   {
-                    "id": "ed821d3b-ee28-49b5-8820-80f976891f83",
+                    "_id": "e3f62dce-c8f7-4071-89d0-886668ffa4ec",
                     "name": "Pan de Chocolate",
                     "image": "",
                     "ingredients": "Harina de trigo, agua, mantequilla, chocolate (azúcar, pasta de cacao 6,8%, manteca de cacao 0,44%, emulgente E322 (lecitinas (soja))), azúcar, levadura, gluten de trigo, sal, huevo liquido pasteurizado, mejorador de la panificación (ácido ascórbico), dextrosa, emulgente (ésteres diacetiltartaricos y de los ácidos grasoso del glicerol).",
@@ -1155,7 +1155,7 @@
                     }
                   },
                   {
-                    "id": "f4d308c3-7d5a-45e5-beef-a578210af41e",
+                    "_id": "fdd3cd59-4048-4da2-b629-9967a4a7eec4",
                     "name": "Croissant de Mantequilla",
                     "image": "",
                     "ingredients": "Harina de trigo, mantequilla, agua, azúcar, gluten de trigo, levadura, huevo líquido pasteurizado, sal, agente de tratamiento de la harina E300), dextrosa, emulgente (E472e).",
@@ -1166,7 +1166,7 @@
                     }
                   },
                   {
-                    "id": "543b2586-0df6-4cfd-9ed1-43243d5187bd",
+                    "_id": "1a6ed2c3-0fed-4b8a-8b54-b2741203de11",
                     "name": "Cheesecake Roulet",
                     "image": "",
                     "ingredients": "Masa: Harina de TRIGO, margarina vegetal (grasa vegetal (palma), aceites vegetales (soja, girasol), jarabe de glucosa-fructosa, agua, emulsionantes (E322, E471), acidulante (E330), aromas, colorante (E160a)), agua , levadura, dextrosa, sal, gluten de TRIGO, emulgentes E472e, E471) , espesantes (E415, E412), aroma natural, agente de tratamiento de la harina (E300, E920). Relleno 34%: Relleno de queso 23% (crema de QU ESO, azúcar, agua, jarabe de glucosa, HUEVO entero , clara de HUEVO, almidón modificado, acidulante (E270), espesantes (E466, E460), aroma natural, colorante (E171), emulgente (E471), sal), relleno de frambuesa a 11% (azúcar, frambuesa, agua, jarabe de glucosa, gelificantes (E440 , E401), acidulante (E330), correctores de acidez (E331, E341), colorante (zumo de frutas y vegetales), aroma). Cobertura 3,3%: Azúcar, HUEVO líquido pasteurizado.",
@@ -1179,11 +1179,11 @@
                 ]
               },
               {
-                "id": "4e9a18f3-7e1b-41f1-9afd-06c1f88e997b",
+                "_id": "17dea9df-0285-45aa-95ab-4ecf8adc5d08",
                 "title": "Para compartir",
                 "items": [
                   {
-                    "id": "10170fa8-21dd-45d2-8869-794923797c6a",
+                    "_id": "fa9c28f6-130b-4d19-8bb9-d4d188b3346c",
                     "name": "Media docena de croissants de pechuga y queso",
                     "image": "",
                     "ingredients": "",
@@ -1194,7 +1194,7 @@
                     }
                   },
                   {
-                    "id": "bf5ba2fb-120c-4751-8f6b-0fbdaf06b7ba",
+                    "_id": "6d45b659-cb9e-400f-b8b0-c96dd4f6cdb7",
                     "name": "Panqué completo de limón",
                     "image": "",
                     "ingredients": "",
@@ -1205,7 +1205,7 @@
                     }
                   },
                   {
-                    "id": "db036f66-8746-48e3-b2c8-4052855df31d",
+                    "_id": "93ebb1b0-bc0c-4261-99a1-235b6994ba98",
                     "name": "Panadería Bis",
                     "image": "",
                     "ingredients": "",
@@ -1216,7 +1216,7 @@
                     }
                   },
                   {
-                    "id": "ce8932a5-b648-4853-bcff-64edc916bf4e",
+                    "_id": "e7df6d1f-e26f-4b63-ac4b-aa8fd18c2282",
                     "name": "Pan de queso 4x3",
                     "image": "",
                     "ingredients": "",
@@ -1227,7 +1227,7 @@
                     }
                   },
                   {
-                    "id": "f56216df-be84-44ef-aafc-7e6706c251e8",
+                    "_id": "898b60f2-cd94-4bb1-9649-ef5fad2b1ea9",
                     "name": "Docena de minicronuts",
                     "image": "",
                     "ingredients": "",
@@ -1238,7 +1238,7 @@
                     }
                   },
                   {
-                    "id": "65b7161a-1a73-4ce0-bd5c-a11b5d870c08",
+                    "_id": "31b14f39-d341-4680-8274-7d8fa776b038",
                     "name": "Media Docena de donas de chocolate",
                     "image": "",
                     "ingredients": "",
@@ -1255,20 +1255,20 @@
         ]
       },
       {
-        "id": "3063a38d-1a88-4200-93c5-19946455e400",
+        "_id": "b4e9e423-2e7e-4349-b98e-2834915b8f96",
         "name": "Café en grano",
         "types": [
           {
-            "id": "b2f12839-8f8b-4237-8235-441919a9237c",
+            "_id": "9f1a78d3-1691-41d2-8242-6379a37cc826",
             "title": "Elige tu café favorito",
             "image": "",
             "categories": [
               {
-                "id": "0177df7f-6577-4dd7-93b8-8f6bbc27bc21",
+                "_id": "2f703963-5f59-4784-9eaf-c7a44c36fcca",
                 "title": "Café de línea",
                 "items": [
                   {
-                    "id": "38602092-ebad-4043-8020-76fe9082f6fe",
+                    "_id": "dd4b8e8f-c9a0-4a98-807d-47e1e44ddf71",
                     "name": "Pike Place",
                     "image": "",
                     "g": "250",
@@ -1281,7 +1281,7 @@
                     }
                   },
                   {
-                    "id": "39538a62-6161-4d1c-af9e-4b56f5701817",
+                    "_id": "91176d50-8861-475d-95a9-23e500b66cfd",
                     "name": "Espresso Roast",
                     "image": "",
                     "g": "250",
@@ -1294,7 +1294,7 @@
                     }
                   },
                   {
-                    "id": "06122fcb-c85a-4537-b316-fca76dedb891",
+                    "_id": "12085614-2a20-4b17-b258-63c486f0fb5a",
                     "name": "Verona",
                     "image": "",
                     "g": "",
@@ -1307,7 +1307,7 @@
                     }
                   },
                   {
-                    "id": "b1e654d7-f971-490c-88fe-da62c768f834",
+                    "_id": "fd7f96e4-fc8a-49f7-8c5c-ea0f73893713",
                     "name": "Sumatra",
                     "image": "",
                     "g": "250",
@@ -1320,7 +1320,7 @@
                     }
                   },
                   {
-                    "id": "c62c7631-f645-4bad-893c-2111c4be4c91",
+                    "_id": "02a2fc22-e602-4197-9d62-9fcedaa12e35",
                     "name": "Kenya",
                     "image": "",
                     "g": "250",
@@ -1333,7 +1333,7 @@
                     }
                   },
                   {
-                    "id": "1b0387b4-2de9-4623-95bd-aa10be2689de",
+                    "_id": "4d5f1b57-4c32-4778-a21e-8582e5569d52",
                     "name": "Colombia",
                     "image": "",
                     "g": "250",
@@ -1346,7 +1346,7 @@
                     }
                   },
                   {
-                    "id": "59bbf18d-c0d0-4e03-9c6e-51d09936520f",
+                    "_id": "c81625d3-74a6-4938-849e-3e23b9e479b0",
                     "name": "Chiapas",
                     "image": "",
                     "g": "250",

@@ -10,7 +10,7 @@ function addIds(data) {
     if (Array.isArray(data)) {
         // @ts-ignore
         return data.map((item, index) => ({
-            id: uuidv4(),
+            _id: uuidv4(),
             ...item,
             ...(item.categories ? { categories: addIds(item.categories) } : {}),
             ...(item.items ? { items: addIds(item.items) } : {}),
