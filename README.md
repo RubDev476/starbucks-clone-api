@@ -43,8 +43,10 @@ http://localhost:4000/api/docs  (Desarrollo)
 - **src**: Contiene el código fuente del proyecto.
   - **controllers**: Contiene los controladores de la api.
   - **routes**: Contiene las rutas de la api.
+  - **utils**: Contiene utilidades para el proyecto.
 - **.env**: Archivo de configuración de variables de entorno.
 - **datav2.json**: Archivo de datos de la api para su importación a mongoDB.
+- **datav2_with_ids.json**: Archivo de datos de la api con ids para su importación a mongoDB.
 - **swagger.ts**: Archivo de configuración de Swagger (Documentación de los endpoints).
 - **tsconfig.json**: Archivo de configuración de TypeScript.
 - **package.json**: Archivo de configuración de npm.
