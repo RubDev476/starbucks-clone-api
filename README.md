@@ -40,7 +40,6 @@ http://localhost:4000/api/docs  (Desarrollo)
 
 ## Estructura de carpetas
 
-- **public**: Contiene los archivos estáticos del proyecto.
 - **src**: Contiene el código fuente del proyecto.
   - **controllers**: Contiene los controladores de la api.
   - **routes**: Contiene las rutas de la api.
