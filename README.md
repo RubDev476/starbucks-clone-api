@@ -1,3 +1,72 @@
+# Api Clon de Starbucks
+
+Este proyecto es un clon de la API de Starbucks, con el fin de practicar el uso de React, TypeScript, Vite, Express y MongoDB.
+
+## Instalación
+
+Para instalar las dependencias del proyecto, se debe ejecutar el siguiente comando:
+
+```bash
+npm install
+```
+
+## Uso
+
+Para iniciar el servidor de desarrollo, se debe ejecutar el siguiente comando:
+
+```bash
+npm run dev
+```
+
+Para compilar el proyecto, se debe ejecutar el siguiente comando:
+
+```bash
+npm run build
+```
+
+Para ejecutar el servidor de producción, se debe ejecutar el siguiente comando:
+
+```bash
+npm run server
+```
+
+## Documentación de los endpoints
+
+Para acceder a la documentación de los endpoints, se debe acceder a la siguiente URL:
+
+```
+http://localhost:4000/api/docs  (Desarrollo)
+```
+
+## Estructura de carpetas
+
+- **public**: Contiene los archivos estáticos del proyecto.
+- **src**: Contiene el código fuente del proyecto.
+  - **controllers**: Contiene los controladores de la api.
+  - **routes**: Contiene las rutas de la api.
+- **.env**: Archivo de configuración de variables de entorno.
+- **datav2.json**: Archivo de datos de la api para su importación a mongoDB.
+- **swagger.ts**: Archivo de configuración de Swagger (Documentación de los endpoints).
+- **tsconfig.json**: Archivo de configuración de TypeScript.
+- **package.json**: Archivo de configuración de npm.
+- **vercel.json**: Archivo de configuración para vercel.
+- **dist**: Carpeta de salida de la compilación del proyecto (esta se genera al transpilar).
+
+## Tecnologías
+
+- **Node.js**: Entorno de ejecución para JavaScript.
+- **Express**: Framework de Node.js.
+- **MongoDB**: Base de datos NoSQL.
+- **Mongoose**: Librería de modelado de objetos MongoDB.
+- **TypeScript**: Superset de JavaScript.
+
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Para cambios importantes, por favor, abra un problema primero para discutir qué le gustaría cambiar.
+
+Asegúrese de actualizar las pruebas según corresponda.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

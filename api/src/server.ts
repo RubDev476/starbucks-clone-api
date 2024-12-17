@@ -21,5 +21,5 @@ app.use('/api/menu', menuRoutes);
 // Iniciar servidor
 app.listen(PORT, () => {
     console.log(`API running at http://localhost:${PORT}`);
-    console.log(`Swagger Docs en http://localhost:${PORT}/api-docs`);
+    console.log(`Swagger Docs en http://localhost:${PORT}/api/docs`);
 });
