@@ -7,7 +7,7 @@
           {
             "title": "Bebidas Calientes",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Espresso y Café",
                 "items": [
@@ -167,7 +167,7 @@
           {
             "title": "Frappuccino",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Frappuccino Café",
                 "items": [
@@ -331,7 +331,7 @@
           {
             "title": "Bebidas Frías",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Shakens",
                 "items": [
@@ -470,7 +470,7 @@
           {
             "title": "Bebidas Base Té",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Té Latte Caliente",
                 "items": [
@@ -657,7 +657,7 @@
           {
             "title": "Cold Brew",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Starbucks Con Hielo",
                 "items": [
@@ -723,7 +723,7 @@
           {
             "title": "Elige tu complemento favorito",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Para disfrutar a cualquier hora",
                 "items": [
@@ -1237,7 +1237,7 @@
           {
             "title": "Elige tu café favorito",
             "image": "",
-            "categories": [
+            "subCategories": [
               {
                 "title": "Café de línea",
                 "items": [

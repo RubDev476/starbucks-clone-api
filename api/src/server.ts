@@ -1,7 +1,8 @@
-import express, {Express, Request, Response} from 'express';
+import express, {Express} from 'express';
 import dotenv from 'dotenv';
-import menuRoutes from './routes/menuRoutes';
+import categoryRoutes from './routes/categoryRoutes';
 import { setupSwagger } from './swagger';
+import connectDB from './settings/db/mongoDb/connection';
 
 dotenv.config();
 
@@ -15,11 +16,11 @@ app.use(express.json());
 // Configura Swagger
 setupSwagger(app);
 
-// Rutas
-app.use('/api/menu', menuRoutes);
+connectDB().then(() => {
+    app.use('/api', categoryRoutes);
 
-// Iniciar servidor
-app.listen(PORT, () => {
-    console.log(`API running at http://localhost:${PORT}`);
-    console.log(`Swagger Docs en http://localhost:${PORT}/api/docs`);
+    app.listen(PORT, () => {
+        console.log(`Servidor escuchando en el puerto ${PORT}`);
+        console.log(`Swagger Docs en http://localhost:${PORT}/api/docs`);
+    });
 });

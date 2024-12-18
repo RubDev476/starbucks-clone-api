@@ -14,7 +14,5 @@ const connectDB = async () => {
     }
 };
 
-// Llamar la función de conexión
-connectDB().then(r => r);
 
 export default connectDB;
