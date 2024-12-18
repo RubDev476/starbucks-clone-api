@@ -12,6 +12,17 @@ npm install
 
 ## Uso
 
+Primero se debe crear un archivo .env (Variables de entorno) en la raíz del proyecto de la api, con las siguientes variables:
+
+```
+PORT=4000
+DB_USER=<usuario>
+DB_PASS=<contraseña>
+DB_NAME=<nombre de la base de datos>
+DB_HOST=<host o cluster>
+DB_PORT=<puerto> (default 27017)
+```
+
 Para iniciar el servidor de desarrollo, se debe ejecutar el siguiente comando:
 
 ```bash
