@@ -20,6 +20,8 @@ export default function Header() {
         const main = document.querySelector('MAIN') as HTMLElement;
         const header = document.querySelector('HEADER') as HTMLHeadElement;
 
+        if(body === null || main === null || header === null) return;
+
         if(menuAction === 'open') {
             body.classList.add('overflow-hidden');
             main.style.paddingRight = `${scrollBarWidth.toString()}px`;
