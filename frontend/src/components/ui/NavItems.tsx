@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 export default function NavItems() {
-    const location = useLocation();
+    const {pathname} = useLocation();
     
     return (
         <>
             <ul className="main-nav">
-                <li className={`${location.pathname.includes('/menu') ? 'location' : ''}`}><Link to="/" aria-label="menu">Menu</Link></li>
-                <li className={`${location.pathname === '/rewards' ? 'location' : ''}`}><Link to="/" aria-label="rewards">Rewards</Link></li>
-                <li className={`${location.pathname === '/gift' ? 'location' : ''}`}><Link to="/" aria-label="gift-cards">Gift Cards</Link></li>
+                <li className={`${pathname.includes('/menu') ? 'location' : ''}`}><Link to="/menu" aria-label="menu">Menu</Link></li>
+                <li className={`${pathname === '/rewards' ? 'location' : ''}`}><Link to="/rewards" aria-label="rewards">Rewards</Link></li>
+                <li className={`${pathname === '/gift' ? 'location' : ''}`}><Link to="/gift" aria-label="gift-cards">Gift Cards</Link></li>
             </ul>
 
             <hr />
