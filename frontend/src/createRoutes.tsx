@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Root, Main, SubCategorie, MainMenu } from './routes';
+import { Root, Main, SubCategorie, MainMenu, Rewards, Gift } from './routes';
 
 const router = createBrowserRouter([
     {
@@ -23,11 +23,11 @@ const router = createBrowserRouter([
             },
             {
                 path: 'rewards',
-                element: <main>rewards</main>
+                element: <Rewards />
             },
             {
                 path: 'gift',
-                element: <main>gift</main>
+                element: <Gift />
             }
         ]
     }
