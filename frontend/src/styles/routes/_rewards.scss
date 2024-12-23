@@ -1,0 +1,14 @@
+@use '../globals/vars' as vars;
+
+/*
+- Para usar las variables de colores, tipografía y espaciados, usa la variable $vars (que ya esta importada en la primera linea)
+
+ejemplo de uso:
+
+element {
+    color: $vars.color-primary;
+    font-size: $vars.font-size-lg;
+    margin: $vars.spacing-md;
+}
+*/
+
