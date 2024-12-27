@@ -1,0 +1,2063 @@
+{
+  "menu": {
+    "sections": [
+      {
+        "title": "Drinks",
+        "image": "",
+        "types": [
+          {
+            "title": "Hot Coffees",
+            "image": "",
+            "categories": [
+              {
+                "title": "Americanos",
+                "products": [
+                  {
+                    "name": "Caffè Americano",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "5 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "0 g",
+                          "caffeine": "75 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "150 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "225 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "15 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "300 mg**"
+                        }
+                      }
+                    },
+                    "included": {
+                      "water": "Water",
+                      "espressoOption": "Signature Espresso",
+                      "espressoShots": 4
+                    },
+                    "ingredients": "Water, Brewed Espresso."
+                  }
+                ]
+              },
+
+              {
+                "title": "Brewed Coffees",
+                "products": [
+                  {
+                    "name": "Starbucks Christmas Blonde Roast Clover Vertica",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Featured Medium Roast - Pike Place Roast",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Christmas Blend Clover Vertica",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Decaf Pike Place Roast",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Caffè Misto",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "50",
+                          "calFromFat": "20",
+                          "totalFat": {
+                            "content": "2 g",
+                            "percent": "2%"
+                          },
+                          "saturatedFat": {
+                            "content": "1 g",
+                            "percent": "5%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "10 mg",
+                            "percent": "3%"
+                          },
+                          "sodium": {
+                            "content": "50 mg",
+                            "percent": "2%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "5 g",
+                            "percent": "1%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "5 g",
+                          "protein": "4 g",
+                          "caffeine": "75 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "80",
+                          "calFromFat": "30",
+                          "totalFat": {
+                            "content": "3 g",
+                            "percent": "3%"
+                          },
+                          "saturatedFat": {
+                            "content": "1.5 g",
+                            "percent": "7%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "15 mg",
+                            "percent": "5%"
+                          },
+                          "sodium": {
+                            "content": "80 mg",
+                            "percent": "3%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "8 g",
+                            "percent": "2%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "8 g",
+                          "protein": "5 g",
+                          "caffeine": "115 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "110",
+                          "calFromFat": "35",
+                          "totalFat": {
+                            "content": "4 g",
+                            "percent": "5%"
+                          },
+                          "saturatedFat": {
+                            "content": "2 g",
+                            "percent": "10%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "15 mg",
+                            "percent": "5%"
+                          },
+                          "sodium": {
+                            "content": "100 mg",
+                            "percent": "4%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "10 g",
+                            "percent": "3%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "10 g",
+                          "protein": "7 g",
+                          "caffeine": "150 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "130",
+                          "calFromFat": "45",
+                          "totalFat": {
+                            "content": "5 g",
+                            "percent": "6%"
+                          },
+                          "saturatedFat": {
+                            "content": "2.5 g",
+                            "percent": "12%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "20 mg",
+                            "percent": "6%"
+                          },
+                          "sodium": {
+                            "content": "130 mg",
+                            "percent": "5%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "13 g",
+                            "percent": "4%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "13 g",
+                          "protein": "9 g",
+                          "caffeine": "195 mg**"
+                        }
+                      }
+                    },
+                    "included": {
+                      "temperature": "Steamed",
+                      "milk": "2% Milk",
+                      "foam": "Foam"
+                    },
+                    "ingredients": "Brewed Coffee, Milk."
+                  },
+                  {
+                    "name": "Starbucks Reserve Christmas 2024 Clover Vertica",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Caffè Verona Clover Vertica",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Veranda Blend",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Veranda Blend Clover Vertica",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  },
+                  {
+                    "name": "Featured Dark Roast",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "0 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "155 mg - 195 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 235 mg - 290 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "315 mg - 390 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg",
+                            "percent": "0%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": " 390 mg - 490 mg**"
+                        }
+                      }
+                    },
+                    "ingredients": "BREWED COFFEE."
+                  }
+                ]
+              },
+
+              {
+                "title": "Cappuccinos",
+                "products": [
+                  {
+                    "name": "Cappuccino",
+                    "image": "",
+                    "sizeOptions": {
+                      "short": {
+                        "oz": "8 fl",
+                        "espressoShots": 2,
+                        "nutrition": {
+                          "calories": "70",
+                          "calFromFat": "20",
+                          "totalFat": {
+                            "content": "2.5 g",
+                            "percent": "3%"
+                          },
+                          "saturatedFat": {
+                            "content": "1.5 g",
+                            "percent": "7%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "10 mg",
+                            "percent": "3%"
+                          },
+                          "sodium": {
+                            "content": "60 mg",
+                            "percent": "2%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "7 g",
+                            "percent": "2%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "6 g",
+                          "protein": "4 g",
+                          "caffeine": "75 mg**"
+                        }
+                      },
+                      "tall": {
+                        "oz": "12 fl",
+                        "espressoShots": 1,
+                        "nutrition": {
+                          "calories": "100",
+                          "calFromFat": "35",
+                          "totalFat": {
+                            "content": "4 g",
+                            "percent": "5%"
+                          },
+                          "saturatedFat": {
+                            "content": "2.5 g",
+                            "percent": "12%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "15 mg",
+                            "percent": "5%"
+                          },
+                          "sodium": {
+                            "content": "90 mg",
+                            "percent": "3%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "10 g",
+                            "percent": "3%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "9 g",
+                          "protein": "7 g",
+                          "caffeine": "75 mg**"
+                        }
+                      },
+                      "grande": {
+                        "oz": "16 fl",
+                        "espressoShots": 2,
+                        "nutrition": {
+                          "calories": "140",
+                          "calFromFat": "45",
+                          "totalFat": {
+                            "content": "5 g",
+                            "percent": "6%"
+                          },
+                          "saturatedFat": {
+                            "content": "3 g",
+                            "percent": "15%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "20 mg",
+                            "percent": "6%"
+                          },
+                          "sodium": {
+                            "content": "120 mg",
+                            "percent": "5%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "14 g",
+                            "percent": "5%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "12 g",
+                          "protein": "9 g",
+                          "caffeine": "150 mg**"
+                        }
+                      },
+                      "venti": {
+                        "oz": "20 fl",
+                        "espressoShots": 2,
+                        "nutrition": {
+                          "calories": "200",
+                          "calFromFat": "70",
+                          "totalFat": {
+                            "content": "8 g",
+                            "percent": "10%"
+                          },
+                          "saturatedFat": {
+                            "content": "5 g",
+                            "percent": "25%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "30 mg",
+                            "percent": "10%"
+                          },
+                          "sodium": {
+                            "content": "180 mg",
+                            "percent": "7%"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "20 g",
+                            "percent": "7%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "19 g",
+                          "protein": "13 g",
+                          "caffeine": "150 mg**"
+                        }
+                      }
+                    },
+                    "included": {
+                      "milk": "Water",
+                      "temperature": "Steamed",
+                      "foam": "Foam",
+                      "espressoOption": "Signature Espresso"
+                    },
+                    "ingredients": "MILK, BREWED ESPRESSO."
+                  }
+                ]
+              },
+
+              {
+                "title": "Espresso Shots",
+                "products": [
+                  {
+                    "name": "Espresso",
+                    "image": "",
+                    "sizeOptions": {
+                      "solo": {
+                        "oz": "0.75 fl",
+                        "espressoShots": 1,
+                        "nutrition": {
+                          "calories": "5",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "5 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "0 g",
+                          "caffeine": "75 mg**"
+                        }
+                      },
+                      "doppio": {
+                        "oz": "1.5 fl",
+                        "espressoShots": 2,
+                        "nutrition": {
+                          "calories": "10",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "150 mg**"
+                        }
+                      },
+                      "triple": {
+                        "oz": "2.25 fl",
+                        "espressoShots": 3,
+                        "nutrition": {
+                          "calories": "15",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "10 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "2 g",
+                          "caffeine": "225 mg**"
+                        }
+                      },
+                      "quad": {
+                        "oz": "3 fl",
+                        "espressoShots": 4,
+                        "nutrition": {
+                          "calories": "20",
+                          "calFromFat": "0",
+                          "totalFat": {
+                            "content": "0 g"
+                          },
+                          "saturatedFat": {
+                            "content": "0 g"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "0 mg"
+                          },
+                          "sodium": {
+                            "content": "15 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "4 g",
+                            "percent": "1%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "2 g",
+                          "caffeine": "300 mg**"
+                        }
+                      }
+                    },
+                    "included": {
+                      "espressoOption": "Signature Espresso"
+                    },
+                    "ingredients": "Brewed Espresso."
+                  },
+                  {
+                    "name": "Espresso Con Panna",
+                    "image": "",
+                    "sizeOptions": {
+                      "solo": {
+                        "oz": "0.75 fl",
+                        "espressoShots": 1,
+                        "nutrition": {
+                          "calories": "30",
+                          "calFromFat": "25",
+                          "totalFat": {
+                            "content": "2.5 g",
+                            "percent": "3%"
+                          },
+                          "saturatedFat": {
+                            "content": "1.5 g",
+                            "percent": "7%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "10 mg",
+                            "percent": "7%"
+                          },
+                          "sodium": {
+                            "content": "5 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "1 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "75 mg**"
+                        }
+                      },
+                      "doppio": {
+                        "oz": "1.5 fl",
+                        "espressoShots": 2,
+                        "nutrition": {
+                          "calories": "35",
+                          "calFromFat": "25",
+                          "totalFat": {
+                            "content": "2.5 g",
+                            "percent": "3%"
+                          },
+                          "saturatedFat": {
+                            "content": "1.5 g",
+                            "percent": "7%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "10 mg",
+                            "percent": "3%"
+                          },
+                          "sodium": {
+                            "content": "0 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "2 g"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "150 mg**"
+                        }
+                      },
+                      "triple": {
+                        "oz": "2.25 fl",
+                        "espressoShots": 3,
+                        "nutrition": {
+                          "calories": "40",
+                          "calFromFat": "25",
+                          "totalFat": {
+                            "content": "2.5 g",
+                            "percent": "3%"
+                          },
+                          "saturatedFat": {
+                            "content": "1.5 g",
+                            "percent": "7%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "10 mg",
+                            "percent": "3%"
+                          },
+                          "sodium": {
+                            "content": "0 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g",
+                            "percent": "1%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "225 mg**"
+                        }
+                      },
+                      "quad": {
+                        "oz": "3 fl",
+                        "espressoShots": 4,
+                        "nutrition": {
+                          "calories": "45",
+                          "calFromFat": "25",
+                          "totalFat": {
+                            "content": "2.5 g",
+                            "percent": "3%"
+                          },
+                          "saturatedFat": {
+                            "content": "1.5 g",
+                            "percent": "7%"
+                          },
+                          "transFat": "0 g",
+                          "cholesterol": {
+                            "content": "10 mg",
+                            "percent": "3%"
+                          },
+                          "sodium": {
+                            "content": "0 mg"
+                          },
+                          "totalCarbohydrates": {
+                            "content": "3 g",
+                            "percent": "1%"
+                          },
+                          "dietaryFiber": "0 g",
+                          "sugars": "0 g",
+                          "protein": "1 g",
+                          "caffeine": "300 mg**"
+                        }
+                      }
+                    },
+                    "included": {
+                      "whippedCream": "Regular Whipped Cream",
+                      "espressoOption": "Signature Espresso"
+                    },
+                    "ingredients": "Brewed Espresso."
+                  }
+                ]
+              },
+
+              {
+                "title": "Flat Whites",
+                "products": [
+
+                ]
+              },
+
+              {
+                "title": "Lattes",
+                "products": [
+
+                ]
+              },
+
+              {
+                "title": "Macchiatos",
+                "products": [
+
+                ]
+              },
+
+              {
+                "title": "Mochas",
+                "products": [
+
+                ]
+              },
+
+              {
+                "title": "Coffee Travelers",
+                "products": [
+
+                ]
+              }
+            ]
+          },
+
+          {
+            "title": "Cold Coffees",
+            "image": "",
+            "categories": [
+              {
+                "title": "Iced Coffees",
+                "products": [
+
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Food",
+        "image": "",
+        "types": [
+          {
+            "title": "Hot Breakfast",
+            "image": "",
+            "categories": [
+              {
+                "title": "Breakfast Sandwiches & Wraps",
+                "products": [
+                ]
+              },
+              {
+                "title": "Bakes & Egg Bites",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Oatmeal & Yogurt",
+            "image": "",
+            "categories": [
+              {
+                "title": "Oatmeal & Yogurt",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Bakery",
+            "image": "",
+            "categories": [
+              {
+                "title": "Bagels",
+                "products": [
+                ]
+              },
+              {
+                "title": "Cake Pops",
+                "products": [
+                ]
+              },
+              {
+                "title": "Cookies, Brownies & Bars",
+                "products": [
+                ]
+              },
+              {
+                "title": "Croissants",
+                "products": [
+                ]
+              },
+              {
+                "title": "Loaves, Cakes & Buns",
+                "products": [
+                ]
+              },
+              {
+                "title": "Danishes & Doughnuts",
+                "products": [
+                ]
+              },
+              {
+                "title": "Muffins & Scones",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Lunch",
+            "image": "",
+            "categories": [
+              {
+                "title": "Warm Sandwiches",
+                "products": [
+                ]
+              },
+              {
+                "title": "Protein Boxes",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Snacks & Sweets",
+            "image": "",
+            "categories": [
+              {
+                "title": "Biscotti & Cookies",
+                "products": [
+                ]
+              },
+              {
+                "title": "Chocolates & Candy",
+                "products": [
+                ]
+              },
+              {
+                "title": "Fruit & Nuts",
+                "products": [
+                ]
+              },
+              {
+                "title": "Gum & Mints",
+                "products": [
+                ]
+              },
+              {
+                "title": "Popcorn & Chips",
+                "products": [
+                ]
+              },
+              {
+                "title": "Meat & Cheese",
+                "products": [
+                ]
+              },
+              {
+                "title": "Snack Bars",
+                "products": [
+                ]
+              },
+              {
+                "title": "Spreads",
+                "products": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "At Home Coffee",
+        "image": "",
+        "types": [
+          {
+            "title": "Whole Bean",
+            "image": "",
+            "categories": [
+              {
+                "title": "Starbucks Reserve",
+                "products": [
+                ]
+              },
+              {
+                "title": "Blonde Roast",
+                "products": [
+                ]
+              },
+              {
+                "title": "Medium Roast",
+                "products": [
+                ]
+              },
+              {
+                "title": "Dark Roast",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Ground",
+            "image": "",
+            "categories": [
+              {
+                "title": "Dark Roast",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "VIA Instant",
+            "image": "",
+            "categories": [
+              {
+                "title": "Flavored",
+                "products": [
+                ]
+              },
+              {
+                "title": "Blonde Roast",
+                "products": [
+                ]
+              },
+              {
+                "title": "Medium Roast",
+                "products": [
+                ]
+              },
+              {
+                "title": "Dark Roast",
+                "products": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Merchandise",
+        "image": "",
+        "types": [
+          {
+            "title": "Cold Cups",
+            "image": "",
+            "categories": [
+              {
+                "title": "Cold Cups",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Tumblers",
+            "image": "",
+            "categories": [
+              {
+                "title": "Tumblers",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Mugs",
+            "image": "",
+            "categories": [
+              {
+                "title": "Mugs",
+                "products": [
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Other",
+            "image": "",
+            "categories": [
+              {
+                "title": "Other",
+                "products": [
+
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

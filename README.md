@@ -66,11 +66,19 @@ http://localhost:4000/api/docs  (Desarrollo)
 
 ## Tecnologías
 
-- **Node.js**: Entorno de ejecución para JavaScript.
-- **Express**: Framework de Node.js.
+- **Node.js**: Entorno de ejecución para JavaScript v22.12.0.
+- **Express**: Framework de Node.js v4.21.2.
 - **MongoDB**: Base de datos NoSQL.
-- **Mongoose**: Librería de modelado de objetos MongoDB.
-- **TypeScript**: Superset de JavaScript.
+- **Mongoose**: Librería de modelado de objetos MongoDB v8.9.1.
+- **TypeScript**: Superset de JavaScript v5.7.2.
+
+## Librerías
+
+- **Express**: Framework de Node.js v4.21.2.
+- **Mongoose**: Librería de modelado de objetos MongoDB v8.9.1.
+- **Swagger-jsdoc**: Generador de documentación de Swagger v6.2.8.
+- **Swagger-ui-express**: Middleware de Swagger para Express v5.0.1.
+- **Dotenv**: Módulo que carga variables de entorno desde un archivo .env a process.env v16.4.7.
 
 
 ## Contribuciones

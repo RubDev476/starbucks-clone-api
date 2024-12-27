@@ -1,6 +1,6 @@
 import express from 'express';
-import { Category } from "../models/categories";
-import { Type } from '../models/types';
+import {Section, Category, Product} from "../models";
+
 
 
 class CategoryController {
@@ -8,21 +8,24 @@ class CategoryController {
     public async getMenu(req: express.Request, res: express.Response) {
 
         try {
-            // Obtener categorías y tipos de la base de datos
-            const categories = await Category.find();
-            const types = await Type.find();
 
-            // Validar que categoryId y _id existen como cadenas UUID
-            const response = categories.map(category => ({
-                _id: category._id,
-                name: category.name,
-                types: types.filter(type =>
-                    type.categoryId &&
-                    type.categoryId === category._id
-                )
-            }));
+            const sections = await Section.find().populate({
+                path: 'types', select: 'title image'
+            });
 
-            res.json({ success: true, data: response });
+            const responseSections = sections.map(section => {
+                return {
+                    name: section.title,
+                    types: section.types.map((type: any) => {
+                        return {
+                            title: type.title,
+                            image: type.image
+                        };
+                    })
+                };
+            });
+
+            res.json({ success: true, data: responseSections });
         } catch (error) {
             console.error('Error al obtener categorías con sus tipos:', error);
             res.status(500).json({ success: false, message: 'Error al obtener los datos' });
@@ -31,18 +34,40 @@ class CategoryController {
 
     public async getCategories(req: express.Request, res: express.Response) {
         try {
-            const categories = await Category.find();
+            const categories = await Category.find().populate({
+                path: 'products', select: 'name image'
+            });
 
-            res.json(categories);
+            const responseCategories = categories.map(category => {
+                return {
+                    title: category.title,
+                    products: category.products.map((product: any) => {
+                        return {
+                            name: product.name,
+                            image: product.image
+                        };
+                    })
+                };
+            });
+
+            res.json({success: true, data: responseCategories});
         } catch (error: any) {
             res.status(500).json({ message: error.message });
         }
     }
 
-    public async getCategoryById(req: express.Request, res: express.Response) {
+    public async getProductByName(req: express.Request, res: express.Response) {
         try {
-            const category = await Category.findById(req.params.id);
-            res.json(category);
+            const product = await Product.findOne({name: req.params.name});
+            // res.json(product);
+            const responseProduct = {
+                name: product?.name,
+                image: product?.image,
+                sizeOptions: product?.sizeOptions,
+                included: product?.included,
+                ingredients: product?.ingredients
+            }
+            res.json({success: true, data: responseProduct});
         } catch (error: any) {
             res.status(500).json({ message: error.message });
         }
