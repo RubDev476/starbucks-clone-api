@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import CategoryController from '../controllers/categoryController';
+import MenuController from '../controllers/menuController';
 
 const router = Router();
 
@@ -25,23 +25,23 @@ const router = Router();
  *                  items:
  *                    type: object
  *                    properties:
- *                      _id:
- *                        type: string
- *                        example: cf1a4ad9-a2ca-436a-93b1-369cda4a4740
  *                      name:
  *                        type: string
- *                        example: Bebidas
+ *                        example: Drinks
+ *                      slug:
+ *                        type: string
+ *                        example: drinks
  *                      types:
  *                        type: array
  *                        items:
  *                          type: object
  *                          properties:
- *                            _id:
- *                              type: string
- *                              example: da4f0bca-3a61-4371-941d-84121fc6d35c
  *                            title:
  *                              type: string
- *                              example: Bebidas Calientes
+ *                              example: Hot Coffees
+ *                            slug:
+ *                              type: string
+ *                              example: hot-coffees
  *                            image:
  *                              type: string
  *                              example: ""
@@ -59,7 +59,7 @@ const router = Router();
  *                  type: string
  *                  example: Error al obtener los datos
  */
-router.get('/menu', CategoryController.getMenu);
+router.get('/menu', MenuController.getMenu);
 
 
 // GET /api/menu/categories
@@ -118,7 +118,7 @@ router.get('/menu', CategoryController.getMenu);
  *                  type: string
  *                  example: Error al obtener los datos
  */
-router.get('/menu/categories', CategoryController.getCategories);
+router.get('/menu/categories', MenuController.getCategories);
 
 
 // GET /api/products/{name}
@@ -191,7 +191,7 @@ router.get('/menu/categories', CategoryController.getCategories);
  *                  type: string
  *                  example: Error al buscar el producto.
  */
-router.get('/menu/categories/products/:name', CategoryController.getProductByName);
+router.get('/menu/categories/products/:name', MenuController.getProductByName);
 
 
 export default router;

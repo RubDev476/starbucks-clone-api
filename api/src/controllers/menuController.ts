@@ -1,9 +1,9 @@
 import express from 'express';
 import {Section, Category, Product} from "../models";
+import {slugify} from "../utils/tools";
 
 
-
-class CategoryController {
+class MenuController {
 
     public async getMenu(req: express.Request, res: express.Response) {
 
@@ -16,9 +16,11 @@ class CategoryController {
             const responseSections = sections.map(section => {
                 return {
                     name: section.title,
+                    slug: slugify(section.title),
                     types: section.types.map((type: any) => {
                         return {
                             title: type.title,
+                            slug: slugify(type.title),
                             image: type.image
                         };
                     })
@@ -75,4 +77,4 @@ class CategoryController {
 
 }
 
-export default new CategoryController();
+export default new MenuController();

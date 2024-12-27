@@ -6,7 +6,8 @@
     "build": "npx tsc",
     "server": "node dist/server.js",
     "dev": "npx ts-node src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-db": "npx ts-node src/initDb.ts"
   },
   "keywords": [],
   "author": "",

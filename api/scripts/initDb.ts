@@ -1,77 +1,113 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 import { Section, Type, Category, Product } from '../src/models';
 // @ts-ignore
 import data from '../jsons/dataUsa.json';
 
-async function setupDatabase() {
-    try {
-        await mongoose.connect('mongodb://localhost:27017/starbucks_api');
+dotenv.config();
 
+async function clearDatabase(confirm: boolean) {
+    if (confirm) {
+        const db = mongoose.connection.db;
+        if (!db) {
+            console.error('No se pudo acceder a la base de datos.');
+            throw new Error('No se pudo acceder a la base de datos.');
+        }
+        await db.dropDatabase();
+        console.log('Base de datos eliminada.');
+    } else {
+        console.log('La base de datos no se eliminó.');
+    }
+}
+
+async function connectToDatabase(uri: string) {
+    try {
+        console.log('Conectando a MongoDB... url: ', uri);
+        await mongoose.connect(uri);
+        console.log('Conexión a MongoDB establecida.');
+    } catch (error) {
+        console.error('Error conectándose a MongoDB:', error);
+        process.exit(1);
+    }
+}
+
+async function insertData(data: any) {
+    for (const sectionData of data.menu.sections) {
+        const section = new Section({
+            title: sectionData.title,
+            image: sectionData.image,
+            types: [],
+        });
+
+        for (const typeData of sectionData.types) {
+            const type = new Type({
+                title: typeData.title,
+                image: typeData.image,
+                section: section._id,
+                categories: [],
+            });
+
+            for (const categoryData of typeData.categories) {
+                const category = new Category({
+                    title: categoryData.title,
+                    type: type._id,
+                    products: [],
+                });
+
+                for (const productData of categoryData.products) {
+                    const product = new Product({
+                        name: productData.name,
+                        image: productData.image,
+                        sizeOptions: productData.sizeOptions,
+                        included: productData.included,
+                        ingredients: productData.ingredients,
+                        category: category._id,
+                    });
+
+                    await product.save();
+                    category.products.push(product._id as mongoose.Types.ObjectId);
+                }
+
+                await category.save();
+                type.categories.push(category._id as mongoose.Types.ObjectId);
+            }
+
+            await type.save();
+            section.types.push(type._id as mongoose.Types.ObjectId);
+        }
+
+        await section.save();
+    }
+}
+
+
+async function setupDatabase() {
+    const uri = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+    console.log('uri:', uri);
+    try {
+
+        console.log('uri:', uri);
+        await connectToDatabase(uri);
 
         await mongoose.connection.asPromise();
 
-        // Validar que el JSON tenga la estructura esperada
+        await clearDatabase(true); // Cambia a `false` para no eliminar la base de datos
+
+        // Validar estructura del JSON
         if (!data || !data.menu || !data.menu.sections) {
             throw new Error('El archivo JSON no contiene la estructura esperada.');
         }
 
-        // Limpiar la base de datos
-        await mongoose.connection.db?.dropDatabase();
+        await insertData(data);
 
-        // Insertar datos desde el JSON
-        for (const sectionData of data.menu.sections) {
-            const section = new Section({
-                title: sectionData.title,
-                image: sectionData.image,
-                types: [],
-            });
-
-            for (const typeData of sectionData.types) {
-                const type = new Type({
-                    title: typeData.title,
-                    image: typeData.image,
-                    section: section._id,
-                    categories: [],
-                });
-
-                for (const categoryData of typeData.categories) {
-                    const category = new Category({
-                        title: categoryData.title,
-                        type: type._id,
-                        products: [],
-                    });
-
-                    for (const productData of categoryData.products) {
-                        const product = new Product({
-                            name: productData.name,
-                            image: productData.image,
-                            sizeOptions: productData.sizeOptions,
-                            included: productData.included,
-                            ingredients: productData.ingredients,
-                            category: category._id,
-                        });
-
-                        await product.save();
-                        category.products.push(product._id as mongoose.Types.ObjectId);
-                    }
-
-                    await category.save();
-                    type.categories.push(category._id as mongoose.Types.ObjectId);
-                }
-
-                await type.save();
-                section.types.push(type._id as mongoose.Types.ObjectId);
-            }
-
-            await section.save();
-        }
-
-        console.log('Base de datos configurada correctamente');
+        console.log('Base de datos configurada correctamente.');
     } catch (error) {
         console.error('Error configurando la base de datos:', error);
     } finally {
-        mongoose.connection.close();
+        await mongoose.connection.close();
     }
 }
 
 setupDatabase();
+
+
