@@ -1,0 +1,32 @@
+@use '../../globals/vars' as var;
+
+aside {
+    display: none;
+    margin-left: 4.7rem;
+    max-width: 140px;
+    padding: 1rem 0;
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var.$text-color-1;
+        margin: 20px 0;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+
+    a {
+        font-size: 1.1rem;
+        color: var.$text-color-1-soft;
+        font-weight: 400;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    aside {
+        display: block;
+    }
+}

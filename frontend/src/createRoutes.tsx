@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Root, Main } from './routes';
+import { Root, Main, SubCategorie, MainMenu, Rewards, Gift } from './routes';
 
 const router = createBrowserRouter([
     {
@@ -13,21 +13,21 @@ const router = createBrowserRouter([
             },
             {
                 path: 'menu',
-                element: <main>adadad</main>,
+                element: <MainMenu />,
                 children: [
                     {
-                        path: ':id',
-                        element: <main>nested</main>
+                        path: ':category/:subCategorie',
+                        element: <SubCategorie />
                     },
                 ]
             },
             {
                 path: 'rewards',
-                element: <main>rewards</main>
+                element: <Rewards />
             },
             {
                 path: 'gift',
-                element: <main>gift</main>
+                element: <Gift />
             }
         ]
     }

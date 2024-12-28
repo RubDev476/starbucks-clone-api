@@ -1,0 +1,81 @@
+@use '../globals/vars' as var;
+
+.menu-container {
+    font-size: 16px;
+    padding: 1rem 1.5rem;
+    color: var.$text-color-1;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: var.$text-color-1;
+    margin-bottom: 20px;
+
+    img {
+        max-width: 72px;
+        max-height: 72px;
+        border-radius: 100%;
+        margin-right: 1em;
+    }
+
+    &.sub-categorie {
+        flex-direction: column;
+        
+        img {
+            margin: 0 0 10px 0;
+        }
+    }
+}
+
+.subcategories-container {
+    &.sub {
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (min-width: 790px) {
+    .menu-container {
+        font-size: 18px;
+        padding: 1rem 6rem;
+    }
+
+    .subcategories-container {
+        display: grid;
+        column-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        padding: 0 2.5rem;
+    }
+
+    #menu-main-container {
+        display: flex;
+    }
+
+    .menu-container {
+        font-size: 20px;
+    }
+
+    .menu-item {    
+        img {
+            max-width: 112px;
+            max-height: 112px;
+            margin-right: 1em;
+        }
+
+        &.sub-categorie {
+            img {
+                max-width: 148px;
+                max-height: 148px;
+            }
+        }
+    }
+}
