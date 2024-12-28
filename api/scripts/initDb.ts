@@ -91,7 +91,7 @@ async function setupDatabase() {
 
         await mongoose.connection.asPromise();
 
-        await clearDatabase(true); // Cambia a `false` para no eliminar la base de datos
+        await clearDatabase(false); // Cambia a `true` para reiniciar la base de datos
 
         // Validar estructura del JSON
         if (!data || !data.menu || !data.menu.sections) {

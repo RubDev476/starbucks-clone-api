@@ -36,6 +36,15 @@ async function setupDatabase() {
 // Por ejemplo: mongodb://user:contraseña@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
 ```
 
+Si se desea volver a ejecutar el script para crear la base de datos, se debe eliminar la base de datos creada anteriormente ajustando la bandera del script.
+    
+```typescript
+// api/scripts/initDb.ts
+
+// linea 94
+await clearDatabase(false); // Cambia a `true` para reiniciar la base de datos, esto elimina la base de datos actual de la api
+```
+
 Para crear la Base de Datos, se debe ejecutar el siguiente comando:
 
 ```bash
