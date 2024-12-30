@@ -60,6 +60,8 @@ async function insertData(data: any) {
                         image: productData.image,
                         sizeOptions: productData.sizeOptions,
                         included: productData.included,
+                        description: productData.description,
+                        allergens: productData.allergens,
                         ingredients: productData.ingredients,
                         category: category._id,
                     });
