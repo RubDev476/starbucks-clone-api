@@ -1,12 +1,32 @@
+import { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { MenuTitle, SubCategorieTitle } from "../components/ui";
 
 export default function SubCategorie() {
+    const [loading, setLoading] = useState(true);
+    const [data, setData] = useState<any>([]);
+
     const location = useLocation();
+
+    useEffect(() => {
+        const fn = async () => {
+            const { data }: any = await fetch('http://localhost:4000/api/menu').then(res => res.json());
+
+            console.log(data);
+
+            setData(data);
+            setLoading(false);
+        }
+
+        fn();
+    }, []);
+
 
     if (!location.pathname.includes('drinks') && !location.pathname.includes('food')) return <main>category not found</main>
 
-    return (
+    if(loading) return <main>Loading...</main>;
+
+    if(!loading) return (
         <>
             <div className="menu-container w-full">
                 <MenuTitle title="Hot Coffees" />

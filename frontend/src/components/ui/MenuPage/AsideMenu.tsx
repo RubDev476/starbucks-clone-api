@@ -1,17 +1,21 @@
 import { Link } from 'react-router-dom';
 
-export default function AsideMenu() {
+export default function AsideMenu({data}: {data: any}) {
     return (
         <aside>
-            <p>Drinks</p>
+            {data.map((item: any) => (
+                <div key={item.slug}>
+                    <p>{item.name}</p>
 
-            <ul>
-                <li className='w-full'><Link to='/menu/drinks/hot-coffee' className='w-full'>Hot Coffees</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Cold Coffees</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Starbucks Refreshers Beverages</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Frappuccino Blended Beverages</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Iced Tea & Lemonade</Link></li>
-            </ul>
+                    <ul>
+                        {item.types.map((sub: any) => (
+                            <li key={sub.title}>
+                                <Link to={`/menu/${item.slug}/${sub.slug}`}  className='w-full'>{sub.title}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
         </aside>
     )
 }

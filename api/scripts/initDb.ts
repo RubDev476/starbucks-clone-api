@@ -82,8 +82,11 @@ async function insertData(data: any) {
 
 
 async function setupDatabase() {
-    const uri = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+    //const uri = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+    const uri = process.env.MONGODB_URL;
     console.log('uri:', uri);
+    if(!uri) return;
+
     try {
 
         console.log('uri:', uri);
@@ -91,7 +94,7 @@ async function setupDatabase() {
 
         await mongoose.connection.asPromise();
 
-        await clearDatabase(false); // Cambia a `true` para reiniciar la base de datos
+        await clearDatabase(true); // Cambia a `true` para reiniciar la base de datos
 
         // Validar estructura del JSON
         if (!data || !data.menu || !data.menu.sections) {
