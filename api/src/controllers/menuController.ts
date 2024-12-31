@@ -1,5 +1,5 @@
 import express from 'express';
-import {Section, Category, Product} from "../models";
+import {Section, Product} from "../models";
 import {slugify} from "../utils/tools";
 
 
@@ -31,30 +31,6 @@ class MenuController {
         } catch (error) {
             console.error('Error al obtener categorías con sus tipos:', error);
             res.status(500).json({ success: false, message: 'Error al obtener los datos' });
-        }
-    }
-
-    public async getCategories(req: express.Request, res: express.Response) {
-        try {
-            const categories = await Category.find().populate({
-                path: 'products', select: 'name image'
-            });
-
-            const responseCategories = categories.map(category => {
-                return {
-                    title: category.title,
-                    products: category.products.map((product: any) => {
-                        return {
-                            name: product.name,
-                            image: product.image
-                        };
-                    })
-                };
-            });
-
-            res.json({success: true, data: responseCategories});
-        } catch (error: any) {
-            res.status(500).json({ message: error.message });
         }
     }
 
