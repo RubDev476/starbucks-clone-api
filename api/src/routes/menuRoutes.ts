@@ -68,7 +68,7 @@ router.get('/menu', MenuController.getMenu);
  * @openapi
  * /api/menu/type/{title}:
  *  get:
- *    summary: Obtiene las categorías del menú junto con sus productos.
+ *    summary: Obtiene el tipo y sus categorias junto con sus productos.
  *    parameters:
  *      - name: title
  *        in: path
