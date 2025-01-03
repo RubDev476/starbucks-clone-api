@@ -1,11 +1,16 @@
-
+// Objetivo: Funciones de utilidad.
 export function slugify(str: string): string {
   return str
       .toLowerCase()
-      .replace(/&/g, '') // Omite el carácter "&"
-      .replace(/\s+/g, '-') // Reemplaza uno o más espacios con un solo "-"
-      .replace(/-+/g, '-') // Evita múltiples guiones consecutivos
-      .replace(/^-|-$/g, '') // Elimina guiones al inicio o al final de la cadena
-      .replace(/[^\w-]+/g, ''); // Elimina caracteres no permitidos
+      .replace(/, /g, '---') // Convierte ", " a "---".
+      .replace(/ /g, '-') // Convierte espacios a "-".
+      .replace(/[^\w-]+/g, ''); // Elimina caracteres no alfanuméricos.
 }
 
+export function deslugify(slug: string): string {
+  return slug
+      .replace(/---/g, ', ') // Convierte "---" a ", ".
+      .replace(/--/g, ' & ') // Convierte "--" a " & ".
+      .replace(/-/g, ' ') // Convierte "-" a espacios.
+      .replace(/\b\w/g, (char) => char.toUpperCase()); // Capitaliza la primera letra de cada palabra.
+}

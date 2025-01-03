@@ -58,6 +58,7 @@ async function insertData(data: any) {
                     const product = new Product({
                         name: productData.name,
                         image: productData.image,
+                        imageSmall: productData.imageSmall,
                         sizeOptions: productData.sizeOptions,
                         included: productData.included,
                         description: productData.description,
