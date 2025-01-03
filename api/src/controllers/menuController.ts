@@ -15,10 +15,12 @@ class MenuController {
 
             const responseSections = sections.map(section => {
                 return {
+                    id: section._id,
                     name: section.title,
                     slug: slugify(section.title),
                     types: section.types.map((type: any) => {
                         return {
+                            id: type._id,
                             title: type.title,
                             slug: slugify(type.title),
                             image: type.image
