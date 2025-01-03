@@ -2,29 +2,24 @@ import { useState, useEffect } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 
 import { MenuTitle, SubCategorieTitle, AsideMenu } from "../components/ui";
+import type { FetchMainCategories, MainCategory } from "../types/global";
 
 export default function MainMenu() {
     const [loading, setLoading] = useState(true);
-    const [data, setData] = useState<any>([]);
+    const [MainCategoriesFetch, setCategories] = useState<MainCategory[]>([]);
 
     const {pathname} = useLocation();
 
     useEffect(() => {
-        const fn = async () => {
-            const {data}: any = await fetch('http://localhost:4000/api/menu').then(res => res.json());
+        const getCategories = async () => {
+            const {data}: FetchMainCategories = await fetch('http://localhost:4000/api/menu').then(res => res.json());
     
-            console.log(data);
-    
-            setData(data);
+            setCategories(data);
             setLoading(false);
         }
     
-        fn();
+        getCategories();
     }, []);
-
-    function countOccurrences(str: string, char: string) {
-        return str.split(char).length - 1;
-    }
 
     if(loading) return <main>Loading...</main>;
 
@@ -32,22 +27,22 @@ export default function MainMenu() {
         <>
             <div className="main">
                 <div id="menu-main-container" className="max-width-content margin-auto">
-                    <AsideMenu data={data} />
+                    <AsideMenu data={MainCategoriesFetch} />
 
-                    {countOccurrences(pathname, '/') === 1 && (
+                    {pathname === '/menu' && (
                         <div className="menu-container w-full">
                             <MenuTitle title="Menu" />
 
-                            {data.map((item: any) => (
-                                <div key={item.slug} className="menu-subcontainer">
-                                    <SubCategorieTitle title={item.name} />
+                            {MainCategoriesFetch.map((category) => (
+                                <div key={category.slug} className="menu-subcontainer">
+                                    <SubCategorieTitle title={category.name} />
 
                                     <div className="subcategories-container">
-                                        {item.types.map((sub: any) => (
-                                            <Link to={`/menu/${item.slug}/${sub.slug}`} key={sub.title} className="menu-item">
-                                                <img src={sub.image} alt="menu-item" />
+                                        {category.types.map((type) => (
+                                            <Link to={`/menu/${category.slug}/${type.title}`} key={type.title} className="menu-item">
+                                                <img src={type.image} alt="menu-item" />
 
-                                                {sub.title}
+                                                {type.title}
                                             </Link>
                                         ))}
                                     </div>

@@ -43,7 +43,6 @@
         column-gap: 20px;
         row-gap: 20px;
         grid-template-columns: repeat(2, 1fr);
-        *grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     }
 }
 
@@ -67,7 +66,6 @@
             display: grid;
             column-gap: 10px;
             row-gap: 20px;
-            *grid-template-columns: repeat(4, 1fr);
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         }
     }

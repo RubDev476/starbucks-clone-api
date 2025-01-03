@@ -14,7 +14,7 @@
                 "products": [
                   {
                     "name": "Caffè Americano",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/americanos/u7kfwmafn2v7iqmu05rh.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -149,7 +149,7 @@
                 "products": [
                   {
                     "name": "Starbucks Christmas Blonde Roast Clover Vertica",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -275,7 +275,7 @@
                   },
                   {
                     "name": "Featured Medium Roast - Pike Place Roast",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -401,7 +401,7 @@
                   },
                   {
                     "name": "Christmas Blend Clover Vertica",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -527,7 +527,7 @@
                   },
                   {
                     "name": "Decaf Pike Place Roast",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -653,7 +653,7 @@
                   },
                   {
                     "name": "Caffè Misto",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/iljo3rapzjeyu4qptozg.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -802,7 +802,7 @@
                   },
                   {
                     "name": "Starbucks Reserve Christmas 2024 Clover Vertica",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -928,7 +928,7 @@
                   },
                   {
                     "name": "Caffè Verona Clover Vertica",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1054,7 +1054,7 @@
                   },
                   {
                     "name": "Veranda Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1180,7 +1180,7 @@
                   },
                   {
                     "name": "Veranda Blend Clover Vertica",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1306,7 +1306,7 @@
                   },
                   {
                     "name": "Featured Dark Roast",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1438,7 +1438,7 @@
                 "products": [
                   {
                     "name": "Cappuccino",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/capuccinos/ubwsbtupmipyjv92n3hr.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1599,7 +1599,7 @@
                 "products": [
                   {
                     "name": "Espresso",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/espresso%20shots/gbng0sjr6tqnfyleokiq.avif",
                     "sizeOptions": {
                       "solo": {
                         "oz": "0.75 fl",
@@ -1731,7 +1731,7 @@
                   },
                   {
                     "name": "Espresso Con Panna",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/espresso%20shots/yi0uvecsmfkrjz4mv2wk.avif",
                     "sizeOptions": {
                       "solo": {
                         "oz": "0.75 fl",
@@ -1883,7 +1883,7 @@
                 "products": [
                   {
                     "name": "Flat White",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/flat%20whites/idt4gpcjvvor4c4ihxem.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2037,7 +2037,7 @@
 
                   {
                     "name": "Honey Almondmilk Flat White",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/flat%20whites/idt4gpcjvvor4c4ihxem.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2198,7 +2198,7 @@
                 "products": [
                   {
                     "name": "Caramel Brulée Latte",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/lattes/xerguyjb0ljhsft7sf5f.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2361,7 +2361,7 @@
                 "products": [
                   {
                     "name": "Apple Crisp Oatmilk Macchiato",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/macchiatos/htjzg2yph0hfhq802a66.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2513,7 +2513,7 @@
                 "products": [
                   {
                     "name": "Peppermint Mocha",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988868/Starbucks-API/Sub%20categories/drinks/hot-coffees/mochas/lpz7simistxkphjbmt1f.avif",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2669,7 +2669,7 @@
                 "products": [
                   {
                     "name": "Coffee Traveler - Veranda Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988868/Starbucks-API/Sub%20categories/drinks/hot-coffees/rpi9p7wxfsvojztzk6ic.avif",
                     "sizeOptions": {
                       "default": {
                         "oz": "8 fl",
@@ -3003,7 +3003,7 @@
                 "products": [
                   {
                     "name": "Egg, Pesto & Mozzarella Sandwich",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/kliioyyjdceb7hkl6wgs.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "146 g",
@@ -3056,7 +3056,7 @@
                 "products": [
                   {
                     "name": "Bacon & Gruyère Egg Bites",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/bakes%20and%20egg%20bites/ik6lfaaslulhqunjxo39.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "130 g",
@@ -3113,7 +3113,7 @@
                 "products": [
                   {
                     "name": "Rolled & Steel-Cut Oatmeal",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223674/Starbucks-API/Sub%20categories/food/oatmeal%20and%20yogurt/t6n59fuymqzziirwqw5z.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "42 g",
@@ -3169,7 +3169,7 @@
                 "products": [
                   {
                     "name": "Plain Bagel",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/bagels/b3lgdprd6dxsp8qeuw2c.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "108 g",
@@ -3217,7 +3217,7 @@
                 "products": [
                   {
                     "name": "Snowman Cake Pop",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cake%20pops/zqwkws76ioqb8y1y2gyq.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "108 g",
@@ -3269,7 +3269,7 @@
                 "products": [
                   {
                     "name": "Penguin Cookie",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/xdhvqxdu9ubbzomysgn9.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "63 g",
@@ -3322,7 +3322,7 @@
                 "products": [
                   {
                     "name": "Baked Apple Croissant",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/croissants/v4vkpzhtypmtlanayxtd.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "75 g",
@@ -3372,7 +3372,7 @@
                 "products": [
                   {
                     "name": "Dark Toffee Bundt",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/rwampkkayjgxvhezsiip.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "91 g",
@@ -3425,7 +3425,7 @@
                 "products": [
                   {
                     "name": "Turkey Sage Danish",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/danishes%20and%20doughnuts/ie67hsd2vinuremlhsja.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "90 g",
@@ -3476,7 +3476,7 @@
                 "products": [
                   {
                     "name": "Pumpkin Cream Cheese Muffin",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/muffins%20and%20scones/alqkrifgky9qflyxz3ph.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "113 g",
@@ -3534,7 +3534,7 @@
                 "products": [
                   {
                     "name": "Crispy Grilled Cheese on Sourdough",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225716/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/wehvvkxdb0aswpgimesr.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "113 g",
@@ -3585,7 +3585,7 @@
                 "products": [
                   {
                     "name": "Eggs & Gouda Protein Box",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/a4udsgynladkuc9om5qv.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "170 g",
@@ -3644,7 +3644,7 @@
                 "products": [
                   {
                     "name": "Madeleines",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226688/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/biscotti%20and%20cookies/obqtmkoqu3vxogmh8j4h.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "51 g",
@@ -3693,7 +3693,7 @@
                 "products": [
                   {
                     "name": "Tony's Chocolonely Milk Chocolate Gingerbread",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226689/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/chocolates%20and%20candy/jvqqyhydc3kadoudzrmi.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": ""
@@ -3712,7 +3712,7 @@
                 "products": [
                   {
                     "name": "SkinnyDipped Dark Chocolate Peppermint Almonds",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/fruit%20and%20nuts/vxwtjtmyoc5ubgcdvzdd.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "34 g",
@@ -3761,7 +3761,7 @@
                 "products": [
                   {
                     "name": "Spearmint Gum",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/gum%20and%20mints/lfnu15bpprmeqnc1eqew.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": ""
@@ -3780,7 +3780,7 @@
                 "products": [
                   {
                     "name": "Siete Sea Salt Kettle Cooked Potato Chips",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/popcorn%20and%20chips/n7u5rdtaj7cofjtpatng.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "42.5 g",
@@ -3829,7 +3829,7 @@
                 "products": [
                   {
                     "name": "Country Archer - Hickory Smoked Turkey Jerkey",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/meat%20and%20cheese/gdjjx6eek1zbmj1cu4ha.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "28 g",
@@ -3877,7 +3877,7 @@
                 "products": [
                   {
                     "name": "Perfect Bar Dark Chocolate Mint",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/ygukrnpkwzgobesewu2f.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "65 g",
@@ -3929,7 +3929,7 @@
                 "products": [
                   {
                     "name": "Avocado Spread",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226693/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/spreads/ibzvx0rupih78zkkazrq.avif",
                     "sizeOptions": {
                       "default": {
                         "pz": "57 g",
@@ -3990,7 +3990,7 @@
                 "products": [
                   {
                     "name": "Starbucks Reserve Christmas 2024",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235790/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/starbucks%20reserve/vhkr9ceotkmblxrh32q7.avif",
                     "sizeOptions": {
                       "default": {
                         "content": "8.8 oz"
@@ -4005,7 +4005,7 @@
                 "products": [
                   {
                     "name": "Starbucks Green Apron Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235787/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/blonde%20roast/bacnql4xdbr26ep83hk1.avif",
                     "sizeOptions": {
                       "default": {
                         "content": "1 lb"
@@ -4020,7 +4020,7 @@
                 "products": [
                   {
                     "name": "Starbucks Holiday Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235789/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/syq6yml09tiiuz3ov49p.avif",
                     "sizeOptions": {
                       "default": {
                         "content": "1 lb"
@@ -4035,7 +4035,7 @@
                 "products": [
                   {
                     "name": "Starbucks Thanksgiving Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235789/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/qgk9gbnd7l6ah7wkjgux.avif",
                     "sizeOptions": {
                       "default": {
                         "content": "1 lb"
@@ -4056,7 +4056,7 @@
                 "products": [
                   {
                     "name": "Starbucks Christmas Blend Ground Coffee",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/ground/dark%20roast/cufwsx56u8esrszk5nfu.avif",
                     "sizeOptions": {
                       "default": {
 
@@ -4077,7 +4077,7 @@
                 "products": [
                   {
                     "name": "VIA Sweetened Iced Coffee",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/flavored/ilhfkke6kscwjv9tz1cq.avif",
                     "sizeOptions": {
                       "default": {
 
@@ -4092,7 +4092,7 @@
                 "products": [
                   {
                     "name": "VIA Veranda Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/blonde%20roast/ituxfvxvliisp7aiop94.avif",
                     "sizeOptions": {
                       "default": {
 
@@ -4107,7 +4107,7 @@
                 "products": [
                   {
                     "name": "Starbucks VIA Instant Pike Place Roast",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235786/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/medium%20roast/fjzqeo5i9navewegpylv.avif",
                     "sizeOptions": {
                       "default": {
 
@@ -4122,7 +4122,7 @@
                 "products": [
                   {
                     "name": "Starbucks VIA Instant Christmas Blend",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/dark%20roast/cpv8rae4qqducgfhvnhn.avif",
                     "sizeOptions": {
                       "default": {
 
@@ -4149,7 +4149,7 @@
                 "products": [
                   {
                     "name": "Glitter Color-Changing Plastic Reusable Cold Cup & Straw – 24 fl oz",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236481/Starbucks-API/Sub%20categories/merchandise/cold%20cups/uosod6im2ldrywderexe.avif",
                     "sizeOptions": {
                       "default": {
 
@@ -4191,7 +4191,7 @@
                 "products": [
                   {
                     "name": "Glass Mug - 16 fl oz",
-                    "image": "",
+                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236482/Starbucks-API/Sub%20categories/merchandise/mugs/fnvn6zeu0xiosqwikpav.avif",
                     "sizeOptions": {
                       "default": {
 
