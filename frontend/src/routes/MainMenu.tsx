@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 
-import { MenuTitle, SubCategorieTitle, AsideMenu } from "../components/ui";
+import { MenuTitle, SubCategorieTitle, AsideMenu, Loader } from "../components/ui";
 import type { FetchMainCategories, MainCategory } from "../types/global";
 
 export default function MainMenu() {
@@ -21,7 +21,7 @@ export default function MainMenu() {
         getCategories();
     }, []);
 
-    if(loading) return <main>Loading...</main>;
+    if(loading) return <Loader />;
 
     if(!loading) return (
         <>

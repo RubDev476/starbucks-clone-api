@@ -14,7 +14,7 @@
                 "products": [
                   {
                     "name": "Caffè Americano",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/americanos/u7kfwmafn2v7iqmu05rh.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -140,7 +140,7 @@
                       "espressoShots": 4
                     },
                     "ingredients": "Water, Brewed Espresso.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/americanos/u7kfwmafn2v7iqmu05rh.avif"
                   }
                 ]
               },
@@ -149,7 +149,7 @@
                 "products": [
                   {
                     "name": "Starbucks Christmas Blonde Roast Clover Vertica",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -272,11 +272,11 @@
                     },
                     "description": "Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif"
                   },
                   {
                     "name": "Featured Medium Roast - Pike Place Roast",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -399,11 +399,11 @@
                     },
                     "description": "From our first store in Seattle’s Pike Place Market to our coffeehouses around the world, customers requested a freshly brewed coffee they could enjoy throughout the day. In 2008 our master blenders and roasters created this for you—a smooth, well-rounded blend of Latin American coffees with subtly rich flavors of chocolate and toasted nuts, it’s served fresh every day at a Starbucks store near you.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif"
                   },
                   {
                     "name": "Christmas Blend Clover Vertica",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -526,11 +526,11 @@
                     },
                     "description": "A rich, robust blend with notes of spiced chocolate and spruce tips, making every sip velvety-smooth and oh-so-nice.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif"
                   },
                   {
                     "name": "Decaf Pike Place Roast",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -653,11 +653,11 @@
                     },
                     "description": "From our first store in Seattle’s Pike Place Market to our coffeehouses around the world, customers requested a freshly brewed coffee they could enjoy throughout the day. In 2008 our master blenders and roasters created this for you—a smooth, well-rounded blend of Latin American coffees with subtly rich flavors of chocolate and toasted nuts, it’s served fresh every day at a Starbucks store near you. (Decaf as you like it.)",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif"
                   },
                   {
                     "name": "Caffè Misto",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/iljo3rapzjeyu4qptozg.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -803,11 +803,11 @@
                     },
                     "description": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
                     "ingredients": "Brewed Coffee, Milk.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/iljo3rapzjeyu4qptozg.avif"
                   },
                   {
                     "name": "Starbucks Reserve Christmas 2024 Clover Vertica",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -930,11 +930,11 @@
                     },
                     "description": "Cedar and leather aromas highlight notes of lemon zest, maple and candied ginger with a syrupy mouthfeel. Our master blenders have joined three remarkable coffees into a blend as rare and memorable as the season. Starting with hand-selected beans from Hacienda Alsacia, our farm in Costa Rica, we add perfectly aged Sumatran beans and full-bodied coffee from the Aceh region of Indonesia. A special holiday blend that pairs well with old friends and new traditions.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif"
                   },
                   {
                     "name": "Caffè Verona Clover Vertica",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1057,11 +1057,11 @@
                     },
                     "description": "Well-balanced and rich with a dark cocoa texture. Try it with a piece of dark chocolate to bring out even more sweetness.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif"
                   },
                   {
                     "name": "Veranda Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1184,11 +1184,11 @@
                     },
                     "description": "In Latin America, coffee farms are often run by families, with their own homes on the same? land where their coffee grows. We’ve sipped coffee with these farmers for decades,? sitting on their verandas, overlooking the lush beauty of the coffee trees rolling out in the? distance. Most times it was a lightly roasted coffee like this one. It took us more than 80? tries to get it right—mellow and flavorful with a nice softness.?",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif"
                   },
                   {
                     "name": "Veranda Blend Clover Vertica",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1311,11 +1311,11 @@
                     },
                     "description": "We’ve spent decades working with coffee farmers throughout Latin America. This blend was inspired by the lightly roasted coffees we’ve sipped together over the years, often enjoyed on a breezy veranda with a view of lush coffee trees. Subtle but flavorful with notes of toasted sweet malt and milk chocolate, it’s an inviting, approachable coffee that mixes beautifully with milk.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif"
                   },
                   {
                     "name": "Featured Dark Roast",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1438,7 +1438,7 @@
                     },
                     "description": "This full-bodied dark roast coffee has the bold, robust flavors to showcase our roasting and blending artistry.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif"
                   }
                 ]
               },
@@ -1447,7 +1447,7 @@
                 "products": [
                   {
                     "name": "Cappuccino",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/capuccinos/ubwsbtupmipyjv92n3hr.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -1599,7 +1599,7 @@
                     },
                     "description": "Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft.",
                     "ingredients": "MILK, BREWED ESPRESSO.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/capuccinos/ubwsbtupmipyjv92n3hr.avif"
                   }
                 ]
               },
@@ -1608,7 +1608,7 @@
                 "products": [
                   {
                     "name": "Espresso",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/espresso%20shots/gbng0sjr6tqnfyleokiq.avif",
+                    "image": "",
                     "sizeOptions": {
                       "solo": {
                         "oz": "0.75 fl",
@@ -1737,11 +1737,11 @@
                     },
                     "description": "Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do.",
                     "ingredients": "Brewed Espresso.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/espresso%20shots/gbng0sjr6tqnfyleokiq.avif"
                   },
                   {
                     "name": "Espresso Con Panna",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/espresso%20shots/yi0uvecsmfkrjz4mv2wk.avif",
+                    "image": "",
                     "sizeOptions": {
                       "solo": {
                         "oz": "0.75 fl",
@@ -1884,7 +1884,7 @@
                     },
                     "description": "Espresso meets a dollop of whipped cream to enhance the rich and caramelly flavors of a straight-up shot.",
                     "ingredients": "Brewed Espresso.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/espresso%20shots/yi0uvecsmfkrjz4mv2wk.avif"
                   }
                 ]
               },
@@ -1893,7 +1893,7 @@
                 "products": [
                   {
                     "name": "Flat White",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/flat%20whites/idt4gpcjvvor4c4ihxem.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2043,11 +2043,11 @@
                     },
                     "description": "Smooth ristretto shots of espresso get the perfect amount of steamed whole milk to create a not-too-strong, not-too-creamy, just-right flavor.",
                     "ingredients": "Milk, Brewed Espresso.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/flat%20whites/idt4gpcjvvor4c4ihxem.avif"
                   },
                   {
                     "name": "Honey Almondmilk Flat White",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/flat%20whites/idt4gpcjvvor4c4ihxem.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2199,7 +2199,7 @@
                     },
                     "description": "This flat white intentionally pairs almondmilk and Starbucks Blonde Espresso Roast with a hint of honey, making a perfect amount of creamy, nutty sweetness.\n\nIf Starbucks Blonde Espresso Roast is not available, Signature Espresso Roast will be substituted.",
                     "ingredients": "ALMONDMILK [FILTERED WATER, ALMONDS, SUGAR, CALCIUM CARBONATE, SUNFLOWER LECITHIN, SEA SALT, XANTHAN GUM, GUAR GUM, VITAMIN A PALMITATE, VITAMIN D2 (ERGOCALCIFEROL)], BREWED ESPRESSO, HONEY BLEND [HONEY, WATER, NATURAL FLAVORS, POTASSIUM SORBATE, XANTHAN GUM, CITRIC ACID]",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/flat%20whites/idt4gpcjvvor4c4ihxem.avif"
                   }
                 ]
               },
@@ -2208,7 +2208,7 @@
                 "products": [
                   {
                     "name": "Caramel Brulée Latte",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/lattes/xerguyjb0ljhsft7sf5f.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2361,7 +2361,7 @@
                     },
                     "description": "Our signature espresso, steamed milk and rich caramel brulée sauce finished with whipped cream and a supreme topping of even more caramel brulée bits.",
                     "ingredients": "ALMONDMILK [FILTERED WATER, ALMONDS, SUGAR, CALCIUM CARBONATE, SUNFLOWER LECITHIN, SEA SALT, XANTHAN GUM, GUAR GUM, VITAMIN A PALMITATE, VITAMIN D2 (ERGOCALCIFEROL)], BREWED ESPRESSO, HONEY BLEND [HONEY, WATER, NATURAL FLAVORS, POTASSIUM SORBATE, XANTHAN GUM, CITRIC ACID]",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/lattes/xerguyjb0ljhsft7sf5f.avif"
                   }
                 ]
               },
@@ -2370,7 +2370,7 @@
                 "products": [
                   {
                     "name": "Apple Crisp Oatmilk Macchiato",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/macchiatos/htjzg2yph0hfhq802a66.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2512,7 +2512,7 @@
                     },
                     "description": "Layered flavors of apple, cinnamon, oats and brown sugar harmonize with Starbucks Blonde Espresso Roast, creamy oatmilk and spiced-apple drizzle to create a delicious apple crisp you can sip. A nostalgic autumn pick-me-up.\n\nIf Starbucks Blonde Espresso Roast is not available, Signature Espresso Roast will be substituted.",
                     "ingredients": "OATMILK [OATMILK (WATER, OATS), CANOLA OIL, CONTAINS 2% OR LESS OF: DIPOTASSIUM PHOSPHATE, CALCIUM CARBONATE, TRICALCIUM PHOSPHATE, SEA SALT, DICALCIUM PHOSPHATE, RIBOFLAVIN, VITAMIN A, VITAMIN D2, VITAMIN B12], BREWED ESPRESSO, APPLE BROWN SUGAR SYRUP [SUGARS (INVERT SUGAR, BROWN SUGAR), WATER, NATURAL FLAVORS, SALT, PRESERVATIVE: POTASSIUM SORBATE, MALIC ACID], SPICED APPLE DRIZZLE [SUGARS (CORN SYRUP, INVERT SUGAR, APPLE JUICE CONCENTRATE, SUGAR), WATER, CINNAMON, SALT, PRESERVATIVE: POTASSIUM SORBATE, CARAMELIZED SUGAR (FOR COLOR, WHEAT), MALIC ACID, NUTMEG]",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/macchiatos/htjzg2yph0hfhq802a66.avif"
                   }
                 ]
               },
@@ -2521,7 +2521,7 @@
                 "products": [
                   {
                     "name": "Peppermint Mocha",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988868/Starbucks-API/Sub%20categories/drinks/hot-coffees/mochas/lpz7simistxkphjbmt1f.avif",
+                    "image": "",
                     "sizeOptions": {
                       "short": {
                         "oz": "8 fl",
@@ -2668,7 +2668,7 @@
                     },
                     "description": "Our festive, all-star Peppermint Mocha brightens the holidays: signature Espresso Roast combines with steamed milk, sweet mocha sauce and peppermint-flavored syrup, topped with whipped cream and dark-chocolate curls.",
                     "ingredients": "MILK, MOCHA SAUCE [WATER, SUGAR, COCOA PROCESSED WITH ALKALI, NATURAL FLAVOR], BREWED ESPRESSO, PEPPERMINT SYRUP [SUGAR, WATER, NATURAL FLAVOR, SODIUM BENZOATE, CITRIC ACID], WHIPPED CREAM [CREAM (CREAM, MONO AND DIGLYCERIDES, CARAGEENAN), VANILLA SYRUP (SUGAR, WATER, NATURAL FLAVORS, POTASSIUM SORBATE, CITRIC ACID)], DARK CHOCOLATE CURLS [SUGAR, CHOCOLATE MASS (PROCESSED WITH ALKALI), COCOA BUTTER, SOY LECITHIN, VANILLA EXTRACT, MILK]",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988868/Starbucks-API/Sub%20categories/drinks/hot-coffees/mochas/lpz7simistxkphjbmt1f.avif"
                   }
                 ]
               },
@@ -2677,7 +2677,7 @@
                 "products": [
                   {
                     "name": "Coffee Traveler - Veranda Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988868/Starbucks-API/Sub%20categories/drinks/hot-coffees/rpi9p7wxfsvojztzk6ic.avif",
+                    "image": "",
                     "sizeOptions": {
                       "default": {
                         "oz": "8 fl",
@@ -2711,7 +2711,7 @@
                     },
                     "description": "A convenient carrier filled with 96 fl oz of our brewed Starbucks Blonde Veranda Blend (equivalent to 12 8-fl-oz cups), perfect for meetings, picnic gatherings or any occasion that calls for coffee.",
                     "ingredients": "BREWED COFFEE.",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988868/Starbucks-API/Sub%20categories/drinks/hot-coffees/rpi9p7wxfsvojztzk6ic.avif"
                   }
                 ]
               }
@@ -2904,15 +2904,15 @@
         "image": "",
         "types": [
           {
-            "title": "Hot Breakfast",
+            "title": "Breakfast",
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/food/jkeunchwabjngrrarmrf.avif",
             "categories": [
               {
-                "title": "Breakfast Sandwiches & Wraps",
+                "title": "Breakfast Sandwiches",
                 "products": [
                   {
                     "name": "Egg, Pesto & Mozzarella Sandwich",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/kliioyyjdceb7hkl6wgs.avif",
+                    "image": "",
                     "sizeOptions": {
                       "default": {
                         "pz": "146 g",
@@ -2956,7 +2956,52 @@
                     ],
                     "description": "Fluffy, cage-free egg frittata with kale, basil pesto and mozzarella on a toasted Cheddar and onion bun. An herbaceous twist on a classic egg and cheese sandwich.\n\n-HIGH-PROTEIN\n-VEGETARIAN",
                     "ingredients": "CHEDDAR AND ONION BIALY [ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, ASCORBIC ACID (DOUGH CONDITIONER), THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, WHITE CHEDDAR CHEESE (PASTEURIZED MILK, BACTERIAL CULTURE, SALT, MICROBIAL ENZYMES), ONIONS, SUNFLOWER AND/OR SOYBEAN OIL, EXTRA VIRGIN OLIVE OIL, SALT, YEAST, WHEAT FLOUR, CULTURED WHEAT FLOUR, LACTIC ACID, ASCORBIC ACID, MICROBIAL ENZYMES], EGG FRITTATA PATTY [EGGS, YOGURT (PASTEURIZED SKIM MILK, MILK PROTEIN CONCENTRATE, MICROBIAL ENZYMES, CHEESE CULTURE), MONTEREY JACK CHEESE (PASTUERIZED MILK, CHEESE CULTURE, SALT, MICROBIAL ENZYMES), GRUYERE CHEESE (CULTURED PASTEURIZED MILK, SALT, MICROBIAL ENZYMES), CONTAINS 2% OR LESS OF THE FOLLOWING: UNMODIFIED CORN STARCH, MIRIN (RICE WINE), NATURAL GINGER FLAVOR, GINGER PUREE (GINGER, WATER, SALT, CITRIC ACID), SOY TYPE FLAVOR (HYDROLIZED PROTEIN, YEAST EXTRACT, MALTODEXTRIN, SUNFLOWER OIL, NATURAL FLAVOR), GARLIC, SALT, RICE VINEGAR, XANTHAN GUM, CITRIC ACID], LOW MOISTURE PART-SKIM MOZZARELLA CHEESE [CULTURED PASTEURIZED PART-SKIM MILK, SALT, MICROBIAL ENZYMES], KALE PESTO [KALE, VEGETABLE OIL BLEND (CANOLA OIL, OLIVE OIL), BASIL, PARSLEY, GARLIC, LEMON JUICE CONCENTRATE, CONTAINS 2% OR LESS OF THE FOLLOWING: SEA SALT, CITRIC ACID, ASCORBIC ACID]",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/kliioyyjdceb7hkl6wgs.avif"
+                  },
+                  {
+                    "name": "Bacon, Gouda & Egg Sandwich",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/jlnxu05mnad5dymvqjma.avif"
+                  },
+                  {
+                    "name": "Double-Smoked Bacon, Cheddar & Egg Sandwich",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/mfe8f9j91jriugmuwlz5.avif"
+                  },
+                  {
+                    "name": "Sausage, Cheddar & Egg Sandwich",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/hbpyfp5ec1hgn1fuvpxl.avif"
+                  },
+                  {
+                    "name": "Turkey Bacon, Cheddar & Egg White Sandwich",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/tcl4wdmudsadb3nuympm.avif"
+                  },
+                  {
+                    "name": "Impossible™ Breakfast Sandwich",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/ju78uh7bruov3qbzzopr.avif"
+                  },
+                  {
+                    "name": "Avocado Spread",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/qntplnlabbucrrhaq4cc.avif"
+                  }
+                ]
+              },
+              {
+                "title": "Breakfast Wraps",
+                "products": [
+                  {
+                    "name": "Bacon, Sausage & Egg Wrap",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/q6hdpkjc4gnsdcxpslns.avif"
+                  },
+                  {
+                    "name": "Spinach, Feta & Egg White Wrap",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223543/Starbucks-API/Sub%20categories/food/hot%20breakfast/breakfast%20sandwiches%20and%20wraps/uxqpugi09fkmt59fjngn.avif"
                   }
                 ]
               },
@@ -2965,7 +3010,7 @@
                 "products": [
                   {
                     "name": "Bacon & Gruyère Egg Bites",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/bakes%20and%20egg%20bites/ik6lfaaslulhqunjxo39.avif",
+                    "image": "",
                     "sizeOptions": {
                       "default": {
                         "pz": "130 g",
@@ -3007,63 +3052,37 @@
                     ],
                     "description": "Sous vide eggs with aged Gruyère cheese, and topped with applewood-smoked bacon. It's just the right size, just the right flavor and is perfectly fluffy.\n\n-HIGH-PROTEIN",
                     "ingredients": "COTTAGE CHEESE [CULTURED NONFAT MILK, MILK, NONFAT MILK, CONTAINS 2 % OR LESS OF: WHEY, SALT, MALTODEXTRIN, CITRIC ACID, CARRAGEENAN, MONO- AND DIGLYCERIDES, LOCUST BEAN GUM, GUAR GUM, NATURAL FLAVORS, VITAMIN A PALMITATE, CARBON DIOXIDE (TO MAINTAIN FRESHNESS), ENZYMES], EGGS [EGGS, CITRIC ACID, WATER], CHEESE BLEND [MONTEREY JACK CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), GRUYERE CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POTATO STARCH, POWDERED CELLULOSE, NATAMYCIN (A NATURAL MOLD INHIBITOR)], UNSALTED BUTTER [PASTEURIZED CREAM, NATURAL FLAVORS], UNCURED BACON - NO NITRITES OR NITRATES ADDED EXCEPT AS NATURALLY OCCURRING IN SEA SALT AND CELERY JUICE POWDER [PORK, WATER, SEA SALT, CANE SUGAR, CULTURED CELERY JUICE, CHERRY POWDER], RICE STARCH, CORN STARCH, SALT, WHITE DISTILLED VINEGAR [DILUTED WITH WATER TO 4% ACIDITY], HOT SAUCE [DISTILLED VINEGAR, RED PEPPER, SALT]",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/bakes%20and%20egg%20bites/ik6lfaaslulhqunjxo39.avif"
+                  },
+                  {
+                    "name": "Egg White & Roasted Red Pepper Egg Bites",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/bakes%20and%20egg%20bites/ct77fvls7nivehhbe41p.avif"
+                  },
+                  {
+                    "name": "Kale & Mushroom Egg Bites",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/bakes%20and%20egg%20bites/pq8sdkj4ed9xohogejpg.avif"
+                  },
+                  {
+                    "name": "Potato, Cheddar & Chive Bakes",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223542/Starbucks-API/Sub%20categories/food/hot%20breakfast/bakes%20and%20egg%20bites/z0rsc53n9gjknltmhyyi.avif"
                   }
                 ]
-              }
-            ]
-          },
-          {
-            "title": "Oatmeal & Yogurt",
-            "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/food/raq74i4lko4zxirvupiv.avif",
-            "categories": [
+              },
               {
                 "title": "Oatmeal & Yogurt",
                 "products": [
                   {
                     "name": "Rolled & Steel-Cut Oatmeal",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223674/Starbucks-API/Sub%20categories/food/oatmeal%20and%20yogurt/t6n59fuymqzziirwqw5z.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "42 g",
-                        "nutrition": {
-                          "calories": "160",
-                          "calFromFat": "20",
-                          "totalFat": {
-                            "content": "2.5 g",
-                            "percent": "3%"
-                          },
-                          "saturatedFat": {
-                            "content": "0.5 g",
-                            "percent": "2%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "0 mg"
-                          },
-                          "sodium": {
-                            "content": "125 mg",
-                            "percent": "5%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "28 g",
-                            "percent": "10%"
-                          },
-                          "dietaryFiber": {
-                            "content": "4 g",
-                            "percent": "14%"
-                          },
-                          "sugars": "0 g",
-                          "protein": "5 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "None"
-                    ],
-                    "description": "A blend of rolled and steel-cut whole-grain oats to customize any way you want with a selection of toppings: dried fruit, nut medley, brown sugar, agave or blueberries.\n-VEGETARIAN",
-                    "ingredients": "Oatmeal [Water, Whole Grain Oatmeal (Whole Grain Rolled Oats, Whole Grain Steel Cut Oats, Whole Grain Oat Flour, Salt, Calcium Carbonate, Guar Gum)]",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223674/Starbucks-API/Sub%20categories/food/oatmeal%20and%20yogurt/t6n59fuymqzziirwqw5z.avif"
+                  },
+                  {
+                    "name": "Berry Trio Parfait",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735223674/Starbucks-API/Sub%20categories/food/oatmeal%20and%20yogurt/reo7uwomjfedz70g3hsi.avif"
                   }
                 ]
               }
@@ -3074,368 +3093,168 @@
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/food/faiiykcvdnaejnuazgxn.avif",
             "categories": [
               {
+                "title": "Croissants & Danishes",
+                "products": [
+                  {
+                    "name": "Turkey Sage Danish",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/danishes%20and%20doughnuts/ie67hsd2vinuremlhsja.avif"
+                  },
+                  {
+                    "name": "Baked Apple Croissant",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/croissants/v4vkpzhtypmtlanayxtd.avif"
+                  },
+                  {
+                    "name": "Ham & Swiss Croissant",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/croissants/nd0zglnz0idsc46ot3xx.avif"
+                  },
+                  {
+                    "name": "Butter Croissant",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/croissants/lqywahzvwbc3vuuj7dbk.avif"
+                  },
+                  {
+                    "name": "Chocolate Croissant",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/croissants/wmzqaxmvhjzihdgmm3wz.avif"
+                  },
+                  {
+                    "name": "Cheese Danish",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/danishes%20and%20doughnuts/ggbunabepx6f1ygpn3ci.avif"
+                  },
+                  {
+                    "name": "Sugar Plum Cheese Danish",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/danishes%20and%20doughnuts/ipaasf85mvf49vsesgf7.avif"
+                  }
+                ]
+              },
+              {
+                "title": "Loaves & Cakes",
+                "products": [
+                  {
+                    "name": "Banana, Walnut & Pecan Loaf",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/svo9uzq91zhc3j8b1h2u.avif"
+                  },
+                  {
+                    "name": "Iced Lemon Loaf",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/shvw411oqaxbidsbtwzm.avif"
+                  },
+                  {
+                    "name": "Pumpkin & Pepita Loaf",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/nojuidz0uux9pfkjylks.avif"
+                  },
+                  {
+                    "name": "Cinnamon Coffee Cake",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/hprkcwh489tnjm4ezlnh.avif"
+                  },
+                  {
+                    "name": "Dark Toffee Bundt",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/rwampkkayjgxvhezsiip.avif"
+                  }
+                ]
+              },
+              {
+                "title": "Muffins, Scones & Doughnuts",
+                "products": [
+                  {
+                    "name": "Blueberry Streusel Muffin",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/muffins%20and%20scones/la8ctlrjyniyeu44mvba.avif"
+                  },
+                  {
+                    "name": "Petite Vanilla Bean Scone",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/muffins%20and%20scones/jsgoqr5uy5m89wgnzuia.avif"
+                  },
+                  {
+                    "name": "Glazed Doughnut",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/danishes%20and%20doughnuts/gcxitkufinfuglrf4klp.avif"
+                  }
+                ]
+              },
+              {
                 "title": "Bagels",
                 "products": [
                   {
                     "name": "Plain Bagel",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/bagels/b3lgdprd6dxsp8qeuw2c.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "108 g",
-                        "nutrition": {
-                          "calories": "290",
-                          "calFromFat": "10",
-                          "totalFat": {
-                            "content": "1 g",
-                            "percent": "1%"
-                          },
-                          "saturatedFat": {
-                            "content": "0 g"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "0 mg"
-                          },
-                          "sodium": {
-                            "content": "570 mg",
-                            "percent": "24%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "60 g",
-                            "percent": "21%"
-                          },
-                          "dietaryFiber": {
-                            "content": "2 g",
-                            "percent": "7%"
-                          },
-                          "sugars": "6 g",
-                          "protein": "10 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Wheat"
-                    ],
-                    "description": "Classic soft, chewy and thick New York-style bagel. Available with cream cheese or butter.\n- VEGAN\n- VEGETARIAN",
-                    "ingredients": "Enriched Flour [Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Water, Sugar, Contains 2% Or Less Of: Wheat Gluten, Salt, Yeast, Distilled Vinegar, Guar Gum, Ascorbic Acid, Microbial Enzymes, Monoglycerides.",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/bagels/b3lgdprd6dxsp8qeuw2c.avif"
+                  },
+                  {
+                    "name": "Everything Bagel",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/bagels/iku9yfb4vgjioic5wr1o.avif"
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "title": "Treats",
+            "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735936603/Starbucks-API/Main%20categories/food/kzltbshpayaeabzyl77z.avif",
+            "categories": [
               {
                 "title": "Cake Pops",
                 "products": [
                   {
+                    "name": "Birthday Cake Pop",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cake%20pops/uap0gsnseipzvo7xh9on.avif"
+                  },
+                  {
+                    "name": "Chocolate Cake Pop",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cake%20pops/vrw3od0x6osx5xlyntmq.avif"
+                  },
+                  {
+                    "name": "Cookies & Cream Cake Pop",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cake%20pops/jmoe5ckbrhsgc5d1zezl.avif"
+                  },
+                  {
                     "name": "Snowman Cake Pop",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cake%20pops/zqwkws76ioqb8y1y2gyq.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "108 g",
-                        "nutrition": {
-                          "calories": "170",
-                          "calFromFat": "80",
-                          "totalFat": {
-                            "content": "9 g",
-                            "percent": "12%"
-                          },
-                          "saturatedFat": {
-                            "content": "4.5 g",
-                            "percent": "23%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "10 mg",
-                            "percent": "3%"
-                          },
-                          "sodium": {
-                            "content": "120 mg",
-                            "percent": "5%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "22 g",
-                            "percent": "8%"
-                          },
-                          "dietaryFiber": {
-                            "content": "0 g"
-                          },
-                          "sugars": "16 g",
-                          "protein": "2 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Soy",
-                      "Wheat"
-                    ],
-                    "description": "Vanilla cake mixed with buttercream, dipped in white-chocolaty icing, finished with a snowman face design and blue earmuffs.\n-VEGETARIAN",
-                    "ingredients": "CAKE [SUGAR, ENRICHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, SOYBEAN OIL, EGGS, EGG WHITES, POWDERED SUGAR (SUGAR, CORN STARCH), SHORTENING (PALM OIL), BUTTER (PASTEURIZED CREAM, NATURAL FLAVORS), FOOD STARCH-MODIFIED, NONFAT DRY MILK (MILK SOLIDS, WHEY SOLIDS), BAKING POWDER (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, CORN STARCH, MONOCALCIUM PHOSPHATE), SALT, CORN SYRUP, INVERT SYRUP, EMULSIFIER BLEND (WATER, SORBITAN MONOSTEARATE, POLYSORBATE 60, MONO- AND DIGLYCERIDES), NATURAL FLAVOR, GUM BLEND (XANTHAN GUM, GUAR GUM), NATURAL FLAVOR (WITH ANNATTO (COLOR), AND TURMERIC (COLOR))], COATING [WHITE COATING (SUGAR, FRACTIONATED PALM KERNEL AND PALM OIL, WHEY POWDER, NONFAT DRY MILK, SOY LECITHIN, NATURAL FLAVORS), PALM OIL WITH SOY LECITHIN, DARK COATING (SUGAR, PALM KERNEL OIL, COCOA POWDER (PROCESSED WITH ALKALI), SOY LECITHIN, NONFAT DRY MILK, NATURAL FLAVOR), SPIRULINA EXTRACT (COLOR), ANNATTO EXTRACT (COLOR)]",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cake%20pops/zqwkws76ioqb8y1y2gyq.avif"
                   }
                 ]
               },
               {
-                "title": "Cookies, Brownies & Bars",
+                "title": "Cookies & Brownies",
                 "products": [
+                  {
+                    "name": "Chocolate Chip Cookie",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/y1irbdhqgidxgsitxjd3.avif"
+                  },
+                  {
+                    "name": "Double Chocolate Brownie",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/uvmin6we3v6kwqvftkhh.avif"
+                  },
                   {
                     "name": "Penguin Cookie",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/xdhvqxdu9ubbzomysgn9.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "63 g",
-                        "nutrition": {
-                          "calories": "300",
-                          "calFromFat": "150",
-                          "totalFat": {
-                            "content": "17 g",
-                            "percent": "21%"
-                          },
-                          "saturatedFat": {
-                            "content": "11 g",
-                            "percent": "55%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "25 mg",
-                            "percent": "8%"
-                          },
-                          "sodium": {
-                            "content": "110 mg",
-                            "percent": "4%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "36 g",
-                            "percent": "13%"
-                          },
-                          "dietaryFiber": {
-                            "content": "1 g",
-                            "percent": "3%"
-                          },
-                          "sugars": "17 g",
-                          "protein": "3 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Soy",
-                      "Wheat"
-                    ],
-                    "description": "A buttery shortbread penguin cookie accessorized with a delicious white-chocolaty topping and earmuffs.\n-VEGETARIAN",
-                    "ingredients": "COOKIE [ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), MARGARINE (PALM OIL, WATER, SOYBEAN OIL, SALT, WHEY, MONO- AND DIGLYCERIDES, SOY LECITHIN, NATURAL FLAVOR, BETA CAROTENE (COLOR), VITAMIN A PALMITATE), BUTTER (PASTEURIZED CREAM, NATURAL FLAVORS), SUGAR, FRUCTOSE, SWEETENED EGG YOLKS (EGG YOLKS, SUGAR), EGG WHITES, NATURAL FLAVOR, SALT, ANNATTO (COLOR), TURMERIC (COLOR)], COATING [WHITE COATING (SUGAR, FRACTIONATED PALM KERNEL AND PALM OIL, WHEY POWDER, NONFAT DRY MILK, SOY LECITHIN, NATURAL FLAVORS), DARK COATING (SUGAR, PALM KERNEL OIL, COCOA POWDER (PROCESSED WITH ALKALI), SOY LECITHIN, NONFAT DRY MILK, NATURAL FLAVOR), PALM OIL WITH SOY LECITHIN, VEGETABLE JUICE (COLOR), ANNATTO EXTRACT (COLOR)]",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Croissants",
-                "products": [
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/xdhvqxdu9ubbzomysgn9.avif"
+                  },
                   {
-                    "name": "Baked Apple Croissant",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/croissants/v4vkpzhtypmtlanayxtd.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "75 g",
-                        "nutrition": {
-                          "calories": "230",
-                          "calFromFat": "80",
-                          "totalFat": {
-                            "content": "9 g",
-                            "percent": "12%"
-                          },
-                          "saturatedFat": {
-                            "content": "5 g",
-                            "percent": "25%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "30 mg",
-                            "percent": "10%"
-                          },
-                          "sodium": {
-                            "content": "290 mg",
-                            "percent": "13%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "31 g",
-                            "percent": "11%"
-                          },
-                          "dietaryFiber": {
-                            "content": "0 g"
-                          },
-                          "sugars": "11 g",
-                          "protein": "4 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Milk",
-                      "Wheat"
-                    ],
-                    "description": "Layers of croissant dough wrapped around a warm apple filling, topped with sugar and baked to a golden finish.\n-VEGETARIAN",
-                    "ingredients": "Enriched Flour [Wheat Flour, Enzyme, Ascorbic Acid, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid], Apple Filling [Apples (Prepared With Sodium Sulfite And Calcium Chloride), Sugar, Water, Corn Syrup, Modified Corn Starch, Lemon Juice, Citric Acid, Cinnamon, Potassium Sorbate (Preservative), Gellan Gum, Salt, Nutmeg], Water, Butter [Cream (Milk), Natural Flavor], Sugar, Yeast, Salt, Wheat Sourdough [Water, Fermented Wheat Flour], Dough Conditioner [Vital Wheat Gluten, Xanthan Gum, Ascorbic Acid, Enzymes]",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Loaves, Cakes & Buns",
-                "products": [
+                    "name": "Cranberry Bliss® Bar",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224652/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/elaq0mcwhybero5s8k0b.avif"
+                  },
                   {
-                    "name": "Dark Toffee Bundt",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/loaves%2C%20cakes%20and%20buns/rwampkkayjgxvhezsiip.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "91 g",
-                        "nutrition": {
-                          "calories": "330",
-                          "calFromFat": "130",
-                          "totalFat": {
-                            "content": "15 g",
-                            "percent": "19%"
-                          },
-                          "saturatedFat": {
-                            "content": "9 g",
-                            "percent": "45%"
-                          },
-                          "transFat": "0.5 g",
-                          "cholesterol": {
-                            "content": "80 mg",
-                            "percent": "26%"
-                          },
-                          "sodium": {
-                            "content": "240 mg",
-                            "percent": "10%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "46 g",
-                            "percent": "16%"
-                          },
-                          "dietaryFiber": {
-                            "content": "2 g",
-                            "percent": "7%"
-                          },
-                          "sugars": "29 g",
-                          "protein": "4 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Soy",
-                      "Wheat"
-                    ],
-                    "description": "A toffee bundt cake topped with holly-and-berry-shaped sprinkles.\n-VEGETARIAN",
-                    "ingredients": "CAKE [WATER, DATE PASTE, ENRICHED WHEAT FLOUR (WHEAT FLOUR, MALTED BARLEY FLOUR, NIACIN, REDUCED IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID), BUTTER (CREAM, NATURAL FLAVOR), SUGAR, EGGS, BROWN SUGAR (SUGAR, MOLASSES), NATURAL FLAVOR, SODIUM BICARBONATE, VANILLA EXTRACT, SALT], TOPPING [GLAZE (WATER, CORN SYRUP, SUGAR, CONTAINS 2% OR LESS ON THE FOLLOWING: PECTIN, CITRIC ACID, POTASSIUM SORBATE {PRESERVATIVE}, XANTHAN GUM, SODIUM CITRATE, LOCUST BEAN GUM, SODIUM PHOSPHATE), SPRINKLES (SUGAR, RICE FLOUR, VEGETABLE OIL {PALM OIL, PALM KERNEL OIL}, <2% OF THE FOLLOWING: ANNATTO EXTRACT {COLOR}, CARRAGEENAN, CELLULOSE GUM, CONFECTIONER’S GLAZE, GUM ARABIC, SOY LECITHIN, SPIRULINA EXTRACT {COLOR}, TURMERIC EXTRACT {COLOR}, VEGETABLE JUICE {COLOR}), SUGAR AND SALT BLEND (SUGAR, SALT, CARNAUBA WAX)]",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Danishes & Doughnuts",
-                "products": [
-                  {
-                    "name": "Turkey Sage Danish",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224654/Starbucks-API/Sub%20categories/food/bakery/danishes%20and%20doughnuts/ie67hsd2vinuremlhsja.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "90 g",
-                        "nutrition": {
-                          "calories": "270",
-                          "calFromFat": "120",
-                          "totalFat": {
-                            "content": "13 g",
-                            "percent": "16%"
-                          },
-                          "saturatedFat": {
-                            "content": "7 g",
-                            "percent": "35%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "55 mg",
-                            "percent": "18%"
-                          },
-                          "sodium": {
-                            "content": "480 mg",
-                            "percent": "20%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "29 g",
-                            "percent": "10%"
-                          },
-                          "dietaryFiber": {
-                            "content": "0 g"
-                          },
-                          "sugars": "5 g",
-                          "protein": "8 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Wheat"
-                    ],
-                    "description": "Savory turkey sausage lightly tossed in a creamy béchamel sauce, encased in a crisp, flaky laminated pastry.",
-                    "ingredients": "",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Muffins & Scones",
-                "products": [
-                  {
-                    "name": "Pumpkin Cream Cheese Muffin",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224655/Starbucks-API/Sub%20categories/food/bakery/muffins%20and%20scones/alqkrifgky9qflyxz3ph.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "113 g",
-                        "nutrition": {
-                          "calories": "350",
-                          "calFromFat": "130",
-                          "totalFat": {
-                            "content": "14 g",
-                            "percent": "18%"
-                          },
-                          "saturatedFat": {
-                            "content": "4 g",
-                            "percent": "20%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "55 mg",
-                            "percent": "18%"
-                          },
-                          "sodium": {
-                            "content": "430 mg",
-                            "percent": "19%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "53 g",
-                            "percent": "19%"
-                          },
-                          "dietaryFiber": {
-                            "content": "1 g",
-                            "percent": "4%"
-                          },
-                          "sugars": "34 g",
-                          "protein": "5 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Wheat"
-                    ],
-                    "description": "A spiced pumpkin muffin topped with sweet cream-cheese filling and a sprinkling of chopped, spiced pepitas.\n- VEGETARIAN",
-                    "ingredients": "SUGAR, ENRICHED WHEAT FLOUR [WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID], CREAM CHEESE FILLING [CREAM CHEESE (CREAM, EVAPORATED SKIM MILK, SALT, GUAR GUM, PROPYLENE GLYCOL ALGINATE, CARRAGEENAN, LOCUST BEAN GUM, BACTERIAL CULTURE), WATER, SUGAR, MODIFIED CORN STARCH, NATURAL VANILLA FLAVOR, LACTIC ACID, XANTHAN GUM, SALT, SODIUM CITRATE, LOCUST BEAN GUM, CARRAGEENAN], PUMPKIN, EGGS, SOYBEAN AND / OR CANOLA OIL, PRALINE PUMPKIN SEEDS [SUGAR, PUMPKIN SEEDS, SPICES, SALT], WATER, BAKING POWDER [SODIUM BICARBONATE, CORNSTARCH, SODIUM ACID PYROPHOSPHATE, MONOCALCIUM PHOSPHATE], SEA SALT, SPICES, MONO- AND DIGLYCERIDES, SOY LECITHIN.",
-                    "imageSmall": ""
+                    "name": "Cranberry Bliss® Bar Tray",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735224653/Starbucks-API/Sub%20categories/food/bakery/cookies%2C%20brownies%20and%20bars/lhnswtnafx5oaijhu887.avif"
                   }
                 ]
               }
@@ -3446,54 +3265,32 @@
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/food/zv92fyquilv26lhnesdd.avif",
             "categories": [
               {
-                "title": "Warm Sandwiches",
+                "title": "Lunch Sandwiches",
                 "products": [
                   {
                     "name": "Crispy Grilled Cheese on Sourdough",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225716/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/wehvvkxdb0aswpgimesr.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "113 g",
-                        "nutrition": {
-                          "calories": "520",
-                          "calFromFat": "0",
-                          "totalFat": {
-                            "content": "27 g",
-                            "percent": "35%"
-                          },
-                          "saturatedFat": {
-                            "content": "16 g",
-                            "percent": "80%"
-                          },
-                          "transFat": "1 g",
-                          "cholesterol": {
-                            "content": "70 mg",
-                            "percent": "23%"
-                          },
-                          "sodium": {
-                            "content": "1050 mg",
-                            "percent": "46%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "48 g",
-                            "percent": "17%"
-                          },
-                          "dietaryFiber": {
-                            "content": "3 g",
-                            "percent": "11%"
-                          },
-                          "sugars": "1 g",
-                          "protein": "21 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Milk",
-                      "Wheat"
-                    ],
-                    "description": "A blend of white Cheddar and mozzarella cheeses on sourdough bread, topped with a Parmesan butter spread. \n- VEGETARIAN \n- HIGH-PROTEIN",
-                    "ingredients": "SOURDOUGH BREAD [ENRICHED WHEAT FLOUR (FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), WATER, WHOLE WHEAT FLOUR, WHOLE GRAIN RYE FLOUR, SALT, YEAST, CULTURED WHEAT STARCH, MALTED BARLEY FLOUR, AMYLASE], GARLIC CHEESE BUTTER BLEND [CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), BUTTER (PASTEURIZED CREAM, SALT), PARMESAN CHEESE (PASTEURIZED MILK, SALT, CHEESE CULTURE, ENZYMES), LOW MOISTURE PART-SKIM MOZZARELLA CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), REHYDRATED GARLIC (WATER, DEHYDRATED GARLIC)], PARMESAN CHEESE BUTTER SPREAD [PARMESAN CHEESE (PARMESAN CHEESE (PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES), POWDERED CELLULOSE (ANTI-CAKING AGENT)), CANOLA OIL, UNSALTED BUTTER (PASTEURIZED CREAM, NATURAL FLAVOR (LACTIC ACID))]",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225716/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/wehvvkxdb0aswpgimesr.avif"
+                  },
+                  {
+                    "name": "Ham & Swiss on Baguette",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225716/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/kpcywyw3w0pn3wme2p6w.avif"
+                  },
+                  {
+                    "name": "Turkey, Provolone & Pesto on Ciabatta",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225716/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/xdbbh9ubv6hail6vu3q1.avif"
+                  },
+                  {
+                    "name": "Tomato & Mozzarella on Focaccia",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225716/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/dx1cj2vrf02juwzytgrv.avif"
+                  },
+                  {
+                    "name": "Avocado Spread",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/warm%20sandwiches/k0jvggwooybqu5wfytpn.avif"
                   }
                 ]
               },
@@ -3502,386 +3299,149 @@
                 "products": [
                   {
                     "name": "Eggs & Gouda Protein Box",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/a4udsgynladkuc9om5qv.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "170 g",
-                        "nutrition": {
-                          "calories": "530",
-                          "calFromFat": "250",
-                          "totalFat": {
-                            "content": "28 g",
-                            "percent": "36%"
-                          },
-                          "saturatedFat": {
-                            "content": "10 g",
-                            "percent": "50%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "370 mg",
-                            "percent": "123%"
-                          },
-                          "sodium": {
-                            "content": "790 mg",
-                            "percent": "34%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "30 g",
-                            "percent": "11%"
-                          },
-                          "dietaryFiber": {
-                            "content": "5 g",
-                            "percent": "18%"
-                          },
-                          "sugars": "23 g",
-                          "protein": "26 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Peanuts",
-                      "Wheat"
-                    ],
-                    "description": "Two cage-free hard-boiled eggs with Gouda and multigrain crackers plus a blend of dried apricots and apples, peanut butter spread and salt and pepper. \n- VEGETARIAN \n- HIGH-PROTEIN",
-                    "ingredients": "Hard Cooked Eggs [Eggs, Citric Acid], Gouda Cheese [Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto], Dried Apricots [Dried Apricots, Sulfur Dioxide], Multigrain Crackers [Unbleached Enriched Wheat Flour (Wheat Flour, Ascorbic Acid (Dough Conditioner), Niacin, Ferrous Sulphate, Thiamin Mononitrate, Riboflavin, Folic Acid), Whole Wheat Flour, Multigrain Mix (Cracked Wheat, Cracked Rye, Crushed Flax Seeds, Millet Meal, Cracked Triticale, Barley Grits, Sunflower Seeds, Rolled Oats, Durum Semolina), Organic Cane Sugar, Flax Seeds, Durum Semolina, Wheat Bran, Sunflower Seeds, High Oleic Sunflower Oil, Cracked Rye, Sea Salt, Millet, Filtered Water], Peanut Butter Spread [Dry Roasted Peanuts, Organic Honey, Organic Cane Sugar, Peanut Oil, Palm Oil, Sea Salt], Dried Apples, Salt, Pepper",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/a4udsgynladkuc9om5qv.avif"
+                  },
+                  {
+                    "name": "Cheese Trio Protein Box",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/htgfphy1qoslg7zoe9at.avif"
+                  },
+                  {
+                    "name": "Cheddar & Uncured Salami Protein Box",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/ot0mr9a2gnecu7pfnwhn.avif"
+                  },
+                  {
+                    "name": "Eggs & Cheddar Protein Box",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/my3iqhg0t2gqqygerikv.avif"
+                  },
+                  {
+                    "name": "Cheese & Fruit Protein Box",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735225715/Starbucks-API/Sub%20categories/food/lunch/protein%20boxes/umwywmo3wceu7z5huori.avif"
                   }
                 ]
               }
             ]
           },
           {
-            "title": "Snacks & Sweets",
+            "title": "Snacks",
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/food/qlguv4yitayetjntcthe.avif",
             "categories": [
               {
-                "title": "Biscotti & Cookies",
+                "title": "Protein & Snack Bars",
                 "products": [
                   {
-                    "name": "Madeleines",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226688/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/biscotti%20and%20cookies/obqtmkoqu3vxogmh8j4h.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "51 g",
-                        "nutrition": {
-                          "calories": "220",
-                          "calFromFat": "100",
-                          "totalFat": {
-                            "content": "11 g",
-                            "percent": "14%"
-                          },
-                          "saturatedFat": {
-                            "content": "7 g",
-                            "percent": "35%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "65 mg",
-                            "percent": "21%"
-                          },
-                          "sodium": {
-                            "content": "120 mg",
-                            "percent": "5%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "28 g",
-                            "percent": "10%"
-                          },
-                          "dietaryFiber": {
-                            "content": "0 g"
-                          },
-                          "sugars": "17 g",
-                          "protein": "3 g"
-                        }
-                      }
-                    },
-                    "allergens": [],
-                    "description": "Made with quality ingredients, these rich and buttery French cakes are soft and moist in the center and baked with lightly crisped edges.",
-                    "ingredients": "",
-                    "imageSmall": ""
+                    "name": "Perfect Bar® – Dark Chocolate Chip Peanut Butter",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226692/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/jlxzbnz86yk7ff6redbo.avif"
+                  },
+                  {
+                    "name": "Perfect Bar® Peanut Butter",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226692/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/gv06vidjvhzxfzw0dszq.avif"
+                  },
+                  {
+                    "name": "KIND - Almond Coconut Cashew Chai",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226692/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/lbhjjtcksv4vjh7vo0h7.avif"
+                  },
+                  {
+                    "name": "KIND Peanut Butter Dark Chocolate Bar",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226692/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/xeyvdwmjsocggfxfgstz.avif"
+                  },
+                  {
+                    "name": "KIND® Salted Caramel & Dark Chocolate Nut Bar",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226693/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/kmnat8rx0emslvsqlc5l.avif"
+                  },
+                  {
+                    "name": "That's It® – Apple + Mango Bar",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/wibqwffpcfyszc8iddha.avif"
+                  },
+                  {
+                    "name": "That's It® - Apple + Blueberry Bar",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226692/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/chdqhj33igh3vi3znmar.avif"
                   }
                 ]
               },
               {
-                "title": "Chocolates & Candy",
-                "products": [
-                  {
-                    "name": "Tony's Chocolonely Milk Chocolate Gingerbread",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226689/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/chocolates%20and%20candy/jvqqyhydc3kadoudzrmi.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": ""
-                      }
-                    },
-                    "allergens": [],
-                    "description": "A creamy milk chocolate bar with bits of gingerbread, made with Fairtrade-certified cocoa and sugar.",
-                    "ingredients": "",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Fruit & Nuts",
-                "products": [
-                  {
-                    "name": "SkinnyDipped Dark Chocolate Peppermint Almonds",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/fruit%20and%20nuts/vxwtjtmyoc5ubgcdvzdd.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "34 g",
-                        "nutrition": {
-                          "calories": "170",
-                          "calFromFat": "130",
-                          "totalFat": {
-                            "content": "14 g",
-                            "percent": "17%"
-                          },
-                          "saturatedFat": {
-                            "content": "2.5 g",
-                            "percent": "12%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "0 mg"
-                          },
-                          "sodium": {
-                            "content": "100 mg",
-                            "percent": "4%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "13 g",
-                            "percent": "4%"
-                          },
-                          "dietaryFiber": {
-                            "content": "2 g",
-                            "percent": "7%"
-                          },
-                          "sugars": "5 g",
-                          "protein": "5 g"
-                        }
-                      }
-                    },
-                    "allergens": [],
-                    "description": "Whole almonds in a thin layer of dark chocolate and white chocolate, topped with peppermint, maple sugar and sea salt.\n– VEGETARIAN",
-                    "ingredients": "Refer to packaging.",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Gum & Mints",
-                "products": [
-                  {
-                    "name": "Spearmint Gum",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/gum%20and%20mints/lfnu15bpprmeqnc1eqew.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": ""
-                      }
-                    },
-                    "allergens": [],
-                    "description": "A strong and crisp mint flavor that freshens breath after coffee, leaves breath feeling fresh for hours.",
-                    "ingredients": "",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Popcorn & Chips",
+                "title": "Salty Snacks",
                 "products": [
                   {
                     "name": "Siete Sea Salt Kettle Cooked Potato Chips",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/popcorn%20and%20chips/n7u5rdtaj7cofjtpatng.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "42.5 g",
-                        "nutrition": {
-                          "calories": "210",
-                          "calFromFat": "0",
-                          "totalFat": {
-                            "content": "10 g",
-                            "percent": "12%"
-                          },
-                          "saturatedFat": {
-                            "content": "1.5 g",
-                            "percent": "7%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "0 mg"
-                          },
-                          "sodium": {
-                            "content": "180 mg",
-                            "percent": "7%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "27 g",
-                            "percent": "9%"
-                          },
-                          "dietaryFiber": {
-                            "content": "2 g",
-                            "percent": "7%"
-                          },
-                          "sugars": "0 g",
-                          "protein": "0 g"
-                        }
-                      }
-                    },
-                    "allergens": [],
-                    "description": "Kettle potato chips cooked in avocado oil and sprinkled with sea salt. They’re non-GMO, gluten-free and delicious!",
-                    "ingredients": "",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
-                "title": "Meat & Cheese",
-                "products": [
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/popcorn%20and%20chips/n7u5rdtaj7cofjtpatng.avif"
+                  },
+                  {
+                    "name": "Siete Lime Grain Free Tortilla Chips",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/popcorn%20and%20chips/sxdgdwqtvmsxfyabribe.avif"
+                  },
+                  {
+                    "name": "Starbucks Butter Popcorn",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/popcorn%20and%20chips/aulbstte52kl6wbozi82.avif"
+                  },
+                  {
+                    "name": "Perfectly Salted Chips",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/popcorn%20and%20chips/hpnegb21nkyh0haqc4jk.avif"
+                  },
                   {
                     "name": "Country Archer - Hickory Smoked Turkey Jerkey",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/meat%20and%20cheese/gdjjx6eek1zbmj1cu4ha.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "28 g",
-                        "nutrition": {
-                          "calories": "70",
-                          "calFromFat": "10",
-                          "totalFat": {
-                            "content": "1 g",
-                            "percent": "1%"
-                          },
-                          "saturatedFat": {
-                            "content": "0 g"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "20 mg",
-                            "percent": "6%"
-                          },
-                          "sodium": {
-                            "content": "330 mg",
-                            "percent": "14%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "5 g",
-                            "percent": "1%"
-                          },
-                          "dietaryFiber": {
-                            "content": "0 g"
-                          },
-                          "sugars": "4 g",
-                          "protein": "10 g"
-                        }
-                      }
-                    },
-                    "allergens": [],
-                    "description": "This small-batch, handcrafted turkey jerkey: hickory-smoked and prepared the way it was always intended, with slices of real turkey breast, true smoke flavor and no nonsense.",
-                    "ingredients": "",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226690/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/meat%20and%20cheese/gdjjx6eek1zbmj1cu4ha.avif"
                   }
                 ]
               },
               {
-                "title": "Snack Bars",
+                "title": "Sweet Snacks",
                 "products": [
                   {
-                    "name": "Perfect Bar Dark Chocolate Mint",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226691/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/snack%20bars/ygukrnpkwzgobesewu2f.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "65 g",
-                        "nutrition": {
-                          "calories": "320",
-                          "calFromFat": "180",
-                          "totalFat": {
-                            "content": "20 g",
-                            "percent": "26%"
-                          },
-                          "saturatedFat": {
-                            "content": "0 g"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "15 mg",
-                            "percent": "5%"
-                          },
-                          "sodium": {
-                            "content": "40 mg",
-                            "percent": "2%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "25 g",
-                            "percent": "9%"
-                          },
-                          "dietaryFiber": {
-                            "content": "4 g",
-                            "percent": "14%"
-                          },
-                          "sugars": "18 g",
-                          "protein": "14 g"
-                        }
-                      }
-                    },
-                    "allergens": [
-                      "Egg",
-                      "Milk",
-                      "Peanuts",
-                      "Sesame"
-                    ],
-                    "description": "Made with freshly ground, organic peanut butter and organic honey, topped with dark-chocolate chips and a touch of mint to create a mouthful of holiday flavor.",
-                    "ingredients": "Peanut Butter, Honey, Nonfat Dry Milk, Dark Chocolate [Chocolate, Cane Sugar, Cocoa Butter], Cocoa, Dried Whole Egg Powder, Rice Protein, Vanilla Extract, Dried Whole Food Powders [Kale, Flax Seed, Rose Hip, Orange, Lemon, Papaya, Tomato, Apple, Alfalfa, Celery, Kelp, Dulse, Carrot, Spinach], Flax Seed Oil, Sesame Seed Oil, Olive Oil, Pumpkin Seed Oil, Peppermint Oil.",
-                    "imageSmall": ""
+                    "name": "Madeleines",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226688/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/biscotti%20and%20cookies/obqtmkoqu3vxogmh8j4h.avif"
+                  },
+                  {
+                    "name": "Vanilla Biscotti with Almonds",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226688/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/biscotti%20and%20cookies/snsllomf83scscillppb.avif"
+                  },
+                  {
+                    "name": "SkinnyDipped Dark Chocolate Cocoa Almonds",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226689/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/fruit%20and%20nuts/vxihququvzoyezsz1jxu.avif"
+                  },
+                  {
+                    "name": "SkinnyDipped Lemon Bliss Almonds",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226689/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/fruit%20and%20nuts/bxyxcylj8kxbawukjg7n.avif"
                   }
                 ]
               },
               {
-                "title": "Spreads",
+                "title": "Cheese & Fruit",
+                "products": [
+                  {
+                    "name": "Peter Rabbit™ Organics Strawberry Banana",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226689/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/fruit%20and%20nuts/zqmt9rlgoxz35xwluooe.avif"
+                  }
+                ]
+              },
+              {
+                "title": "Spreads & Dips",
                 "products": [
                   {
                     "name": "Avocado Spread",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226693/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/spreads/ibzvx0rupih78zkkazrq.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "pz": "57 g",
-                        "nutrition": {
-                          "calories": "90",
-                          "calFromFat": "70",
-                          "totalFat": {
-                            "content": "8 g",
-                            "percent": "10%"
-                          },
-                          "saturatedFat": {
-                            "content": "1 g",
-                            "percent": "5%"
-                          },
-                          "transFat": "0 g",
-                          "cholesterol": {
-                            "content": "0 mg"
-                          },
-                          "sodium": {
-                            "content": "210 mg",
-                            "percent": "9%"
-                          },
-                          "totalCarbohydrates": {
-                            "content": "5 g",
-                            "percent": "1%"
-                          },
-                          "dietaryFiber": {
-                            "content": "4 g",
-                            "percent": "14%"
-                          },
-                          "sugars": "0 g",
-                          "protein": "1 g"
-                        }
-                      }
-                    },
-                    "allergens": [],
-                    "description": "Avocadoes mixed with lime, sea salt, garlic and a touch of spice—specially packaged to maintain freshness without the use of heat, additives or preservatives.",
-                    "ingredients": "HASS AVOCADO, SEA SALT, ONION, GARLIC, JALAPENO PEPPER, LIME JUICE.",
-                    "imageSmall": ""
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735226693/Starbucks-API/Sub%20categories/food/snacks%20and%20sweets/spreads/ibzvx0rupih78zkkazrq.avif"
                   }
                 ]
               }
@@ -3898,34 +3458,22 @@
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/home%20coffee/x65wo3dggniqchqahmtx.avif",
             "categories": [
               {
-                "title": "Starbucks Reserve",
-                "products": [
-                  {
-                    "name": "Starbucks Reserve Christmas 2024",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235790/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/starbucks%20reserve/vhkr9ceotkmblxrh32q7.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "content": "8.8 oz"
-                      }
-                    },
-                    "description": "Cedar and leather aromas highlight notes of lemon zest, maple and candied ginger with a syrupy mouthfeel. Our master blenders have joined three remarkable coffees into a blend as rare and memorable as the season. Starting with hand-selected beans from Hacienda Alsacia, our farm in Costa Rica, we add perfectly aged Sumatran beans and full-bodied coffee from the Aceh region of Indonesia. A special holiday blend that pairs well with old friends and new traditions.",
-                    "imageSmall": ""
-                  }
-                ]
-              },
-              {
                 "title": "Blonde Roast",
                 "products": [
                   {
-                    "name": "Starbucks Green Apron Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235787/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/blonde%20roast/bacnql4xdbr26ep83hk1.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "content": "1 lb"
-                      }
-                    },
-                    "description": "Notes of Honeybell Orange & Graham Cracker \n\nThis blend is for the Starbucks “partners” who wear the iconic green apron. Made up of exceptional coffees from Latin America and Africa, this coffee is soulful and essential, bright and inspiring—just like the store baristas whose pride and passion it celebrates. Starbucks will designate funds from the sale of this coffee to our Caring Unites Partners (CUP) Fund, a Starbucks program providing grants to eligible Starbucks employees in times of need.",
-                    "imageSmall": ""
+                    "name": "Starbucks® Green Apron Blend™",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235787/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/blonde%20roast/bacnql4xdbr26ep83hk1.avif"
+                  },
+                  {
+                    "name": "Starbucks® Blonde Espresso Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235786/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/blonde%20roast/sguhhqirtusnrk6azb9x.avif"
+                  },
+                  {
+                    "name": "Veranda Blend®",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235786/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/blonde%20roast/emm90nvwllp0trs1vqtl.avif"
                   }
                 ]
               },
@@ -3933,15 +3481,29 @@
                 "title": "Medium Roast",
                 "products": [
                   {
-                    "name": "Starbucks Holiday Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235789/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/syq6yml09tiiuz3ov49p.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "content": "1 lb"
-                      }
-                    },
-                    "description": "Balanced between sweet and toasty, Starbucks Holiday Blend combines bright Latin American beans with rich Sumatran coffee, roasted to bring out an elegant complexity of flavor. The result is a full-bodied and vibrant blend that unfolds with layered notes of sweet maple and inviting herbs. This seasonal cup is the perfect complement to winter walks, the glow of a fireplace and the warmth of being together.",
-                    "imageSmall": ""
+                    "name": "Starbucks Siren’s Blend™",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235790/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/q5n790intagjvifdzngh.avif"
+                  },
+                  {
+                    "name": "Guatemala Antigua",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235789/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/qj0ajx3e1wrojrysn56y.avif"
+                  },
+                  {
+                    "name": "Pike Place® Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235790/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/vq90cf1883r3vq2r4pio.avif"
+                  },
+                  {
+                    "name": "Organic Yukon Blend®",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235790/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/mc1kqfoacxb9jre09iku.avif"
+                  },
+                  {
+                    "name": "Guatemala Casi Cielo®",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235789/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/medium%20roast/vg0j8eh8l8gnjudpzetm.avif"
                   }
                 ]
               },
@@ -3949,55 +3511,50 @@
                 "title": "Dark Roast",
                 "products": [
                   {
-                    "name": "Starbucks Thanksgiving Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235789/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/qgk9gbnd7l6ah7wkjgux.avif",
-                    "sizeOptions": {
-                      "default": {
-                        "content": "1 lb"
-                      }
-                    },
-                    "description": "Starbucks Thanksgiving Blend is our expression of gratitude to the  world’s most distinctive coffee regions. Beans from Sumatra in Indonesia, Sidama in Ethiopia, and the Antigua region of Guatemala are expertly blended and richly roasted to create a cup that’s delicately sweet—and worthy of the finest feast. Elegantly flavorful and aromatic with notes of candied pecan, sage and dried fig, it celebrates the true spirit of the season.",
-                    "imageSmall": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Ground",
-            "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/home%20coffee/etxfge3fpy1sgpku2zl3.avif",
-            "categories": [
-              {
-                "title": "Dark Roast",
-                "products": [
+                    "name": "Decaf Sumatra",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235788/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/rly1xlqd6qt7npqsjuam.avif"
+                  },
                   {
-                    "name": "Starbucks Christmas Blend Ground Coffee",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/ground/dark%20roast/cufwsx56u8esrszk5nfu.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "For the 40th year, Starbucks Christmas Blend returns as one of our most delightful traditions. Our beloved recipe carefully combines perfectly aged Sumatran coffee with dark-roasted beans from Guatemala, Colombia and the Asia/Pacific coffee-growing region. These distinct flavors harmonize to create a rich, robust blend with notes of spiced chocolate and spruce tips, making every sip velvety-smooth and oh-so-nice. Cheers to a season of coffee together.",
-                    "imageSmall": ""
+                    "name": "Caffè Verona®",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235787/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/jnzanvarct46kjoh8zg4.avif"
+                  },
+                  {
+                    "name": "Espresso Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235788/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/rhrhrjuefufowot4shyd.avif"
+                  },
+                  {
+                    "name": "Italian Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235788/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/bdht2rmthxu93yhliaya.avif"
+                  },
+                  {
+                    "name": "Komodo Dragon Blend®",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235788/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/pzifedyhhgj95zdtixws.avif"
+                  },
+                  {
+                    "name": "Sumatra",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235788/Starbucks-API/Sub%20categories/at%20home%20coffee/whole%20bean/dark%20roast/rly1xlqd6qt7npqsjuam.avif"
                   }
                 ]
               }
             ]
           },
           {
-            "title": "VIA Instant",
+            "title": "VIA® Instant",
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/home%20coffee/ttrcpogbyeneyxmvkvy8.avif",
             "categories": [
               {
                 "title": "Flavored",
                 "products": [
                   {
-                    "name": "VIA Sweetened Iced Coffee",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/flavored/ilhfkke6kscwjv9tz1cq.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "The refreshing coffee that's an instant summer sensation. Just add ice.",
-                    "imageSmall": ""
+                    "name": "VIA® Sweetened Iced Coffee",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/flavored/ilhfkke6kscwjv9tz1cq.avif"
                   }
                 ]
               },
@@ -4005,13 +3562,9 @@
                 "title": "Blonde Roast",
                 "products": [
                   {
-                    "name": "VIA Veranda Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/blonde%20roast/ituxfvxvliisp7aiop94.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "A mellow blend with a soft and friendly disposition.",
-                    "imageSmall": ""
+                    "name": "VIA® Veranda Blend™",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/blonde%20roast/ituxfvxvliisp7aiop94.avif"
                   }
                 ]
               },
@@ -4019,13 +3572,9 @@
                 "title": "Medium Roast",
                 "products": [
                   {
-                    "name": "Starbucks VIA Instant Pike Place Roast",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235786/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/medium%20roast/fjzqeo5i9navewegpylv.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "Inspired by the very first store we opened in Seattle’s Pike Place Market, Starbucks Pike Place Roast is a smooth, medium-roasted coffee with subtle notes of chocolate and toasted nuts.",
-                    "imageSmall": ""
+                    "name": "Starbucks VIA® Instant Pike Place® Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235786/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/medium%20roast/fjzqeo5i9navewegpylv.avif"
                   }
                 ]
               },
@@ -4033,13 +3582,14 @@
                 "title": "Dark Roast",
                 "products": [
                   {
-                    "name": "Starbucks VIA Instant Christmas Blend",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/dark%20roast/cpv8rae4qqducgfhvnhn.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "Starbucks Christmas Blend returns as one of our most delightful traditions. Our beloved recipe combines perfectly aged Sumatran coffee with dark-roasted beans from Latin America. These distinct flavors harmonize to create a rich, robust blend with notes of spiced chocolate and spruce tips, making every sip velvety-smooth and oh-so-nice. Cheers to a season of coffee together.",
-                    "imageSmall": ""
+                    "name": "VIA® Italian Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/dark%20roast/yl0eutl7zggkrlnfdjlr.avif"
+                  },
+                  {
+                    "name": "VIA® Decaf Italian Roast",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735235785/Starbucks-API/Sub%20categories/at%20home%20coffee/via%20instant/dark%20roast/ubplxptlhtoieglmzqld.avif"
                   }
                 ]
               }
@@ -4052,26 +3602,6 @@
         "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/merchandise/ots1qajuydyvqezjvzwx.avif",
         "types": [
           {
-            "title": "Cold Cups",
-            "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/merchandise/ots1qajuydyvqezjvzwx.avif",
-            "categories": [
-              {
-                "title": "Cold Cups",
-                "products": [
-                  {
-                    "name": "Glitter Color-Changing Plastic Reusable Cold Cup & Straw – 24 fl oz",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236481/Starbucks-API/Sub%20categories/merchandise/cold%20cups/uosod6im2ldrywderexe.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "This 24 fl oz reusable color-changing cold cup with glitter finish adds sparkle to your everyday beverage.\n– Single-Wall Plastic\n– For Cold Beverages\n– Top-Rack Dishwasher- Safe\n– Straw Lid",
-                    "imageSmall": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "title": "Tumblers",
             "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/merchandise/pbhoioev1olvdcq9ncau.avif",
             "categories": [
@@ -4079,33 +3609,9 @@
                 "title": "Tumblers",
                 "products": [
                   {
-                    "name": "Glitter Color-Changing Plastic Reusable Cold Cup & Straw – 24 fl oz",
+                    "name": "White Recycled Ceramic Double-Wall Tumbler - 12 fl oz",
                     "image": "",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "Deep green gives our stainless-steel tumbler a classic look for your favorite hot or cold beverages.\n– Double-Wall Stainless-Steel\n– For Hot and Cold Beverages\n– Hand Wash Only\n– Do Not Microwave",
-                    "imageSmall": ""
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Mugs",
-            "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/merchandise/jjx1uyhyzr2bkhsqjxf9.avif",
-            "categories": [
-              {
-                "title": "Mugs",
-                "products": [
-                  {
-                    "name": "Glass Mug - 16 fl oz",
-                    "image": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236482/Starbucks-API/Sub%20categories/merchandise/mugs/fnvn6zeu0xiosqwikpav.avif",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "Our 16 fl oz glass mug is the clear winner for your morning beverage. Enjoy the beauty of your coffee in this stylish glass mug.\n– Single-Wall Glass\n– Hand Wash Only\n– Do Not Microwave",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236484/Starbucks-API/Sub%20categories/merchandise/tumblers/sg2yca6zaw7sxfvlwfp7.avif"
                   }
                 ]
               }
@@ -4121,11 +3627,17 @@
                   {
                     "name": "French Press",
                     "image": "",
-                    "sizeOptions": {
-                      "default": {}
-                    },
-                    "description": "Dual-filter coffee press in a matte black finish perfect for your delicious cup of morning coffee, fresh-pressed at home.\n– Plastic Carafe & Lid with Tritan Carafe Liner\n– Dishwasher-Safe\n– Do Not Microwave",
-                    "imageSmall": ""
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236483/Starbucks-API/Sub%20categories/merchandise/other/u41cjmoayrvldgntlntm.avif"
+                  },
+                  {
+                    "name": "Pour Over",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236483/Starbucks-API/Sub%20categories/merchandise/other/fsd5vrihoxug18kpfk1r.avif"
+                  },
+                  {
+                    "name": "Small Shopping Bag",
+                    "image": "",
+                    "imageSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735236483/Starbucks-API/Sub%20categories/merchandise/other/yd0rcjvns1yyjpripkd9.avif"
                   }
                 ]
               }

@@ -6,12 +6,11 @@ import { MenuTitle, SubCategorieTitle } from "../components/ui";
 import type { FetchSubCategories, SubCategory } from "../types/global";
 
 export default function SubCategorie() {
-    const [loading, setLoading] = useState(true);
     const [data, setData] = useState<SubCategory | null>(null);
 
     const location = useLocation();
 
-    function extractTextAfterThirddSlash(path: string): string {
+    function extractTextAfterThirdSlash(path: string): string {
         const parts = path.split('/');
         if (parts.length > 3) {
             return parts.slice(3).join('/');
@@ -20,28 +19,25 @@ export default function SubCategorie() {
     }
 
     useEffect(() => {
-        const fn = async () => {
-            const result = extractTextAfterThirddSlash(location.pathname);
+        const getSubCategories = async () => {
+            const result = extractTextAfterThirdSlash(location.pathname);
 
-            const { data }: FetchSubCategories = await fetch(`http://localhost:4000/api/menu/type/${result}`).then(res => res.json());
+            const { data }: FetchSubCategories = await fetch(`http://localhost:4000/api/menu/type/title/${result}`).then(res => res.json());
 
             console.log(data);
 
             setData(data);
-            setLoading(false);
 
             window.scrollTo(0, 0);
         }
 
-        fn();
+        getSubCategories();
     }, [location]);
 
 
     //if (!location.pathname.includes('drinks') || !location.pathname.includes('food')) return <main>category not found</main>
 
-    if(loading) return <main>Loading...</main>;
-
-    if(!loading && data) return (
+    if(data) return (
         <>
             <div className="menu-container w-full">
                 <MenuTitle title={data.title} />
@@ -53,7 +49,7 @@ export default function SubCategorie() {
                         <div className="subcategories-container sub text-center">
                             {categories.products.map((product) => (
                                 <Link key={product.id} to={`/menu/${categories.title}/${product.id}`} className="menu-item sub-categorie">
-                                    <img src={product.image} alt="menu-item" />
+                                    <img src={product.imageSmall} alt="menu-item" />
 
                                     {product.name}
                                 </Link>

@@ -20,7 +20,7 @@ export type SubCategory = {
         products: {
             id: string;
             name: string;
-            image: string;
+            imageSmall: string;
         }[];
     }[];
 }
