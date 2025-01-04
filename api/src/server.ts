@@ -4,7 +4,7 @@ import cors from 'cors';
 import menuRoutes from './routes/menuRoutes';
 import { setupSwagger } from './swagger';
 import connectDB from './settings/db/mongoDb/connection';
-import path from "path";
+
 
 dotenv.config();
 
@@ -14,10 +14,6 @@ const PORT = process.env.PORT || 4000;
 
 // Configurar CORS TODO: Agregar dominio del front-end en producción
 app.use(cors());
-
-// Configurar carpeta estática
-// app.use('/menu-drinks-images', express.static(path.join(__dirname, '../public/fileStorage/menu/drinks')));
-
 
 // Middlewares
 app.use(express.json());

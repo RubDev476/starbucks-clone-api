@@ -17,7 +17,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -46,7 +46,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -75,7 +75,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -104,7 +104,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -152,7 +152,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -181,7 +181,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -210,7 +210,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -240,7 +240,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -279,7 +279,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -309,7 +309,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -338,7 +338,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -367,7 +367,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -406,7 +406,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -436,7 +436,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -465,7 +465,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -494,7 +494,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -533,7 +533,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -563,7 +563,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -592,7 +592,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -621,7 +621,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -660,7 +660,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "50",
                           "calFromFat": "20",
@@ -694,7 +694,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "80",
                           "calFromFat": "30",
@@ -728,7 +728,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "110",
                           "calFromFat": "35",
@@ -762,7 +762,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "130",
                           "calFromFat": "45",
@@ -810,7 +810,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -840,7 +840,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -869,7 +869,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -898,7 +898,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -937,7 +937,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -967,7 +967,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -996,7 +996,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1025,7 +1025,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1064,7 +1064,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -1094,7 +1094,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -1123,7 +1123,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1152,7 +1152,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1191,7 +1191,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -1221,7 +1221,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -1250,7 +1250,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1279,7 +1279,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1318,7 +1318,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -1348,7 +1348,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "10",
                           "calFromFat": "0",
@@ -1377,7 +1377,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1406,7 +1406,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "nutrition": {
                           "calories": "15",
                           "calFromFat": "0",
@@ -1450,7 +1450,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "espressoShots": 2,
                         "nutrition": {
                           "calories": "70",
@@ -1485,7 +1485,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "espressoShots": 1,
                         "nutrition": {
                           "calories": "100",
@@ -1520,7 +1520,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "espressoShots": 2,
                         "nutrition": {
                           "calories": "140",
@@ -1555,7 +1555,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "espressoShots": 2,
                         "nutrition": {
                           "calories": "200",
@@ -1611,7 +1611,7 @@
                     "image": "",
                     "sizeOptions": {
                       "solo": {
-                        "oz": "0.75 fl",
+                        "content": "0.75 fl oz",
                         "espressoShots": 1,
                         "nutrition": {
                           "calories": "5",
@@ -1641,7 +1641,7 @@
                         }
                       },
                       "doppio": {
-                        "oz": "1.5 fl",
+                        "content": "1.5 fl oz",
                         "espressoShots": 2,
                         "nutrition": {
                           "calories": "10",
@@ -1671,7 +1671,7 @@
                         }
                       },
                       "triple": {
-                        "oz": "2.25 fl",
+                        "content": "2.25 fl oz",
                         "espressoShots": 3,
                         "nutrition": {
                           "calories": "15",
@@ -1701,7 +1701,7 @@
                         }
                       },
                       "quad": {
-                        "oz": "3 fl",
+                        "content": "3 fl oz",
                         "espressoShots": 4,
                         "nutrition": {
                           "calories": "20",
@@ -1744,7 +1744,7 @@
                     "image": "",
                     "sizeOptions": {
                       "solo": {
-                        "oz": "0.75 fl",
+                        "content": "0.75 fl oz",
                         "espressoShots": 1,
                         "nutrition": {
                           "calories": "30",
@@ -1777,7 +1777,7 @@
                         }
                       },
                       "doppio": {
-                        "oz": "1.5 fl",
+                        "content": "1.5 fl oz",
                         "espressoShots": 2,
                         "nutrition": {
                           "calories": "35",
@@ -1810,7 +1810,7 @@
                         }
                       },
                       "triple": {
-                        "oz": "2.25 fl",
+                        "content": "2.25 fl oz",
                         "espressoShots": 3,
                         "nutrition": {
                           "calories": "40",
@@ -1844,7 +1844,7 @@
                         }
                       },
                       "quad": {
-                        "oz": "3 fl",
+                        "content": "3 fl oz",
                         "espressoShots": 4,
                         "nutrition": {
                           "calories": "45",
@@ -1896,7 +1896,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "espressoShots": 2,
                         "nutrition": {
                           "calories": "110",
@@ -1931,7 +1931,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "espressoShots": 1,
                         "nutrition": {
                           "calories": "170",
@@ -1965,7 +1965,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "espressoShots": 3,
                         "nutrition": {
                           "calories": "220",
@@ -2000,7 +2000,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "espressoShots": 3,
                         "nutrition": {
                           "calories": "290",
@@ -2050,7 +2050,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "espressoShots": 2,
                         "honeyBlendPumps": 2,
                         "nutrition": {
@@ -2085,7 +2085,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "espressoShots": 2,
                         "honeyBlendPumps": 3,
                         "nutrition": {
@@ -2120,7 +2120,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "espressoShots": 3,
                         "honeyBlendPumps": 4,
                         "nutrition": {
@@ -2155,7 +2155,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "espressoShots": 3,
                         "honeyBlendPumps": 5,
                         "nutrition": {
@@ -2211,7 +2211,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "espressoShots": 1,
                         "caramelBruleeSaucePumps": 2,
                         "nutrition": {
@@ -2247,7 +2247,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "espressoShots": 2,
                         "caramelBruleeSaucePumps": 3,
                         "nutrition": {
@@ -2282,7 +2282,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "espressoShots": 3,
                         "caramelBruleeSaucePumps": 4,
                         "nutrition": {
@@ -2317,7 +2317,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "espressoShots": 3,
                         "caramelBruleeSaucePumps": 5,
                         "nutrition": {
@@ -2373,7 +2373,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "150",
                           "calFromFat": "40",
@@ -2406,7 +2406,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "230",
                           "calFromFat": "60",
@@ -2440,7 +2440,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "320",
                           "calFromFat": "90",
@@ -2474,7 +2474,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "espressoShots": 3,
                         "caramelBruleeSaucePumps": 5,
                         "nutrition": {
@@ -2524,7 +2524,7 @@
                     "image": "",
                     "sizeOptions": {
                       "short": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "240",
                           "calFromFat": "90",
@@ -2559,7 +2559,7 @@
                         }
                       },
                       "tall": {
-                        "oz": "12 fl",
+                        "content": "12 fl oz",
                         "nutrition": {
                           "calories": "350",
                           "calFromFat": "120",
@@ -2594,7 +2594,7 @@
                         }
                       },
                       "grande": {
-                        "oz": "16 fl",
+                        "content": "16 fl oz",
                         "nutrition": {
                           "calories": "440",
                           "calFromFat": "140",
@@ -2629,7 +2629,7 @@
                         }
                       },
                       "venti": {
-                        "oz": "20 fl",
+                        "content": "20 fl oz",
                         "espressoShots": 3,
                         "caramelBruleeSaucePumps": 5,
                         "nutrition": {
@@ -2680,7 +2680,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "oz": "8 fl",
+                        "content": "8 fl oz",
                         "nutrition": {
                           "calories": "5",
                           "calFromFat": "0",
@@ -2915,7 +2915,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "146 g",
+                        "content": "146 g",
                         "nutrition": {
                           "calories": "390",
                           "calFromFat": "140",
@@ -2968,7 +2968,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "130 g",
+                        "content": "130 g",
                         "nutrition": {
                           "calories": "300",
                           "calFromFat": "180",
@@ -3025,7 +3025,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "42 g",
+                        "content": "42 g",
                         "nutrition": {
                           "calories": "160",
                           "calFromFat": "20",
@@ -3081,7 +3081,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "108 g",
+                        "content": "108 g",
                         "nutrition": {
                           "calories": "290",
                           "calFromFat": "10",
@@ -3130,7 +3130,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "108 g",
+                        "content": "108 g",
                         "nutrition": {
                           "calories": "170",
                           "calFromFat": "80",
@@ -3183,7 +3183,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "63 g",
+                        "content": "63 g",
                         "nutrition": {
                           "calories": "300",
                           "calFromFat": "150",
@@ -3237,7 +3237,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "75 g",
+                        "content": "75 g",
                         "nutrition": {
                           "calories": "230",
                           "calFromFat": "80",
@@ -3288,7 +3288,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "91 g",
+                        "content": "91 g",
                         "nutrition": {
                           "calories": "330",
                           "calFromFat": "130",
@@ -3342,7 +3342,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "90 g",
+                        "content": "90 g",
                         "nutrition": {
                           "calories": "270",
                           "calFromFat": "120",
@@ -3394,7 +3394,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "113 g",
+                        "content": "113 g",
                         "nutrition": {
                           "calories": "350",
                           "calFromFat": "130",
@@ -3453,7 +3453,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "113 g",
+                        "content": "113 g",
                         "nutrition": {
                           "calories": "520",
                           "calFromFat": "0",
@@ -3505,7 +3505,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "170 g",
+                        "content": "170 g",
                         "nutrition": {
                           "calories": "530",
                           "calFromFat": "250",
@@ -3565,7 +3565,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "51 g",
+                        "content": "51 g",
                         "nutrition": {
                           "calories": "220",
                           "calFromFat": "100",
@@ -3613,7 +3613,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": ""
+                        "content": ""
                       }
                     },
                     "allergens": [],
@@ -3631,7 +3631,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "34 g",
+                        "content": "34 g",
                         "nutrition": {
                           "calories": "170",
                           "calFromFat": "130",
@@ -3679,7 +3679,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": ""
+                        "content": ""
                       }
                     },
                     "allergens": [],
@@ -3697,7 +3697,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "42.5 g",
+                        "content": "42.5 g",
                         "nutrition": {
                           "calories": "210",
                           "calFromFat": "0",
@@ -3745,7 +3745,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "28 g",
+                        "content": "28 g",
                         "nutrition": {
                           "calories": "70",
                           "calFromFat": "10",
@@ -3792,7 +3792,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "65 g",
+                        "content": "65 g",
                         "nutrition": {
                           "calories": "320",
                           "calFromFat": "180",
@@ -3845,7 +3845,7 @@
                     "image": "",
                     "sizeOptions": {
                       "default": {
-                        "pz": "57 g",
+                        "content": "57 g",
                         "nutrition": {
                           "calories": "90",
                           "calFromFat": "70",

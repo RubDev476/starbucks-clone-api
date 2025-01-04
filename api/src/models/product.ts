@@ -17,12 +17,14 @@ const ProductSchema: Schema<IProduct> = new Schema({
     name: { type: String, required: true },
     image: { type: String },
     imageSmall: { type: String },
-    sizeOptions: { type: Object, default: {} },
+    sizeOptions: { type: Object, default: { "default": { "content": "" } } },
     included: { type: Object, default: {} },
     description: { type: String, default: '' },
     allergens: { type: [String], default: [] },
     ingredients: { type: String, default: '' },
     category: { type: Schema.Types.ObjectId, ref: 'Category', required: true }
-});
+},
+    {minimize: false}
+);
 
 export const Product: Model<IProduct> = mongoose.model<IProduct>('Product', ProductSchema);
