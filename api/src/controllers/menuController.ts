@@ -1,5 +1,5 @@
 import express from 'express';
-import {Section, Product} from "../models";
+import {Section} from "../models";
 import {slugify} from "../utils/tools";
 
 
@@ -33,23 +33,6 @@ class MenuController {
         } catch (error) {
             console.error('Error al obtener categorías con sus tipos:', error);
             res.status(500).json({ success: false, message: 'Error al obtener los datos' });
-        }
-    }
-
-    public async getProductByName(req: express.Request, res: express.Response) {
-        try {
-            const product = await Product.findOne({name: req.params.name});
-            // res.json(product);
-            const responseProduct = {
-                name: product?.name,
-                image: product?.image,
-                sizeOptions: product?.sizeOptions,
-                included: product?.included,
-                ingredients: product?.ingredients
-            }
-            res.json({success: true, data: responseProduct});
-        } catch (error: any) {
-            res.status(500).json({ message: error.message });
         }
     }
 

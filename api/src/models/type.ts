@@ -1,6 +1,4 @@
 import mongoose, { Schema, Document, Model } from 'mongoose';
-import {ISection} from "./section";
-
 
 export interface IType extends Document {
     title: string;
