@@ -6,19 +6,24 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Root/>,
+        errorElement: <div>Not Found</div>,
         children: [
             {
                 path: '/',
-                element: <Main />
+                element: <Main />,
             },
             {
                 path: 'menu',
                 element: <MainMenu />,
                 children: [
                     {
-                        path: ':category/:subCategorie',
+                        path: ':subCategorie',
                         element: <SubCategorie />
                     },
+                    {
+                        path: 'product/:id',
+                        element: <div>Product</div>
+                    }
                 ]
             },
             {

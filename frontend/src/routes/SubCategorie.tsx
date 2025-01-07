@@ -7,13 +7,15 @@ import type { FetchSubCategories, SubCategory } from "../types/global";
 
 export default function SubCategorie() {
     const [data, setData] = useState<SubCategory | null>(null);
+    const [prevLocation, setPrevLocation] = useState<string>('');
+    const [errorMessage, setErrorMessage] = useState<string>('');
 
     const location = useLocation();
 
     function extractTextAfterThirdSlash(path: string): string {
         const parts = path.split('/');
-        if (parts.length > 3) {
-            return parts.slice(3).join('/');
+        if (parts.length > 2) {
+            return parts.slice(2).join('/');
         }
         return '';
     }
@@ -22,20 +24,38 @@ export default function SubCategorie() {
         const getSubCategories = async () => {
             const result = extractTextAfterThirdSlash(location.pathname);
 
-            const { data }: FetchSubCategories = await fetch(`http://localhost:4000/api/menu/type/title/${result}`).then(res => res.json());
+            try {
+                const response = await fetch(`http://localhost:4000/api/menu/type/title/${result}`);
+                if (!response.ok) {
+                    //throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error(response.status.toString());
+                }
 
-            console.log(data);
+                const { data }: FetchSubCategories = await response.json();
 
-            setData(data);
+                console.log(data);
 
-            window.scrollTo(0, 0);
+                setData(data);
+
+                window.scrollTo(0, 0);
+            } catch (error: any) {
+                if(error.message === '404') {
+                    console.log('404 Not Found');
+                    setErrorMessage('404 Not Found');
+                    return;
+                }
+
+                //console.error('Error fetching subcategories:', error.message);
+            }
         }
 
-        getSubCategories();
-    }, [location]);
+        if (location.pathname !== prevLocation) {
+            getSubCategories();
+            setPrevLocation(location.pathname);
+        }
+    }, [location, prevLocation]);
 
-
-    //if (!location.pathname.includes('drinks') || !location.pathname.includes('food')) return <main>category not found</main>
+    if (errorMessage) return <main>{errorMessage}</main>
 
     if(data) return (
         <>
@@ -48,7 +68,7 @@ export default function SubCategorie() {
 
                         <div className="subcategories-container sub text-center">
                             {categories.products.map((product) => (
-                                <Link key={product.id} to={`/menu/${categories.title}/${product.id}`} className="menu-item sub-categorie">
+                                <Link key={product.id} to={`/menu/product/${product.id}`} className="menu-item sub-categorie">
                                     <img src={product.imageSmall} alt="menu-item" />
 
                                     {product.name}

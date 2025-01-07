@@ -1,17 +1,19 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import type { AsideMenuProps } from '../../../types/components-props';
 
 export default function AsideMenu({data}: AsideMenuProps) {
-    return (
+    const location = useLocation();
+
+    if(!location.pathname.includes('product')) return (
         <aside>
-            {data.map((item: any) => (
+            {data.map((item) => (
                 <div key={item.slug}>
                     <p>{item.name}</p>
 
                     <ul>
-                        {item.types.map((sub: any) => (
+                        {item.types.map((sub) => (
                             <li key={sub.title}>
-                                <Link to={`/menu/${item.slug}/${sub.title}`}  className='w-full'>{sub.title}</Link>
+                                <Link to={`/menu/${sub.title}`}  className='w-full'>{sub.title}</Link>
                             </li>
                         ))}
                     </ul>

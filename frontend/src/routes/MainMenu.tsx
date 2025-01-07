@@ -39,7 +39,7 @@ export default function MainMenu() {
 
                                     <div className="subcategories-container">
                                         {category.types.map((type) => (
-                                            <Link to={`/menu/${category.slug}/${type.title}`} key={type.title} className="menu-item">
+                                            <Link to={`/menu/${type.title}`} key={type.slug} className="menu-item">
                                                 <img src={type.image} alt="menu-item" />
 
                                                 {type.title}
