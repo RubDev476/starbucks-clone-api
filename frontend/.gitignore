@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+PENDING TASKS.txt
 
 tsconfig.app.tsbuildinfo
 tsconfig.node.tsbuildinfo
