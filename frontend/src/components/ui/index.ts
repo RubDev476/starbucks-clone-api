@@ -9,6 +9,8 @@ import MenuTitle from "./MenuPage/MenuTitle";
 import SubCategorieTitle from "./MenuPage/SubCategorieTitle";
 import AsideMenu from "./MenuPage/AsideMenu";
 
+import Loader from "./Loader";
+
 export {
     NavItems,
     MainSection,
@@ -17,5 +19,6 @@ export {
     ColumnItems,
     MenuTitle,
     SubCategorieTitle,
-    AsideMenu
+    AsideMenu,
+    Loader
 }

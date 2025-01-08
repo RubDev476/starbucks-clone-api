@@ -1,51 +1,54 @@
+import { useState, useEffect } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 
-import { MenuTitle, SubCategorieTitle, AsideMenu } from "../components/ui";
+import { MenuTitle, SubCategorieTitle, AsideMenu, Loader } from "../components/ui";
+import type { FetchMainCategories, MainCategory } from "../types/global";
+import { BACKEND_URL } from "../utils/global-vars";
 
 export default function MainMenu() {
+    const [loading, setLoading] = useState(true);
+    const [MainCategoriesFetch, setCategories] = useState<MainCategory[]>([]);
+
     const {pathname} = useLocation();
 
-    function countOccurrences(str: string, char: string) {
-        return str.split(char).length - 1;
-    }
+    useEffect(() => {
+        const getCategories = async () => {
+            const {data}: FetchMainCategories = await fetch(BACKEND_URL + '/api/menu').then(res => res.json());
+    
+            setCategories(data);
+            setLoading(false);
+        }
+    
+        getCategories();
+    }, []);
 
-    return (
+    if(loading) return <Loader />;
+
+    if(!loading) return (
         <>
             <div className="main">
                 <div id="menu-main-container" className="max-width-content margin-auto">
-                    <AsideMenu />
+                    <AsideMenu data={MainCategoriesFetch} />
 
-                    {countOccurrences(pathname, '/') === 1 && (
+                    {pathname === '/menu' && (
                         <div className="menu-container w-full">
                             <MenuTitle title="Menu" />
 
-                            <SubCategorieTitle title="Drinks" />
+                            {MainCategoriesFetch.map((category) => (
+                                <div key={category.slug} className="menu-subcontainer">
+                                    <SubCategorieTitle title={category.name} />
 
-                            <div className="subcategories-container">
-                                <Link to='/menu/drinks/hot-coffee' className="menu-item">
-                                    <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/f31l5enlhrxjfk5fo6it.avif" alt="menu-item" />
+                                    <div className="subcategories-container">
+                                        {category.types.map((type) => (
+                                            <Link to={`/menu/${type.title}`} key={type.slug} className="menu-item">
+                                                <img src={type.image} alt="menu-item" />
 
-                                    Hot Coffees
-                                </Link>
-
-                                <Link to='#' className="menu-item">
-                                    <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/drinks/wlsg8xujkyiwdvca019t.avif" alt="menu-item" />
-
-                                    Cold Coffees
-                                </Link>
-
-                                <Link to='#' className="menu-item">
-                                    <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/l1g7nophgq3gs1dqsnzv.avif" alt="menu-item" />
-
-                                    Starbucks Refreshers Beverages
-                                </Link>
-
-                                <Link to='#' className="menu-item">
-                                    <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/qy73cy8xnmbqcwbnhqxy.avif" alt="menu-item" />
-
-                                    Frappuccino Blended Beverages
-                                </Link>
-                            </div>
+                                                {type.title}
+                                            </Link>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     )}
 

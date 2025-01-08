@@ -1,17 +1,24 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import type { AsideMenuProps } from '../../../types/components-props';
 
-export default function AsideMenu() {
-    return (
+export default function AsideMenu({data}: AsideMenuProps) {
+    const location = useLocation();
+
+    if(!location.pathname.includes('product')) return (
         <aside>
-            <p>Drinks</p>
+            {data.map((item) => (
+                <div key={item.slug}>
+                    <p>{item.name}</p>
 
-            <ul>
-                <li className='w-full'><Link to='/menu/drinks/hot-coffee' className='w-full'>Hot Coffees</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Cold Coffees</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Starbucks Refreshers Beverages</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Frappuccino Blended Beverages</Link></li>
-                <li><Link to='/menu/drinks/hot-coffee'>Iced Tea & Lemonade</Link></li>
-            </ul>
+                    <ul>
+                        {item.types.map((sub) => (
+                            <li key={sub.title}>
+                                <Link to={`/menu/${sub.title}`}  className='w-full'>{sub.title}</Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
         </aside>
     )
 }

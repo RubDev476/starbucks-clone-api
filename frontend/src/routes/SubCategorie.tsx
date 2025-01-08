@@ -1,43 +1,84 @@
+import { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
+
 import { MenuTitle, SubCategorieTitle } from "../components/ui";
 
+import type { FetchSubCategories, SubCategory } from "../types/global";
+
+import { BACKEND_URL } from "../utils/global-vars";
+
 export default function SubCategorie() {
+    const [data, setData] = useState<SubCategory | null>(null);
+    const [prevLocation, setPrevLocation] = useState<string>('');
+    const [errorMessage, setErrorMessage] = useState<string>('');
+
     const location = useLocation();
 
-    if (!location.pathname.includes('drinks') && !location.pathname.includes('food')) return <main>category not found</main>
+    function extractTextAfterThirdSlash(path: string): string {
+        const parts = path.split('/');
+        if (parts.length > 2) {
+            return parts.slice(2).join('/');
+        }
+        return '';
+    }
 
-    return (
+    useEffect(() => {
+        const getSubCategories = async () => {
+            const result = extractTextAfterThirdSlash(location.pathname);
+
+            try {
+                const response = await fetch(BACKEND_URL + `/api/menu/type/title/${result}`);
+                if (!response.ok) {
+                    //throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error(response.status.toString());
+                }
+
+                const { data }: FetchSubCategories = await response.json();
+
+                console.log(data);
+
+                setData(data);
+
+                window.scrollTo(0, 0);
+            } catch (error: any) {
+                if(error.message === '404') {
+                    console.log('404 Not Found');
+                    setErrorMessage('404 Not Found');
+                    return;
+                }
+
+                //console.error('Error fetching subcategories:', error.message);
+            }
+        }
+
+        if (location.pathname !== prevLocation) {
+            getSubCategories();
+            setPrevLocation(location.pathname);
+        }
+    }, [location, prevLocation]);
+
+    if (errorMessage) return <main>{errorMessage}</main>
+
+    if(data) return (
         <>
             <div className="menu-container w-full">
-                <MenuTitle title="Hot Coffees" />
+                <MenuTitle title={data.title} />
 
-                <SubCategorieTitle title="Americanos" />
+                {data.categories.map((categories) => (
+                    <div key={categories.title} className="menu-subcontainer">
+                        <SubCategorieTitle title={categories.title} />
 
-                <div className="subcategories-container sub text-center">
-                    <Link to='/menu/drinks/hot-coffee' className="menu-item sub-categorie">
-                        <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/f31l5enlhrxjfk5fo6it.avif" alt="menu-item" />
+                        <div className="subcategories-container sub text-center">
+                            {categories.products.map((product) => (
+                                <Link key={product.id} to={`/menu/product/${product.id}`} className="menu-item sub-categorie">
+                                    <img src={product.imageSmall} alt="menu-item" />
 
-                        Caffe americano
-                    </Link>
-
-                    <Link to='#' className="menu-item sub-categorie">
-                        <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/drinks/wlsg8xujkyiwdvca019t.avif" alt="menu-item" />
-
-                        Cold Coffees
-                    </Link>
-
-                    <Link to='#' className="menu-item sub-categorie">
-                        <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/l1g7nophgq3gs1dqsnzv.avif" alt="menu-item" />
-
-                        Starbucks Refreshers Beverages
-                    </Link>
-
-                    <Link to='#' className="menu-item sub-categorie">
-                        <img src="https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/qy73cy8xnmbqcwbnhqxy.avif" alt="menu-item" />
-
-                        Frappuccino Blended Beverages
-                    </Link>
-                </div>
+                                    {product.name}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                ))}
             </div>
         </>
     )
