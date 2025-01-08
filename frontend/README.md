@@ -1,26 +1,18 @@
-# Proyecto Starbucks - Frontend
+# Frontend Docs
 
-Este documento proporciona una descripción general del proyecto Starbucks, específicamente de la carpeta `frontend`.
+This document provides an overview of the Starbucks project, specifically the `frontend` folder.
 
-## Contenido
+## Installation
 
-- [Instalación](#instalación)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-
-## Instalación
-
-Para instalar las dependencias del proyecto, ejecute el siguiente comando:
+To install the project dependencies, run the following command:
 
 ```bash
 npm install
 ```
 
-## Estructura del Proyecto
+## Project Structure
 
-La estructura de la carpeta `frontend` es la siguiente:
+The structure of the `frontend` folder is as follows:
 
 ```
 frontend/
@@ -38,36 +30,34 @@ frontend/
 └── README.md
 ```
 
-- **src/**: Contiene el código fuente del proyecto.
-    - **components/**: Componentes reutilizables de la aplicación.
-    - **pages/**: Páginas principales de la aplicación.
-    - **styles/**: Archivos de estilos CSS.
-    - **App.js**: Componente principal de la aplicación.
-    - **index.js**: Punto de entrada de la aplicación.
-- **public/**: Archivos públicos que no pasan por el proceso de compilación.
-    - **index.html**: Archivo HTML principal.
-- **package.json**: Archivo de configuración de npm.
+- **src/**: Contains the project's source code.
+    - **components/**: Reusable components of the application.
+    - **pages/**: Main pages of the application.
+    - **styles/**: CSS style files.
+    - **App.js**: Main component of the application.
+    - **index.js**: Entry point of the application.
+- **public/**: Public files that do not go through the build process.
+    - **index.html**: Main HTML file.
+- **package.json**: npm configuration file.
 
-## Uso
+## Usage
 
-Para iniciar la aplicación en modo de desarrollo, ejecute:
+To start the application in development mode, run:
 
 ```bash
 npm run dev
 ```
 
-Esto abrirá la aplicación en su navegador predeterminado en `http://localhost:3000`.
+This will open the application in your default browser at `http://localhost:3000`.
 
-## Contribución
+To build the application, run:
 
-Si desea contribuir a este proyecto, siga estos pasos:
+```bash
+npm run build
+```
 
-1. Haga un fork del repositorio.
-2. Cree una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realice sus cambios y haga commit (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Haga push a la rama (`git push origin feature/nueva-funcionalidad`).
-5. Cree un Pull Request.
+This will create a folder named **dist** in the root of the **frontend** folder with all the files ready for production.
 
-## Licencia
+## Contribution
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulte el archivo `LICENSE` para obtener más detalles.
+If you want to contribute to this project, **fork** the repository and then create a **pull request**.
