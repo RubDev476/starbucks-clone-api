@@ -41,7 +41,7 @@ export default function SubCategorie() {
 
                 window.scrollTo(0, 0);
             } catch (error: any) {
-                console.log(error);
+                console.log(error + 'ptos');
 
                 if(error.message === '404') {
                     console.log('404 Not Found');
