@@ -3,6 +3,7 @@ import { Link, useLocation, Outlet } from "react-router-dom";
 
 import { MenuTitle, SubCategorieTitle, AsideMenu, Loader } from "../components/ui";
 import type { FetchMainCategories, MainCategory } from "../types/global";
+import { BACKEND_URL } from "../utils/global-vars";
 
 export default function MainMenu() {
     const [loading, setLoading] = useState(true);
@@ -12,7 +13,7 @@ export default function MainMenu() {
 
     useEffect(() => {
         const getCategories = async () => {
-            const {data}: FetchMainCategories = await fetch('http://localhost:4000/api/menu').then(res => res.json());
+            const {data}: FetchMainCategories = await fetch(BACKEND_URL + '/api/menu').then(res => res.json());
     
             setCategories(data);
             setLoading(false);

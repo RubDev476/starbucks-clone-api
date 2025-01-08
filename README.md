@@ -17,8 +17,8 @@ Frontend libraries:
 
 ## Collaborators:
 
-- [RubDev666](https://github.com/RubDev666)
-- [alexisunam](https://github.com/alexisunam)
+- [RubDev666](https://github.com/RubDev666) (Frontend)
+- [alexisunam](https://github.com/alexisunam) (API)
 
 ## Documentation
 - [API](#api-docs)
@@ -202,6 +202,13 @@ frontend/
 - **package.json**: npm configuration file.
 
 ## Usage
+
+First, create a .env file (Environment Variables) at the root of the Frontend project with the following variable:
+
+```
+//replace it with the url you have
+VITE_API_URL = http://localhost:4000 
+```
 
 To start the application in development mode, run:
 

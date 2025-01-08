@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import { Section, Type, Category, Product } from '../src/models';
+import { Section, Type, Category, Product } from '../models';
 // @ts-ignore
-import data from '../jsons/dataUsa.json';
+import data from '../../jsons/dataUsa.json';
 
 dotenv.config();
 
@@ -85,9 +85,8 @@ async function insertData(data: any) {
 
 
 async function setupDatabase() {
-    //const uri = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
-    const uri = process.env.MONGODB_URL;
-    console.log('uri:', uri);
+    const uri: string = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`;
+    
     if(!uri) return;
 
     try {

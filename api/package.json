@@ -7,7 +7,7 @@
     "server": "node dist/server.js",
     "dev": "npx ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init-db": "npx ts-node scripts/initDb.ts"
+    "init-db": "npx ts-node src/scripts/initDb.ts"
   },
   "keywords": [],
   "author": "",

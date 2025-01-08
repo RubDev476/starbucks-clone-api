@@ -5,6 +5,8 @@ import { MenuTitle, SubCategorieTitle } from "../components/ui";
 
 import type { FetchSubCategories, SubCategory } from "../types/global";
 
+import { BACKEND_URL } from "../utils/global-vars";
+
 export default function SubCategorie() {
     const [data, setData] = useState<SubCategory | null>(null);
     const [prevLocation, setPrevLocation] = useState<string>('');
@@ -25,7 +27,7 @@ export default function SubCategorie() {
             const result = extractTextAfterThirdSlash(location.pathname);
 
             try {
-                const response = await fetch(`http://localhost:4000/api/menu/type/title/${result}`);
+                const response = await fetch(BACKEND_URL + `/api/menu/type/title/${result}`);
                 if (!response.ok) {
                     //throw new Error(`HTTP error! status: ${response.status}`);
                     throw new Error(response.status.toString());
