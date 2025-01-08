@@ -4,8 +4,7 @@ import { useLocation, Link } from "react-router-dom";
 import { MenuTitle, SubCategorieTitle } from "../components/ui";
 
 import type { FetchSubCategories, SubCategory } from "../types/global";
-
-//import { BACKEND_URL } from "../utils/global-vars";
+import { BACKEND_URL } from "../utils/global-vars";
 
 export default function SubCategorie() {
     const [data, setData] = useState<SubCategory | null>(null);
@@ -27,7 +26,7 @@ export default function SubCategorie() {
             const result = extractTextAfterThirdSlash(location.pathname);
 
             try {
-                const response = await fetch(import.meta.env.VITE_API_URL + `/api/menu/type/title/${result}`);
+                const response = await fetch(BACKEND_URL + `/api/menu/type/title/${result}`);
                 if (!response.ok) {
                     //throw new Error(`HTTP error! status: ${response.status}`);
                     throw new Error(response.status.toString());
@@ -41,8 +40,6 @@ export default function SubCategorie() {
 
                 window.scrollTo(0, 0);
             } catch (error: any) {
-                console.log(error + 'ptos');
-
                 if(error.message === '404') {
                     console.log('404 Not Found');
                     setErrorMessage('404 Not Found');
