@@ -1,21 +1,6 @@
 {
     "version": 2,
-    "routes": [
-        {
-            "src": "/",
-            "dest": "index.html"
-        },
-        {
-            "src": "/menu",
-            "dest": "index.html"
-        },
-        {
-            "src": "/rewards",
-            "dest": "index.html"
-        },
-        {
-            "src": "/gift",
-            "dest": "index.html"
-        }
-    ]
+    "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
