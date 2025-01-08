@@ -41,6 +41,8 @@ export default function SubCategorie() {
 
                 window.scrollTo(0, 0);
             } catch (error: any) {
+                console.log(error);
+
                 if(error.message === '404') {
                     console.log('404 Not Found');
                     setErrorMessage('404 Not Found');
