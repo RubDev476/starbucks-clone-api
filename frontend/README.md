@@ -53,7 +53,7 @@ frontend/
 Para iniciar la aplicación en modo de desarrollo, ejecute:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Esto abrirá la aplicación en su navegador predeterminado en `http://localhost:3000`.

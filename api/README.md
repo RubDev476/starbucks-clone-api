@@ -1,126 +1,126 @@
-# Api Clon de Starbucks
+# API Docs
 
-Este proyecto es un clon de la API de Starbucks, con el fin de practicar el uso de React, TypeScript, Vite, Express y MongoDB.
+This project is a clone of the Starbucks API, aimed at practicing the use of React, TypeScript, Vite, Express, and MongoDB.
 
-## Instalación
+## Installation
 
-Para instalar las dependencias del proyecto, se debe ejecutar el siguiente comando:
+To install the project dependencies, run the following command:
 
 ```bash
 npm install
 ```
 
-## Uso
+## Usage
 
-Primero se debe crear un archivo .env (Variables de entorno) en la raíz del proyecto de la api, con las siguientes variables:
+First, create a .env file (Environment Variables) at the root of the API project with the following variables:
 
 ```
 PORT=4000
-DB_USER=<usuario>
-DB_PASS=<contraseña>
-DB_NAME=<nombre de la base de datos> (default starbucks_api)
-DB_HOST=<host o cluster>
-DB_PORT=<puerto> (default 27017)
+DB_USER=<user>
+DB_PASS=<password>
+DB_NAME=<database name> (default starbucks_api)
+DB_HOST=<host or cluster>
+DB_PORT=<port> (default 27017)
 ```
 
-Nota: Para el uso del script y comando que genera la Base de Datos, si se tiene protegida la conexión con mongodb hay que ajustar la url del script.
+Note: For the use of the script and command that generates the Database, if the connection to MongoDB is protected, the script URL must be adjusted.
 
 ```typescript
 // api/scripts/initDb.ts
 async function setupDatabase() {
-  // linea 85, El valor de DB_HOST, DB_NAME y DB_PORT lo toma del archivo .env
+  // line 85, The value of DB_HOST, DB_NAME, and DB_PORT is taken from the .env file
   const uri = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
   console.log('uri:', uri);
-// Por ejemplo: mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
-// o
-// Por ejemplo: mongodb://user:contraseña@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
+// For example: mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
+// or
+// For example: mongodb://user:password@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
+}
 ```
 
-Si se desea volver a ejecutar el script para crear la base de datos, se debe eliminar la base de datos creada anteriormente ajustando la bandera del script.
-    
+If you want to run the script again to create the database, you must delete the previously created database by adjusting the script flag.
+
 ```typescript
 // api/scripts/initDb.ts
 
-// linea 94
-await clearDatabase(false); // Cambia a `true` para reiniciar la base de datos, esto elimina la base de datos actual de la api
+// line 94
+await clearDatabase(false); // Change to `true` to reset the database, this deletes the current API database
 ```
 
-Para crear la Base de Datos, se debe ejecutar el siguiente comando:
+To create the Database, run the following command:
 
 ```bash
 npm run init-db
 ```
 
-Para iniciar el servidor de desarrollo, se debe ejecutar el siguiente comando:
+To start the development server, run the following command:
 
 ```bash
 npm run dev
 ```
 
-Para compilar el proyecto, se debe ejecutar el siguiente comando:
+To build the project, run the following command:
 
 ```bash
 npm run build
 ```
 
-Para ejecutar el servidor de producción, se debe ejecutar el siguiente comando:
+To run the production server, run the following command:
 
 ```bash
 npm run server
 ```
 
-## Documentación de los endpoints
+## API Endpoints Documentation
 
-Para acceder a la documentación de los endpoints, se debe acceder a la siguiente URL:
+To access the API endpoints documentation, go to the following URL:
 
 ```
-http://localhost:4000/api/docs  (Desarrollo)
+http://localhost:4000/api/docs  (Development)
 ```
 
-## Estructura de carpetas
+## Folder Structure
 
-- **jsons**: Contiene los archivos de datos de la api.
-- **scripts**: Contiene scripts para la creación de la base de datos.
-- **src**: Contiene el código fuente del proyecto.
-  - **controllers**: Contiene los controladores de la api.
-  - **models**: Contiene los modelos de la api.
-  - **routes**: Contiene las rutas de la api.
-  - **settings**: Contiene la configuración de la api.
-    - **db**: Contiene las configuraciones de las bases de datos.
-      - **mongoDb**: Contiene la configuración de mongoDB.
-  - **utils**: Contiene utilidades para el proyecto.
-  - **server.ts**: Archivo principal de la api.
-  - **swagger.ts**: Archivo de configuración de Swagger (Documentación de los endpoints).
-- **.env**: Archivo de configuración de variables de entorno.
-- **datav2.json**: Archivo de datos de la api para su importación a mongoDB (datos starbucks México).
-- **tsconfig.json**: Archivo de configuración de TypeScript.
-- **package.json**: Archivo de configuración de npm.
-- **vercel.json**: Archivo de configuración para vercel.
-- **dist**: Carpeta de salida de la compilación del proyecto (esta se genera al transpilar).
+- **jsons**: Contains the API data files.
+- **scripts**: Contains scripts for database creation.
+- **src**: Contains the project source code.
+  - **controllers**: Contains the API controllers.
+  - **models**: Contains the API models.
+  - **routes**: Contains the API routes.
+  - **settings**: Contains the API configuration.
+    - **db**: Contains the database configurations.
+      - **mongoDb**: Contains the MongoDB configuration.
+  - **utils**: Contains utilities for the project.
+  - **server.ts**: Main API file.
+  - **swagger.ts**: Swagger configuration file (API endpoints documentation).
+- **.env**: Environment variables configuration file.
+- **datav2.json**: API data file for import into MongoDB (Starbucks Mexico data).
+- **tsconfig.json**: TypeScript configuration file.
+- **package.json**: npm configuration file.
+- **vercel.json**: Vercel configuration file.
+- **dist**: Output folder for the project build (generated upon transpilation).
 
-## Tecnologías
+## Technologies
 
-- **Node.js**: Entorno de ejecución para JavaScript v22.12.0.
-- **Express**: Framework de Node.js v4.21.2.
-- **MongoDB**: Base de datos NoSQL.
-- **Mongoose**: Librería de modelado de objetos MongoDB v8.9.1.
-- **TypeScript**: Superset de JavaScript v5.7.2.
+- **Node.js**: JavaScript runtime environment v22.12.0.
+- **Express**: Node.js framework v4.21.2.
+- **MongoDB**: NoSQL database.
+- **Mongoose**: MongoDB object modeling library v8.9.1.
+- **TypeScript**: JavaScript superset v5.7.2.
 
-## Librerías
+## Libraries
 
-- **Express**: Framework de Node.js v4.21.2.
-- **Mongoose**: Librería de modelado de objetos MongoDB v8.9.1.
-- **Swagger-jsdoc**: Generador de documentación de Swagger v6.2.8.
-- **Swagger-ui-express**: Middleware de Swagger para Express v5.0.1.
-- **Dotenv**: Módulo que carga variables de entorno desde un archivo .env a process.env v16.4.7.
+- **Express**: Node.js framework v4.21.2.
+- **Mongoose**: MongoDB object modeling library v8.9.1.
+- **Swagger-jsdoc**: Swagger documentation generator v6.2.8.
+- **Swagger-ui-express**: Swagger middleware for Express v5.0.1.
+- **Dotenv**: Module that loads environment variables from a .env file into process.env v16.4.7.
 
-## Notas de desarrollo
+## Development Notes
 
-El primer endpoint /api/menu se encuentra finalizado con la respuesta que se espera, solo faltan las direcciones de las imagenes.
+The first endpoint /api/menu is completed with the expected response, only the image URLs are missing.
 
+## Contributions
 
-## Contribuciones
+Contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Las contribuciones son bienvenidas. Para cambios importantes, por favor, abra un problema primero para discutir qué le gustaría cambiar.
-
-Asegúrese de actualizar las pruebas según corresponda.
+Make sure to update the tests as appropriate.
