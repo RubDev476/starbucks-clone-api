@@ -25,6 +25,12 @@ export type SubCategory = {
     }[];
 }
 
+export type Product = {
+    id: string;
+    name: string;
+    image: string;
+}
+
 export type FetchMainCategories = {
     success: boolean;
     data: MainCategory[];

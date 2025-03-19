@@ -4,6 +4,7 @@ import SubCategorie from "./SubCategorie";
 import MainMenu from "./MainMenu";
 import Rewards from "./Rewards";
 import Gift from "./Gift";
+import Product from "./Product";
 
 export {
     Root,
@@ -11,5 +12,6 @@ export {
     SubCategorie,
     MainMenu,
     Rewards,
-    Gift
+    Gift,
+    Product
 }

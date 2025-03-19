@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Root, Main, SubCategorie, MainMenu, Rewards, Gift } from './routes';
+import { Root, Main, SubCategorie, MainMenu, Rewards, Gift, Product } from './routes';
 
 const router = createBrowserRouter([
     {
@@ -19,12 +19,12 @@ const router = createBrowserRouter([
                     {
                         path: ':subCategorie',
                         element: <SubCategorie />
-                    },
-                    {
-                        path: 'product/:id',
-                        element: <div>Product</div>
                     }
                 ]
+            },
+            {
+                path: 'menu/product/:id',
+                element: <Product />
             },
             {
                 path: 'rewards',

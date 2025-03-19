@@ -1,14 +1,22 @@
 @use '../globals/vars' as vars;
 
-/*
-- Para usar las variables de colores, tipografía y espaciados, usa la variable $vars (que ya esta importada en la primera linea)
-
-ejemplo de uso:
-
-element {
-    color: $vars.color-primary;
-    font-size: $vars.font-size-lg;
-    margin: $vars.spacing-md;
+#gift {
+    background-color: #e7e7e7;
 }
-*/
 
+.gift-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 1rem;
+
+    h3 {
+        color: vars.$text-color-1;
+    }
+
+    @media screen and (min-width: 1024px) {
+        flex-direction: row;
+    }
+}

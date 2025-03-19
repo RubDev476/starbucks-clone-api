@@ -1,14 +1,52 @@
 @use '../globals/vars' as vars;
 
-/*
-- Para usar las variables de colores, tipografía y espaciados, usa la variable $vars (que ya esta importada en la primera linea)
+#rewards {
+    background-image: url('/rewards/rewards-m.jpg');
+    height: 70vh;
+    background-position: bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    padding-top: 30px;
+    background-color: rgb(212, 233, 226);
 
-ejemplo de uso:
-
-element {
-    color: $vars.color-primary;
-    font-size: $vars.font-size-lg;
-    margin: $vars.spacing-md;
+    @media screen and (min-width: 790px) {
+        background-image: url('/rewards/rewards-d.png');
+        background-size: auto 100%;
+        background-position: 30%;
+    }
 }
-*/
 
+.rewards-info {
+    text-align: center;
+    color: vars.$product-bg;
+    padding: 20px;
+    height: 100%;
+    font-size: 1rem;
+
+    h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    button {
+        background-color: vars.$color-green-accent;
+        color: vars.$color-1;
+        padding: 4px 15px;
+        border-radius: 27px;
+        font-size: 1.2em;
+    }
+
+    @media screen and (min-width: 790px) {
+        font-size: 1.3rem;
+        text-align: start;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

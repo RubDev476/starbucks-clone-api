@@ -1,0 +1,29 @@
+@use '../globals/vars' as v;
+
+#product article {
+    background-color: v.$product-bg;
+    color: v.$color-1;
+    flex-direction: column;
+    padding: 1.2rem;
+    text-align: center;
+
+    @media screen and (min-width: 1024px) {
+        flex-direction: row;
+    }
+
+    img {
+        max-width: 300px;
+
+        @media screen and (min-width: 1024px) {
+            max-width: 400px;
+        }
+    }
+
+    h1 {
+        font-size: 1.5rem;
+
+        @media screen and (min-width: 790px) {
+            font-size: 2rem;
+        }
+    }
+}
