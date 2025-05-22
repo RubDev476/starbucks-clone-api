@@ -7,13 +7,13 @@ export default function AsideMenu({data}: AsideMenuProps) {
     if(!location.pathname.includes('product')) return (
         <aside>
             {data.map((item) => (
-                <div key={item.slug}>
-                    <p>{item.name}</p>
+                <div key={item.id}>
+                    <p>{item.title}</p>
 
                     <ul>
-                        {item.types.map((sub) => (
+                        {item.categories.map((sub) => (
                             <li key={sub.title}>
-                                <Link to={`/menu/${sub.title}`}  className='w-full'>{sub.title}</Link>
+                                <Link to={`/menu/${sub.slug}`}  className='w-full'>{sub.title}</Link>
                             </li>
                         ))}
                     </ul>

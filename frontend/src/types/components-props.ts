@@ -1,4 +1,4 @@
-import type { LinkAccordion, MainCategory, SubCategory } from "./global";
+import type { LinkAccordion, MenuItem, Category } from "./global";
 
 export type MainSectionProps = {
     urlImg: string;
@@ -19,6 +19,6 @@ type FetchProps<T> = {
     data: T[];
 }
 
-export type AsideMenuProps = FetchProps<MainCategory>;
+export type AsideMenuProps = FetchProps<MenuItem>;
 
-export type SubCategoriesProps = FetchProps<SubCategory>;
+export type SubCategoriesProps = FetchProps<Category>;

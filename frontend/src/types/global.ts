@@ -3,24 +3,26 @@ export type LinkAccordion = {
     title: string; 
 }
 
-export type MainCategory = {
-    name: string;
-    slug: string;
-    types: {
+export type MenuItem = {
+    id: number;
+    title: string;
+    categories: {
+        id: number;
         slug: string;
         title: string;
-        image: string;
+        img: string;
     }[];
 }
 
-export type SubCategory = {
+export type Category = {
     title: string;
-    categories: {
+    subcategories: {
+        id: number;
         title: string;
         products: {
-            id: string;
+            id: number;
             name: string;
-            imageSmall: string;
+            imgSmall: string;
         }[];
     }[];
 }
@@ -33,9 +35,9 @@ export type Product = {
 
 export type FetchMainCategories = {
     success: boolean;
-    data: MainCategory[];
+    data: MenuItem[];
 }
 
 export type FetchSubCategories = Pick<FetchMainCategories, 'success'> & {
-    data: SubCategory;
+    data: Category;
 }

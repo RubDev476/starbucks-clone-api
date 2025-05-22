@@ -2,20 +2,20 @@ import { useState, useEffect } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
 
 import { MenuTitle, SubCategorieTitle, AsideMenu, Loader } from "../components/ui";
-import type { FetchMainCategories, MainCategory } from "../types/global";
+import type { MenuItem } from "../types/global";
 import { BACKEND_URL } from "../utils/global-vars";
 
 export default function MainMenu() {
     const [loading, setLoading] = useState(true);
-    const [MainCategoriesFetch, setCategories] = useState<MainCategory[]>([]);
+    const [menuItems, setCategories] = useState<MenuItem[]>([]);
 
     const {pathname} = useLocation();
 
     useEffect(() => {
         const getCategories = async () => {
-            const {data}: FetchMainCategories = await fetch(BACKEND_URL + '/api/menu').then(res => res.json());
-    
-            setCategories(data);
+            const res = await fetch(BACKEND_URL + '/api/menu').then(res => res.json());
+
+            setCategories(res);
             setLoading(false);
         }
     
@@ -28,22 +28,22 @@ export default function MainMenu() {
         <>
             <div className="main">
                 <div id="menu-main-container" className="max-width-content margin-auto">
-                    <AsideMenu data={MainCategoriesFetch} />
+                    <AsideMenu data={menuItems} />
 
                     {pathname === '/menu' && (
                         <div className="menu-container w-full">
                             <MenuTitle title="Menu" />
 
-                            {MainCategoriesFetch.map((category) => (
-                                <div key={category.slug} className="menu-subcontainer">
-                                    <SubCategorieTitle title={category.name} />
+                            {menuItems.map((menu) => (
+                                <div key={menu.id} className="menu-subcontainer">
+                                    <SubCategorieTitle title={menu.title} />
 
                                     <div className="subcategories-container">
-                                        {category.types.map((type) => (
-                                            <Link to={`/menu/${type.title}`} key={type.slug} className="menu-item">
-                                                <img src={type.image} alt="menu-item" />
+                                        {menu.categories.map((category) => (
+                                            <Link to={`/menu/${category.slug}`} key={category.id} className="menu-item">
+                                                <img src={category.img} alt="menu-item" />
 
-                                                {type.title}
+                                                {category.title}
                                             </Link>
                                         ))}
                                     </div>

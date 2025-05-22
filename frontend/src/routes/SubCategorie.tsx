@@ -3,11 +3,11 @@ import { useLocation, Link } from "react-router-dom";
 
 import { MenuTitle, SubCategorieTitle } from "../components/ui";
 
-import type { FetchSubCategories, SubCategory } from "../types/global";
+import type { Category } from "../types/global";
 import { BACKEND_URL } from "../utils/global-vars";
 
 export default function SubCategorie() {
-    const [data, setData] = useState<SubCategory | null>(null);
+    const [data, setData] = useState<Category | null>(null);
     const [prevLocation, setPrevLocation] = useState<string>('');
     const [errorMessage, setErrorMessage] = useState<string>('');
 
@@ -26,15 +26,13 @@ export default function SubCategorie() {
             const result = extractTextAfterThirdSlash(location.pathname);
 
             try {
-                const response = await fetch(BACKEND_URL + `/api/menu/type/title/${result}`);
+                const response = await fetch(BACKEND_URL + `/api/category/${result}`);
                 if (!response.ok) {
                     //throw new Error(`HTTP error! status: ${response.status}`);
                     throw new Error(response.status.toString());
                 }
 
-                const { data }: FetchSubCategories = await response.json();
-
-                console.log(data);
+                const data = await response.json();
 
                 setData(data);
 
@@ -63,14 +61,14 @@ export default function SubCategorie() {
             <div className="menu-container w-full">
                 <MenuTitle title={data.title} />
 
-                {data.categories.map((categories) => (
-                    <div key={categories.title} className="menu-subcontainer">
-                        <SubCategorieTitle title={categories.title} />
+                {data.subcategories.map((subcategory) => (
+                    <div key={subcategory.title} className="menu-subcontainer">
+                        <SubCategorieTitle title={subcategory.title} />
 
                         <div className="subcategories-container sub text-center">
-                            {categories.products.map((product) => (
+                            {subcategory.products.map((product) => (
                                 <Link key={product.id} to={`/menu/product/${product.id}`} className="menu-item sub-categorie">
-                                    <img src={product.imageSmall} alt="menu-item" />
+                                    <img src={product.imgSmall} alt="menu-item" />
 
                                     {product.name}
                                 </Link>
