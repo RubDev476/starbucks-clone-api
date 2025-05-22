@@ -1,4 +1,4 @@
-# Starbucks Clone
+# Starbucks Clone (MongoDB Version)
 Main technologies:
 
 - TypeScript
