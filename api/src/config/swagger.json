@@ -1,0 +1,227 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "2.0.0",
+    "title": "Starbucks api - sql version",
+    "description": "API to get multiple products of starbucks"
+  },
+  "tags": [
+    {
+      "name": "menu",
+      "description": "get all categories from the menu"
+    },
+    {
+      "name": "category",
+      "description": "get all subcategories with products"
+    },
+    {
+      "name": "product",
+      "description": "get one product by id"
+    }
+  ],
+  "paths": {
+    "/api/menu": {
+      "get": {
+        "tags": [
+          "menu"
+        ],
+        "summary": "Get all categories from menu",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "number"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "categories": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "title": {
+                              "type": "string"
+                            },
+                            "img": {
+                              "type": "string"
+                            },
+                            "slug": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "example": [
+                    {
+                      "id": 1,
+                      "title": "Drinks",
+                      "categories": [
+                        {
+                          "id": 1,
+                          "title": "Hot Coffees",
+                          "img": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/f31l5enlhrxjfk5fo6it.avif",
+                          "slug": "hot-coffees"
+                        },
+                        {
+                          "id": 2,
+                          "title": "Cold Coffees",
+                          "img": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/drinks/wlsg8xujkyiwdvca019t.avif",
+                          "slug": "cold-coffees"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/category/{idCategory}": {
+      "get": {
+        "tags": [
+          "category"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "idCategory",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "Numeric ID of the category"
+          }
+        ],
+        "summary": "get all subcategories with products",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "title": "Hot Coffees",
+                    "subcategories": [
+                      {
+                        "id": 2,
+                        "title": "Brewed Coffees",
+                        "products": [
+                          {
+                            "id": 2,
+                            "name": "Featured Medium Roast - Pike Place® Roast",
+                            "imgSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/dmmuz0ogzhpia1mi30wl.avif"
+                          },
+                          {
+                            "id": 3,
+                            "name": "Decaf Pike Place® Roast",
+                            "imgSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/brewed%20coffees/nerbwsdrcmbqwrfs2guz.avif"
+                          }
+                        ]
+                      },
+                      {
+                        "id": 3,
+                        "title": "Cappuccinos",
+                        "products": [
+                          {
+                            "id": 6,
+                            "name": "Cappuccino",
+                            "imgSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988866/Starbucks-API/Sub%20categories/drinks/hot-coffees/capuccinos/ubwsbtupmipyjv92n3hr.avif"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Category not found"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/product/{idProduct}": {
+      "get": {
+        "tags": [
+          "product"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "idProduct",
+            "schema": {
+              "type": "string"
+            },
+            "required": true,
+            "description": "Numeric ID of the product"
+          }
+        ],
+        "summary": "get one product by id",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "id": 15,
+                    "name": "Caffè Latte",
+                    "img": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1735239140/Starbucks-API/products/drinks/hot%20coffees/lattes/rjxh9pvdcegyikyncvrl.avif",
+                    "imgSmall": "https://res.cloudinary.com/dkav9fvlo/image/upload/v1734988867/Starbucks-API/Sub%20categories/drinks/hot-coffees/lattes/ibvudbnu9pgkmxwmm5gg.avif"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string",
+                      "example": "Product not found"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

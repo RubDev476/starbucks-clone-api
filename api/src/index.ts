@@ -1,9 +1,13 @@
 import express from "express";
 import { Request, Response } from "express";
+import swaggerUi from 'swagger-ui-express';
 import "reflect-metadata";
 import cors from "cors";
 
 import { connectDB, appDataSource } from "./config/db";
+
+// @ts-ignore
+import swaggerDoc from "../src/config/swagger.json";
 
 import Menu from "./entities/Menu";
 import Product from "./entities/Product";
@@ -19,7 +23,10 @@ const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
     console.log(`Server running in: ${PORT}`);
+    console.log("http://localhost:4000/api/docs");
 });
+
+app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 app.use("/api/menu", async (req: Request, res: Response) => {
     const getMenu = await appDataSource.getRepository(Menu)
