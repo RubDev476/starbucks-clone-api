@@ -1,35 +1,39 @@
 {
-  "name": "api",
+  "name": "starbucks-api",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "api products for starbucks company",
+  "main": "index.js",
   "scripts": {
-    "build": "npx tsc",
-    "server": "node dist/server.js",
-    "dev": "npx ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init-db": "npx ts-node src/scripts/initDb.ts"
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "server": "node ./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api",
+    "products",
+    "coffee"
+  ],
+  "author": "rubdev476",
   "license": "ISC",
-  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.19",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.8",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.0",
+    "reflect-metadata": "^0.2.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",
-    "uuid": "^11.0.3"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.0",
-    "@types/mongoose": "^5.11.97",
-    "@types/node": "^22.10.2",
-    "@types/swagger-jsdoc": "^6.0.4",
-    "@types/swagger-ui-express": "^4.1.7",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typeorm": "^0.3.24"
   }
 }

@@ -1,0 +1,71 @@
+id,idCategory,title
+1,1,Americanos
+2,1,Brewed Coffees
+3,1,Cappuccinos
+4,1,Espresso Shots
+5,1,Flat Whites
+6,1,Lattes
+7,1,Macchiatos
+8,1,Mochas
+9,1,Coffee Travelers
+10,2,Cold Brews
+11,2,Nitro Cold Brews
+12,2,Iced Americano
+13,2,Iced Coffees
+14,2,Iced Shaken Espresso
+15,2,Iced Flat Whites
+16,2,Iced Lattes
+17,2,Iced Macchiatos
+18,2,Iced Mochas
+19,3,Seasonal Exclusives
+20,3,Lemonades and Frozen
+21,3,Coconutmilk Collection
+22,3,Classics
+23,4,Coffee Frappuccino®
+24,4,Creme Frappuccino®
+25,5,Iced Black Teas
+26,5,Iced Chai Teas
+27,5,Iced Green Teas
+28,5,Iced Herbal Teas
+29,5,Lemonades
+30,6,Chai Teas
+31,6,Black Teas
+32,6,Green Teas
+33,6,Herbal Teas
+34,7,Iced Energy
+35,8,Hot Chocolates
+36,8,Juice
+37,8,Milk & Steamers
+38,9,Water and Sparkling
+39,9,Protein and Milk
+40,9,Juice
+41,9,Kombucha and Soda
+42,9,Energy
+43,10,Breakfast Sandwiches
+44,10,Breakfast Wraps
+45,10,Bakes & Egg Bites
+46,10,Oatmeal & Yogurt
+47,11,Croissants & Danishes
+48,11,Loaves & Cakes
+49,11,Muffins - Scones & Doughnuts
+50,11,Bagels
+51,12,Cake Pops
+52,12,Cookies & Brownies
+53,13,Lunch Sandwiches
+54,13,Protein Boxes
+55,14,Protein & Snack Bars
+56,14,Salty Snacks
+57,14,Sweet Snacks
+58,14,Cheese & Fruit
+59,14,Spreads & Dips
+60,15,Blonde Roast
+61,15,Medium Roast
+62,15,Dark Roast
+63,16,Flavored
+64,16,Blonde Roast
+65,16,Medium Roast
+66,16,Dark Roast
+67,17,Cold Cups
+68,18,Tumblers
+69,19,Mugs
+70,20,Other

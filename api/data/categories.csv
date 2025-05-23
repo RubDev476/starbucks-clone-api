@@ -1,0 +1,21 @@
+id,idMenu,title,img,slug
+1,1,Hot Coffees,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/f31l5enlhrxjfk5fo6it.avif,hot-coffees
+2,1,Cold Coffees,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/drinks/wlsg8xujkyiwdvca019t.avif,cold-coffees
+3,1,Starbucks Refreshers® Beverages,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/l1g7nophgq3gs1dqsnzv.avif,refreshers-beverages
+4,1,Frappuccino® Blended Beverages,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/qy73cy8xnmbqcwbnhqxy.avif,blended-beverages
+5,1,Iced Tea & Lemonade,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/bxvq5fopq5beao2y5qdy.avif,iced-tea-lemonade
+6,1,Hot Teas,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/ypfvuadqekex1h67ww4m.avif,hot-teas
+7,1,Iced Energy,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/xzkzjtqn8sg67omun7md.avif,iced-energy
+8,1,Milk - Juice & More,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/drinks/ksi0732rvhpqgohnrbvs.avif,milk-juice
+9,1,Bottled Beverages,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/drinks/tp18w20cffhpwqu1xgro.avif,bottled-beverages
+10,2,Breakfast,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/food/jkeunchwabjngrrarmrf.avif,breakfast
+11,2,Bakery,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545864/Starbucks-API/Main%20categories/food/faiiykcvdnaejnuazgxn.avif,bakery
+12,2,Treats,https://res.cloudinary.com/dkav9fvlo/image/upload/v1735936603/Starbucks-API/Main%20categories/food/kzltbshpayaeabzyl77z.avif,treats
+13,2,Lunch,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/food/zv92fyquilv26lhnesdd.avif,lunch
+14,2,Snacks,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/food/qlguv4yitayetjntcthe.avif,snacks
+15,3,Whole Bean,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545863/Starbucks-API/Main%20categories/home%20coffee/x65wo3dggniqchqahmtx.avif,whole-bean
+16,3,VIA® Instant,https://res.cloudinary.com/dkav9fvlo/image/upload/v1734545862/Starbucks-API/Main%20categories/home%20coffee/ttrcpogbyeneyxmvkvy8.avif,via-instant
+17,4,Cold Cups,https://res.cloudinary.com/dkav9fvlo/image/upload/v1736274286/Starbucks-API/Main%20categories/merchandise/je2dukgd5htdg05tcsvx.avif,cold-cups
+18,4,Tumblers,https://res.cloudinary.com/dkav9fvlo/image/upload/v1736274286/Starbucks-API/Main%20categories/merchandise/vxanix204u7b7t3a7xgc.avif,tumblers
+19,4,Mugs,https://res.cloudinary.com/dkav9fvlo/image/upload/v1736274286/Starbucks-API/Main%20categories/merchandise/mqnce4ndyrlzq5fl0acy.avif,mugs
+20,4,Other,https://res.cloudinary.com/dkav9fvlo/image/upload/v1736274286/Starbucks-API/Main%20categories/merchandise/jxulnucheymgexg8rmaz.avif,other
