@@ -22,19 +22,17 @@ export default function Product() {
         const getProduct = async () => {
             const result = extractTextAfterThirdSlash(location.pathname);
 
-            console.log(result)
-
             try {
-                const response = await fetch(BACKEND_URL + `/api/menu/product/id/${result}`);
+                const response = await fetch(BACKEND_URL + `/api/product/${result}`);
 
                 if (!response.ok) {
                     //throw new Error(`HTTP error! status: ${response.status}`);
                     throw new Error(response.status.toString());
                 }
 
-                const { data }: any = await response.json();
+                const res = await response.json();
 
-                setProduct(data);
+                setProduct(res);
 
                 window.scrollTo(0, 0);
             } catch (error: any) {
@@ -56,7 +54,7 @@ export default function Product() {
     if (product) return (
         <main id="product">
             <article className="all-center w-full">
-                <img src={product.image} alt="img-product" className="w-full" />
+                <img src={product.img} alt="img-product" className="w-full" />
 
                 <h1>{product.name}</h1>
             </article>

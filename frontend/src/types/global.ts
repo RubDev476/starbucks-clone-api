@@ -28,16 +28,7 @@ export type Category = {
 }
 
 export type Product = {
-    id: string;
+    id: number;
     name: string;
-    image: string;
-}
-
-export type FetchMainCategories = {
-    success: boolean;
-    data: MenuItem[];
-}
-
-export type FetchSubCategories = Pick<FetchMainCategories, 'success'> & {
-    data: Category;
+    img: string;
 }
