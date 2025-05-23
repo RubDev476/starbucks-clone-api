@@ -1,12 +1,13 @@
-# Starbucks Clone
+# Starbucks Clone (Postgresql version)
 Main technologies:
 
 - TypeScript
+- TypeORM
 - Sass
 - React
 - Vite
 - Express
-- MongoDB
+- Postgresql (with Supabase)
 - Cloudinary
 - Swagger
 - Vercel
@@ -26,7 +27,7 @@ Frontend libraries:
 
 ## Project features
 
-- API with MongoDB, Cloudinary and Express. Documented with Swagger
+- API with Postgresql(with Supabase), Cloudinary and Express. Documented with Swagger
 - Dynamic routes (React router DOM)
 - Responsive Design
 
@@ -34,7 +35,7 @@ Inspired design from [Starbucks](https://www.starbucks.com). official web site.
 
 # API Docs
 
-This project is a clone of the Starbucks API, aimed at practicing the use of React, TypeScript, Vite, Express, and MongoDB.
+This project is a clone of the Starbucks API, aimed at practicing the use of React, TypeScript, Vite, Express, and Postgresql.
 
 ## Installation
 
@@ -49,41 +50,25 @@ npm install
 First, create a .env file (Environment Variables) at the root of the API project with the following variables:
 
 ```
-PORT=4000
-DB_USER=<user>
-DB_PASS=<password>
-DB_NAME=<database name> (default starbucks_api)
-DB_HOST=<host or cluster>
-DB_PORT=<port> (default 27017)
+PG_DB_USERNAME=<user>
+PG_DB_PASSWORD=<password>
+PG_DB_NAMEDB=<database name>
+PG_DB_HOST=<host or cluster>
+PG_DB_PORT=<port> (default 27017)
 ```
 
-Note: For the use of the script and command that generates the Database, if the connection to MongoDB is protected, the script URL must be adjusted.
-
-```typescript
-// api/scripts/initDb.ts
-async function setupDatabase() {
-  // line 85, The value of DB_HOST, DB_NAME, and DB_PORT is taken from the .env file
-  const uri = `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
-  console.log('uri:', uri);
-// For example: mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
-// or
-// For example: mongodb://user:password@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}
-}
-```
-
-If you want to run the script again to create the database, you must delete the previously created database by adjusting the script flag.
-
-```typescript
-// api/scripts/initDb.ts
-
-// line 94
-await clearDatabase(false); // Change to `true` to reset the database, this deletes the current API database
-```
-
-To create the Database, run the following command:
-
+Before starting: 
+- These credentials are provided by supabase, but feel free to use any SQL database you want.
+- By default the project is configured for postgresql, if it's a different database don't forget to modify the "db.ts" file.
+- For the first run, enable the "synchronize: true". This allows tables to be created automatically in the database.
 ```bash
-npm run init-db
+// for more information: https://typeorm.io/data-source-options
+export const appDataSource = new DataSource({
+    type: "postgres", 
+    url: `postgresql://${process.env.PG_DB_USERNAME}:${process.env.PG_DB_PASSWORD}@${process.env.PG_DB_HOST}:${process.env.PG_DB_PORT}/${process.env.PG_DB_NAMEDB}`,
+    entities: [__dirname + '/../entities/*.{js,ts}'],
+    synchronize: true, //only on the first run
+})
 ```
 
 To start the development server, run the following command:
@@ -91,6 +76,10 @@ To start the development server, run the following command:
 ```bash
 npm run dev
 ```
+
+- Then in your database use the csv files in the "data" folder to import all the data into the tables.
+- If there are any problems with the names or titles (some columns include special characters), you can use the "scripts.sql" file in the "data" folder to automatically update the data in your SQL editor.
+- Also, some products contain "," in the "name" column, which can be a problem when importing data, in that case, in the same "scripts.sql" file, there is a script to add the rest of the products without problems.
 
 To build the project, run the following command:
 
@@ -114,44 +103,24 @@ http://localhost:4000/api/docs  (Development)
 
 ## Folder Structure
 
-- **jsons**: Contains the API data files.
-- **scripts**: Contains scripts for database creation.
+- **data**: Contains the API data files (.csv) and scripts (.sql).
 - **src**: Contains the project source code.
-  - **controllers**: Contains the API controllers.
-  - **models**: Contains the API models.
-  - **routes**: Contains the API routes.
-  - **settings**: Contains the API configuration.
-    - **db**: Contains the database configurations.
-      - **mongoDb**: Contains the MongoDB configuration.
-  - **utils**: Contains utilities for the project.
-  - **server.ts**: Main API file.
-  - **swagger.ts**: Swagger configuration file (API endpoints documentation).
-- **.env**: Environment variables configuration file.
-- **datav2.json**: API data file for import into MongoDB (Starbucks Mexico data).
+  - **config**: Contains the DB, TypeORM and Swagger configuration.
+  - **entities**: Contains the API entities for TypeORM.
+  - **index.ts**: Main API file.
 - **tsconfig.json**: TypeScript configuration file.
 - **package.json**: npm configuration file.
-- **vercel.json**: Vercel configuration file.
-- **dist**: Output folder for the project build (generated upon transpilation).
 
-## Technologies
+## Technologies/Libraries
 
-- **Node.js**: JavaScript runtime environment v22.12.0.
-- **Express**: Node.js framework v4.21.2.
-- **MongoDB**: NoSQL database.
-- **Mongoose**: MongoDB object modeling library v8.9.1.
-- **TypeScript**: JavaScript superset v5.7.2.
-
-## Libraries
-
-- **Express**: Node.js framework v4.21.2.
-- **Mongoose**: MongoDB object modeling library v8.9.1.
-- **Swagger-jsdoc**: Swagger documentation generator v6.2.8.
-- **Swagger-ui-express**: Swagger middleware for Express v5.0.1.
-- **Dotenv**: Module that loads environment variables from a .env file into process.env v16.4.7.
-
-## Development Notes
-
-The first endpoint /api/menu is completed with the expected response, only the image URLs are missing.
+- **Node.js**: JavaScript runtime environment.
+- **Express**: Node.js framework.
+- **TypeORM**: ORM for Node.
+- **Postgresql**: with Supabase.
+- **TypeScript**: JavaScript superset.
+- **Swagger-jsdoc**: Swagger documentation generator.
+- **Swagger-ui-express**: Swagger middleware for Express.
+- **Dotenv**: Module that loads environment variables from a .env file into process.env.
 
 ## Contributions
 
